@@ -4,7 +4,7 @@ Application web (PWA) de révision pour élèves de CM2 : dictées avec correcti
 Utilisable sur PC, Mac, tablette et smartphone, installable sur l'écran d'accueil.
 
 - **Stack** : Next.js 16 (App Router, TypeScript), Tailwind CSS 4, Vitest
-- **Dictées** : synthèse vocale du navigateur (Web Speech API), correction mot à mot
+- **Dictées** : voix neuronale [Piper](https://github.com/rhasspy/piper) `fr_FR-siwis-medium` (dataset SIWIS, CC-BY 4.0) pré-générée en MP3, repli sur la synthèse du navigateur ; correction phrase par phrase ou complète ; lecteur intelligent qui suit l'écriture et relit en cas de blocage
 - **Progression** : stockée localement dans le navigateur (aucun compte, aucune donnée personnelle collectée)
 - **Hébergement** : image `ghcr.io/mecmus/revisions-cm2`, déployée sur Kubernetes → https://cm2.mous.ovh
 
@@ -14,6 +14,12 @@ npm install
 npm run dev      # http://localhost:3000
 npm test
 npm run build
+```
+
+## Audio des dictées
+Après ajout/modification d'un texte dans `src/content/dictees.json` :
+```bash
+uv run --with piper-tts==1.8.0 scripts/generate_audio.py   # ffmpeg requis
 ```
 
 ## Docker
