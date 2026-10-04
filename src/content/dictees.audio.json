@@ -22,34 +22,29 @@
         "text": "Il les perdait toutes de la même façon : un beau matin, elles cassaient leur corde, s'en allaient dans la montagne, et là-haut le loup les mangeait.",
         "segments": [
           {
-            "text": "Il les perdait toutes de",
+            "text": "Il les perdait toutes de la même façon :",
             "audio": "/audio/daudet-chevre/02.mp3",
             "spaced": "/audio/daudet-chevre/02-lent.mp3"
           },
           {
-            "text": "la même façon :",
+            "text": "un beau matin,",
             "audio": "/audio/daudet-chevre/03.mp3",
             "spaced": "/audio/daudet-chevre/03-lent.mp3"
           },
           {
-            "text": "un beau matin,",
+            "text": "elles cassaient leur corde,",
             "audio": "/audio/daudet-chevre/04.mp3",
             "spaced": "/audio/daudet-chevre/04-lent.mp3"
           },
           {
-            "text": "elles cassaient leur corde,",
+            "text": "s'en allaient dans la montagne,",
             "audio": "/audio/daudet-chevre/05.mp3",
             "spaced": "/audio/daudet-chevre/05-lent.mp3"
           },
           {
-            "text": "s'en allaient dans la montagne,",
+            "text": "et là-haut le loup les mangeait.",
             "audio": "/audio/daudet-chevre/06.mp3",
             "spaced": "/audio/daudet-chevre/06-lent.mp3"
-          },
-          {
-            "text": "et là-haut le loup les mangeait.",
-            "audio": "/audio/daudet-chevre/07.mp3",
-            "spaced": "/audio/daudet-chevre/07-lent.mp3"
           }
         ]
       }
@@ -134,14 +129,9 @@
             "spaced": "/audio/renard-poil/01-lent.mp3"
           },
           {
-            "text": "qu'Honorine a encore oublié",
+            "text": "qu'Honorine a encore oublié de fermer les poules.",
             "audio": "/audio/renard-poil/02.mp3",
             "spaced": "/audio/renard-poil/02-lent.mp3"
-          },
-          {
-            "text": "de fermer les poules.",
-            "audio": "/audio/renard-poil/03.mp3",
-            "spaced": "/audio/renard-poil/03-lent.mp3"
           }
         ]
       },
@@ -150,8 +140,8 @@
         "segments": [
           {
             "text": "C'est vrai.",
-            "audio": "/audio/renard-poil/04.mp3",
-            "spaced": "/audio/renard-poil/04-lent.mp3"
+            "audio": "/audio/renard-poil/03.mp3",
+            "spaced": "/audio/renard-poil/03-lent.mp3"
           }
         ]
       },
@@ -160,8 +150,8 @@
         "segments": [
           {
             "text": "On peut s'en assurer par la fenêtre.",
-            "audio": "/audio/renard-poil/05.mp3",
-            "spaced": "/audio/renard-poil/05-lent.mp3"
+            "audio": "/audio/renard-poil/04.mp3",
+            "spaced": "/audio/renard-poil/04-lent.mp3"
           }
         ]
       },
@@ -170,28 +160,28 @@
         "segments": [
           {
             "text": "Là-bas,",
+            "audio": "/audio/renard-poil/05.mp3",
+            "spaced": "/audio/renard-poil/05-lent.mp3"
+          },
+          {
+            "text": "tout au fond de la grande cour,",
             "audio": "/audio/renard-poil/06.mp3",
             "spaced": "/audio/renard-poil/06-lent.mp3"
           },
           {
-            "text": "tout au fond de la grande cour,",
+            "text": "le petit toit aux poules découpe,",
             "audio": "/audio/renard-poil/07.mp3",
             "spaced": "/audio/renard-poil/07-lent.mp3"
           },
           {
-            "text": "le petit toit aux poules découpe,",
+            "text": "dans la nuit,",
             "audio": "/audio/renard-poil/08.mp3",
             "spaced": "/audio/renard-poil/08-lent.mp3"
           },
           {
-            "text": "dans la nuit,",
+            "text": "le carré noir de sa porte ouverte.",
             "audio": "/audio/renard-poil/09.mp3",
             "spaced": "/audio/renard-poil/09-lent.mp3"
-          },
-          {
-            "text": "le carré noir de sa porte ouverte.",
-            "audio": "/audio/renard-poil/10.mp3",
-            "spaced": "/audio/renard-poil/10-lent.mp3"
           }
         ]
       }
