@@ -1,0 +1,173 @@
+{
+  "daudet-chevre": {
+    "voice": "fr_FR-siwis-medium",
+    "full": "/audio/daudet-chevre/full.mp3",
+    "sentences": [
+      {
+        "text": "M. Seguin n'avait jamais eu de bonheur avec ses chèvres.",
+        "segments": [
+          {
+            "text": "M. Seguin n'avait jamais eu",
+            "audio": "/audio/daudet-chevre/00.mp3"
+          },
+          {
+            "text": "de bonheur avec ses chèvres.",
+            "audio": "/audio/daudet-chevre/01.mp3"
+          }
+        ]
+      },
+      {
+        "text": "Il les perdait toutes de la même façon : un beau matin, elles cassaient leur corde, s'en allaient dans la montagne, et là-haut le loup les mangeait.",
+        "segments": [
+          {
+            "text": "Il les perdait toutes de",
+            "audio": "/audio/daudet-chevre/02.mp3"
+          },
+          {
+            "text": "la même façon :",
+            "audio": "/audio/daudet-chevre/03.mp3"
+          },
+          {
+            "text": "un beau matin,",
+            "audio": "/audio/daudet-chevre/04.mp3"
+          },
+          {
+            "text": "elles cassaient leur corde,",
+            "audio": "/audio/daudet-chevre/05.mp3"
+          },
+          {
+            "text": "s'en allaient dans la montagne,",
+            "audio": "/audio/daudet-chevre/06.mp3"
+          },
+          {
+            "text": "et là-haut le loup les mangeait.",
+            "audio": "/audio/daudet-chevre/07.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  "hugo-demain": {
+    "voice": "fr_FR-siwis-medium",
+    "full": "/audio/hugo-demain/full.mp3",
+    "sentences": [
+      {
+        "text": "Demain, dès l'aube, à l'heure où blanchit la campagne, Je partirai.",
+        "segments": [
+          {
+            "text": "Demain,",
+            "audio": "/audio/hugo-demain/00.mp3"
+          },
+          {
+            "text": "dès l'aube,",
+            "audio": "/audio/hugo-demain/01.mp3"
+          },
+          {
+            "text": "à l'heure où blanchit la campagne,",
+            "audio": "/audio/hugo-demain/02.mp3"
+          },
+          {
+            "text": "Je partirai.",
+            "audio": "/audio/hugo-demain/03.mp3"
+          }
+        ]
+      },
+      {
+        "text": "Vois-tu, je sais que tu m'attends.",
+        "segments": [
+          {
+            "text": "Vois-tu,",
+            "audio": "/audio/hugo-demain/04.mp3"
+          },
+          {
+            "text": "je sais que tu m'attends.",
+            "audio": "/audio/hugo-demain/05.mp3"
+          }
+        ]
+      },
+      {
+        "text": "J'irai par la forêt, j'irai par la montagne.",
+        "segments": [
+          {
+            "text": "J'irai par la forêt,",
+            "audio": "/audio/hugo-demain/06.mp3"
+          },
+          {
+            "text": "j'irai par la montagne.",
+            "audio": "/audio/hugo-demain/07.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  "renard-poil": {
+    "voice": "fr_FR-siwis-medium",
+    "full": "/audio/renard-poil/full.mp3",
+    "sentences": [
+      {
+        "text": "Je parie, dit madame Lepic, qu'Honorine a encore oublié de fermer les poules.",
+        "segments": [
+          {
+            "text": "Je parie,",
+            "audio": "/audio/renard-poil/00.mp3"
+          },
+          {
+            "text": "dit madame Lepic,",
+            "audio": "/audio/renard-poil/01.mp3"
+          },
+          {
+            "text": "qu'Honorine a encore oublié",
+            "audio": "/audio/renard-poil/02.mp3"
+          },
+          {
+            "text": "de fermer les poules.",
+            "audio": "/audio/renard-poil/03.mp3"
+          }
+        ]
+      },
+      {
+        "text": "C'est vrai.",
+        "segments": [
+          {
+            "text": "C'est vrai.",
+            "audio": "/audio/renard-poil/04.mp3"
+          }
+        ]
+      },
+      {
+        "text": "On peut s'en assurer par la fenêtre.",
+        "segments": [
+          {
+            "text": "On peut s'en assurer par la fenêtre.",
+            "audio": "/audio/renard-poil/05.mp3"
+          }
+        ]
+      },
+      {
+        "text": "Là-bas, tout au fond de la grande cour, le petit toit aux poules découpe, dans la nuit, le carré noir de sa porte ouverte.",
+        "segments": [
+          {
+            "text": "Là-bas,",
+            "audio": "/audio/renard-poil/06.mp3"
+          },
+          {
+            "text": "tout au fond de la grande cour,",
+            "audio": "/audio/renard-poil/07.mp3"
+          },
+          {
+            "text": "le petit toit aux poules découpe,",
+            "audio": "/audio/renard-poil/08.mp3"
+          },
+          {
+            "text": "dans la nuit,",
+            "audio": "/audio/renard-poil/09.mp3"
+          },
+          {
+            "text": "le carré noir de sa porte ouverte.",
+            "audio": "/audio/renard-poil/10.mp3"
+          }
+        ]
+      }
+    ]
+  }
+}

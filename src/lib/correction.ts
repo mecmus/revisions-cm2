@@ -30,3 +30,8 @@ export function correct(expected: string, given: string): { tokens: Token[]; err
   const errors = tokens.filter((t) => !t.ok).length;
   return { tokens, errors, total: a.length };
 }
+
+/** Nombre de mots (hors ponctuation) — sert à suivre l'avancement de l'écriture. */
+export function countWords(s: string): number {
+  return tokenize(s).filter((t) => /[\p{L}\p{N}]/u.test(t)).length;
+}
