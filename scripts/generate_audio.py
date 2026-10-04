@@ -9,6 +9,8 @@ Voix : fr_FR-siwis-medium — dataset SIWIS, licence CC-BY 4.0
 Sortie : public/audio/<id>/*.mp3 et src/content/dictees.audio.json
 """
 import json, re, shutil, subprocess, tempfile, urllib.request, wave
+
+import numpy as np
 from pathlib import Path
 
 from piper import PiperVoice, SynthesisConfig
@@ -21,6 +23,12 @@ ABBR = {"M.": "Monsieur", "Mme": "Madame", "MM.": "Messieurs"}
 PUNCT = {",": "virgule", ";": "point-virgule", ":": "deux-points", ".": "point",
          "!": "point d'exclamation", "?": "point d'interrogation"}
 MAX_WORDS = 7
+WORD_GAP = 0.35   # silence entre deux mots (s) — aide l'élève à séparer les mots
+PUNCT_GAP = 0.6   # silence autour de la ponctuation dictée (s)
+# Mots suivis d'une liaison obligatoire devant voyelle : prononcés avec le mot suivant
+LIAISON = {"les", "des", "ces", "mes", "tes", "ses", "nos", "vos", "leurs", "aux", "un", "deux", "trois",
+           "ils", "elles", "on", "nous", "vous", "en", "dans", "très", "plus", "sans", "chez", "petit", "grand", "tout"}
+VOWEL = re.compile(r"^[aeiouyàâäéèêëîïôöùûüœæ]", re.I)
 
 
 def sentences(text: str) -> list[str]:
@@ -74,6 +82,34 @@ def main() -> None:
     slow = SynthesisConfig(length_scale=1.2)
     natural = SynthesisConfig(length_scale=1.05)
 
+    def trimmed(text: str, cfg: SynthesisConfig) -> np.ndarray:
+        audio = np.concatenate([c.audio_float_array for c in voice.synthesize(text, syn_config=cfg)])
+        loud = np.flatnonzero(np.abs(audio) > 0.02)
+        return audio[max(0, loud[0] - 300): loud[-1] + 600] if loud.size else audio
+
+    def synth_spaced(seg: str, dest: Path, cfg: SynthesisConfig) -> None:
+        """Lit le segment mot par mot, séparé par des silences (liaisons conservées)."""
+        rate = voice.config.sample_rate
+        words = [ABBR.get(w, w) for w in re.sub(r"\s*([,;:.!?])", r" \1", seg).split()]
+        units, i = [], 0
+        while i < len(words):
+            w = words[i]
+            if w in PUNCT:
+                units.append((PUNCT[w], True)); i += 1; continue
+            if w.lower() in LIAISON and i + 1 < len(words) and VOWEL.match(words[i + 1]):
+                units.append((w + " " + words[i + 1], False)); i += 2; continue
+            units.append((w, False)); i += 1
+        parts = []
+        for k, (u, is_punct) in enumerate(units):
+            if k:
+                parts.append(np.zeros(int(rate * (PUNCT_GAP if is_punct or units[k - 1][1] else WORD_GAP)), dtype=np.float32))
+            parts.append(trimmed(u, cfg))
+        pcm = (np.clip(np.concatenate(parts), -1, 1) * 32767).astype(np.int16)
+        with tempfile.NamedTemporaryFile(suffix=".wav") as tmp:
+            with wave.open(tmp.name, "wb") as w:
+                w.setnchannels(1); w.setsampwidth(2); w.setframerate(rate); w.writeframes(pcm.tobytes())
+            subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", tmp.name, "-ac", "1", "-b:a", "48k", str(dest)], check=True)
+
     def synth(text: str, dest: Path, cfg: SynthesisConfig) -> None:
         with tempfile.NamedTemporaryFile(suffix=".wav") as tmp:
             with wave.open(tmp.name, "wb") as w:
@@ -92,7 +128,9 @@ def main() -> None:
             for seg in segments(s):
                 name = f"{n:02d}.mp3"; n += 1
                 synth(spoken(seg), out / name, slow)
-                segs.append({"text": seg, "audio": f"/audio/{d['id']}/{name}"})
+                synth_spaced(seg, out / name.replace(".mp3", "-lent.mp3"), slow)
+                segs.append({"text": seg, "audio": f"/audio/{d['id']}/{name}",
+                             "spaced": f"/audio/{d['id']}/{name.replace('.mp3', '-lent.mp3')}"})
             sents.append({"text": s, "segments": segs})
         index[d["id"]] = {"voice": VOICE, "full": f"/audio/{d['id']}/full.mp3", "sentences": sents}
         print(d["id"], n, "segments")

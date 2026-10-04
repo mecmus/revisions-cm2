@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { Dictee, DicteeAudio } from "@/content/dictees";
 import { correct, countWords } from "@/lib/correction";
 import { saveAttempt } from "@/lib/progress";
@@ -15,7 +15,11 @@ export default function DicteePlayer({ dictee, audio }: { dictee: Dictee; audio:
   const [rate, setRate] = useState(1);
   const [smart, setSmart] = useState(true);
   const [idleSec, setIdleSec] = useState(8);
-  const play = useDicteeAudio(rate);
+  const [spaced, setSpaced] = useState(true);
+  const rawPlay = useDicteeAudio(rate);
+  // Les morceaux ont une version « mots espacés » ; le texte complet reste lu naturellement.
+  const play: Play = useCallback((src, text, punct) => rawPlay(spaced ? src.replace(/(\d+)\.mp3$/, "$1-lent.mp3") : src, text, punct), [rawPlay, spaced]);
+  const playFull = rawPlay;
 
   return (
     <div className="mt-6 space-y-6">
@@ -26,12 +30,14 @@ export default function DicteePlayer({ dictee, audio }: { dictee: Dictee; audio:
               {m === "etapes" ? "🪜 Phrase par phrase" : "📝 Dictée complète"}
             </button>
           ))}
-          <button onClick={() => play(audio.full, dictee.text, false)} className="btn bg-slate-100">🔊 Écouter le texte</button>
+          <button onClick={() => playFull(audio.full, dictee.text, false)} className="btn bg-slate-100">🔊 Écouter le texte</button>
         </div>
         <div className="mt-4 flex flex-wrap items-center gap-x-6 gap-y-2 text-sm">
           <label className="flex items-center gap-2">Vitesse
             <input type="range" min={0.7} max={1.2} step={0.05} value={rate} onChange={(e) => setRate(+e.target.value)} />
           </label>
+          <label className="flex items-center gap-2"><input type="checkbox" checked={spaced} onChange={(e) => setSpaced(e.target.checked)} />
+            Mots espacés</label>
           <label className="flex items-center gap-2"><input type="checkbox" checked={smart} onChange={(e) => setSmart(e.target.checked)} />
             Lecteur intelligent</label>
           {smart && <label className="flex items-center gap-2">Répéter après

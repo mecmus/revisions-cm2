@@ -2,7 +2,7 @@ import raw from "./dictees.json";
 import audio from "./dictees.audio.json";
 
 export type Dictee = { id: string; title: string; source: string; theme: string; text: string };
-export type Segment = { text: string; audio: string };
+export type Segment = { text: string; audio: string; spaced: string };
 export type Sentence = { text: string; segments: Segment[] };
 export type DicteeAudio = { voice: string; full: string; sentences: Sentence[] };
 
