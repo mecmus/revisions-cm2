@@ -22,7 +22,7 @@ CACHE = ROOT / ".cache" / "piper"
 ABBR = {"M.": "Monsieur", "Mme": "Madame", "MM.": "Messieurs"}
 PUNCT = {",": "virgule", ";": "point-virgule", ":": "deux-points", ".": "point",
          "!": "point d'exclamation", "?": "point d'interrogation"}
-MAX_WORDS = 7
+MAX_WORDS = 8
 WORD_GAP = 0.35   # silence entre deux mots (s) — aide l'élève à séparer les mots
 PUNCT_GAP = 0.6   # silence autour de la ponctuation dictée (s)
 # Mots suivis d'une liaison obligatoire devant voyelle : prononcés avec le mot suivant
@@ -46,8 +46,48 @@ def nwords(s: str) -> int:
     return len(re.findall(r"[\w'-]+", s))
 
 
+# Mots-outils : on ne coupe jamais juste APRÈS eux (ils annoncent la suite du groupe)
+FUNCTION = {"le", "la", "les", "l'", "un", "une", "des", "du", "de", "d'", "au", "aux", "à", "ce", "cet", "cette", "ces",
+            "mon", "ma", "mes", "ton", "ta", "tes", "son", "sa", "ses", "notre", "nos", "votre", "vos", "leur", "leurs",
+            "je", "tu", "il", "elle", "on", "nous", "vous", "ils", "elles", "ne", "n'", "se", "s'", "me", "te", "y", "en",
+            "qui", "que", "qu'", "dont", "où", "et", "ou", "mais", "car", "donc", "or", "ni", "par", "pour", "sur", "sous",
+            "dans", "avec", "sans", "chez", "vers", "entre", "très", "plus", "moins", "si", "tout", "toute", "tous", "toutes"}
+# Mots lus attachés au suivant en mode « mots espacés »
+CLITIC = {"le", "la", "les", "l'", "un", "une", "des", "du", "au", "aux", "ce", "cet", "cette", "ces", "mon", "ma", "mes",
+          "ton", "ta", "tes", "son", "sa", "ses", "notre", "nos", "votre", "vos", "leur", "leurs", "je", "tu", "il", "elle",
+          "on", "ils", "elles", "ne", "n'", "se", "s'", "me", "te", "y", "en", "d'", "qu'",
+          "de", "à", "dans", "par", "pour", "sur", "sous", "avec", "sans", "chez", "vers", "même"}
+# Mots qui ouvrent un nouveau groupe : bon endroit pour couper AVANT eux
+STARTERS = {"et", "ou", "mais", "car", "donc", "qui", "que", "qu'", "dont", "où", "quand", "lorsque", "comme", "puis",
+            "dans", "par", "pour", "sur", "sous", "avec", "sans", "chez", "vers", "depuis", "pendant", "avant", "après",
+            "à", "au", "aux", "de", "du", "des", "je", "tu", "il", "elle", "on", "nous", "vous", "ils", "elles"}
+
+
+def _key(w: str) -> str:
+    w = w.lower().strip(",;:.!?«»\"")
+    m = re.match(r"^(l'|d'|qu'|n'|s')", w)
+    return m.group(1) if m else w
+
+
+def _split(words: list[str]) -> list[list[str]]:
+    """Coupe un groupe trop long à la frontière syntaxique la plus proche du milieu."""
+    if nwords(" ".join(words)) <= MAX_WORDS:
+        return [words]
+    mid, best = len(words) / 2, None
+    for i in range(2, len(words) - 1):
+        if _key(words[i - 1]) in FUNCTION:
+            continue  # « de / la même façon » interdit
+        score = abs(i - mid) - (3 if _key(words[i]) in STARTERS else 0)
+        if best is None or score < best[0]:
+            best = (score, i)
+    if best is None:
+        return [words]
+    i = best[1]
+    return _split(words[:i]) + _split(words[i:])
+
+
 def segments(sentence: str) -> list[str]:
-    """Groupes de souffle : coupe après , ; : puis découpe les groupes trop longs."""
+    """Groupes de souffle : coupe d'abord à la ponctuation, puis aux frontières de groupes syntaxiques."""
     chunks, cur = [], []
     for w in sentence.split(" "):
         cur.append(w)
@@ -57,10 +97,7 @@ def segments(sentence: str) -> list[str]:
         chunks.append(cur)
     out = []
     for c in chunks:
-        n = nwords(" ".join(c))
-        parts = max(1, -(-n // MAX_WORDS))
-        size = -(-len(c) // parts)
-        out += [" ".join(c[i:i + size]) for i in range(0, len(c), size)]
+        out += [" ".join(p) for p in _split(c)]
     return out
 
 
@@ -96,9 +133,12 @@ def main() -> None:
             w = words[i]
             if w in PUNCT:
                 units.append((PUNCT[w], True)); i += 1; continue
-            if w.lower() in LIAISON and i + 1 < len(words) and VOWEL.match(words[i + 1]):
-                units.append((w + " " + words[i + 1], False)); i += 2; continue
-            units.append((w, False)); i += 1
+            # Regroupe déterminant/pronom + mot suivant (« le loup », « s'en allaient ») et les liaisons
+            j = i
+            while j + 1 < len(words) and words[j + 1] not in PUNCT and (
+                    _key(words[j]) in CLITIC or (words[j].lower() in LIAISON and VOWEL.match(words[j + 1]))):
+                j += 1
+            units.append((" ".join(words[i:j + 1]), False)); i = j + 1
         parts = []
         for k, (u, is_punct) in enumerate(units):
             if k:
