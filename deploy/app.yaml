@@ -1,0 +1,97 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: revisions-cm2
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: revisions-cm2
+  namespace: revisions-cm2
+  labels: { app: revisions-cm2 }
+spec:
+  replicas: 2
+  revisionHistoryLimit: 3
+  selector:
+    matchLabels: { app: revisions-cm2 }
+  template:
+    metadata:
+      labels: { app: revisions-cm2 }
+    spec:
+      securityContext:
+        runAsNonRoot: true
+        seccompProfile: { type: RuntimeDefault }
+      topologySpreadConstraints:
+        - maxSkew: 1
+          topologyKey: kubernetes.io/hostname
+          whenUnsatisfiable: ScheduleAnyway
+          labelSelector:
+            matchLabels: { app: revisions-cm2 }
+      containers:
+        - name: web
+          image: ghcr.io/mecmus/revisions-cm2:main
+          imagePullPolicy: Always
+          ports:
+            - { name: http, containerPort: 3000 }
+          resources:
+            requests: { cpu: 50m, memory: 128Mi }
+            limits: { memory: 256Mi }
+          readinessProbe:
+            httpGet: { path: /, port: http }
+            periodSeconds: 10
+          livenessProbe:
+            httpGet: { path: /, port: http }
+            initialDelaySeconds: 20
+            periodSeconds: 20
+          securityContext:
+            allowPrivilegeEscalation: false
+            capabilities: { drop: [ALL] }
+          volumeMounts:
+            - { name: cache, mountPath: /app/.next/cache }
+      volumes:
+        - name: cache
+          emptyDir: { sizeLimit: 256Mi }
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: revisions-cm2
+  namespace: revisions-cm2
+spec:
+  selector: { app: revisions-cm2 }
+  ports:
+    - { name: http, port: 80, targetPort: http }
+---
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: cm2-tls
+  namespace: revisions-cm2
+spec:
+  dnsNames: [cm2.mous.ovh]
+  issuerRef: { kind: ClusterIssuer, name: letsencrypt-prod }
+  secretName: cm2-tls
+---
+apiVersion: gateway.networking.k8s.io/v1beta1
+kind: ReferenceGrant
+metadata:
+  name: allow-gateway-tls
+  namespace: revisions-cm2
+spec:
+  from:
+    - { group: gateway.networking.k8s.io, kind: Gateway, namespace: ingress }
+  to:
+    - { group: "", kind: Secret }
+---
+apiVersion: gateway.networking.k8s.io/v1
+kind: HTTPRoute
+metadata:
+  name: revisions-cm2
+  namespace: revisions-cm2
+spec:
+  hostnames: [cm2.mous.ovh]
+  parentRefs:
+    - { name: traefik-gateway, namespace: ingress, sectionName: websecure-cm2 }
+  rules:
+    - backendRefs:
+        - { name: revisions-cm2, port: 80 }
