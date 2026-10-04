@@ -55,7 +55,7 @@
     "full": "/audio/hugo-demain/full.mp3",
     "sentences": [
       {
-        "text": "Demain, dès l'aube, à l'heure où blanchit la campagne, Je partirai.",
+        "text": "Demain, dès l'aube, à l'heure où blanchit la campagne, je partirai.",
         "segments": [
           {
             "text": "Demain,",
@@ -73,7 +73,7 @@
             "spaced": "/audio/hugo-demain/02-lent.mp3"
           },
           {
-            "text": "Je partirai.",
+            "text": "je partirai.",
             "audio": "/audio/hugo-demain/03.mp3",
             "spaced": "/audio/hugo-demain/03-lent.mp3"
           }
