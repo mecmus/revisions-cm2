@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { correct } from "./correction";
+import { correct, countWords } from "./correction";
 
 describe("correct", () => {
   it("aucune erreur pour un texte identique", () => {
@@ -15,5 +15,12 @@ describe("correct", () => {
   });
   it("normalise l'apostrophe typographique", () => {
     expect(correct("l'aube", "l\u2019aube").errors).toBe(0);
+  });
+});
+
+describe("countWords", () => {
+  it("ignore la ponctuation et compte les mots composés une fois", () => {
+    expect(countWords("Demain, dès l'aube, là-haut !")).toBe(4);
+    expect(countWords("")).toBe(0);
   });
 });

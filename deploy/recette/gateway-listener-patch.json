@@ -1,0 +1,7 @@
+[
+  {"op": "add", "path": "/spec/listeners/-", "value": {
+    "name": "websecure-cm2-rec", "hostname": "cm2-rec.mous.ovh", "port": 8443, "protocol": "HTTPS",
+    "allowedRoutes": {"namespaces": {"from": "All"}},
+    "tls": {"mode": "Terminate", "certificateRefs": [{"group": "", "kind": "Secret", "name": "cm2-rec-tls", "namespace": "revisions-cm2-rec"}]}
+  }}
+]

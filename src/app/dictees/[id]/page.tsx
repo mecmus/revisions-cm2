@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { dictees } from "@/content/dictees";
+import { dictees, dicteeAudio } from "@/content/dictees";
 import DicteePlayer from "@/components/DicteePlayer";
 
 export function generateStaticParams() {
@@ -16,7 +16,7 @@ export default async function DicteePage({ params }: PageProps<"/dictees/[id]">)
       <Link href="/dictees" className="text-indigo-600">← Dictées</Link>
       <h1 className="mt-2 text-3xl font-extrabold">{d.title}</h1>
       <p className="text-sm text-slate-500">{d.source}</p>
-      <DicteePlayer dictee={d} />
+      <DicteePlayer dictee={d} audio={dicteeAudio[d.id]} />
     </div>
   );
 }
