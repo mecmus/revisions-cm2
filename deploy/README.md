@@ -25,3 +25,14 @@ kubectl rollout undo deploy/revisions-cm2 -n revisions-cm2
 # Retrait complet : restaurer la Gateway depuis la sauvegarde puis
 kubectl delete ns revisions-cm2
 ```
+
+## Recette — https://cm2-rec.mous.ovh
+Suit la branche `develop` (image `:develop`). **Mise à jour en pull** : le CronJob `image-updater`
+(toutes les 2 min) compare le digest GHCR de `:develop` à l'annotation `cm2/digest` du Deployment et
+redémarre si besoin. GitHub n'a aucun accès au cluster ; le CronJob n'a que `get/patch` sur ce seul Deployment.
+```bash
+kubectl get gateway traefik-gateway -n ingress -o yaml > gateway-backup-$(date +%Y%m%d-%H%M%S).yaml
+kubectl apply -f deploy/recette/app.yaml
+kubectl patch gateway traefik-gateway -n ingress --type=json --patch-file deploy/recette/gateway-listener-patch.json
+kubectl logs -n revisions-cm2-rec job/$(kubectl get jobs -n revisions-cm2-rec -o name | tail -1 | cut -d/ -f2)
+```

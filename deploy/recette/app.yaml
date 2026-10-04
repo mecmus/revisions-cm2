@@ -1,0 +1,172 @@
+# Recette : https://cm2-rec.mous.ovh — image :develop, mise à jour en PULL par le cluster
+# (aucun accès de GitHub au cluster : un CronJob interroge GHCR et redémarre si le digest change)
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: revisions-cm2-rec
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: revisions-cm2
+  namespace: revisions-cm2-rec
+  labels: { app: revisions-cm2 }
+spec:
+  replicas: 1
+  revisionHistoryLimit: 3
+  selector:
+    matchLabels: { app: revisions-cm2 }
+  template:
+    metadata:
+      labels: { app: revisions-cm2 }
+    spec:
+      securityContext:
+        runAsNonRoot: true
+        runAsUser: 10001
+        runAsGroup: 10001
+        fsGroup: 10001
+        seccompProfile: { type: RuntimeDefault }
+      containers:
+        - name: web
+          image: ghcr.io/mecmus/revisions-cm2:develop
+          imagePullPolicy: Always
+          ports:
+            - { name: http, containerPort: 3000 }
+          resources:
+            requests: { cpu: 25m, memory: 128Mi }
+            limits: { memory: 256Mi }
+          readinessProbe:
+            httpGet: { path: /, port: http }
+            periodSeconds: 10
+          livenessProbe:
+            httpGet: { path: /, port: http }
+            initialDelaySeconds: 20
+            periodSeconds: 20
+          securityContext:
+            allowPrivilegeEscalation: false
+            capabilities: { drop: [ALL] }
+          volumeMounts:
+            - { name: cache, mountPath: /app/.next/cache }
+      volumes:
+        - name: cache
+          emptyDir: { sizeLimit: 256Mi }
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: revisions-cm2
+  namespace: revisions-cm2-rec
+spec:
+  selector: { app: revisions-cm2 }
+  ports:
+    - { name: http, port: 80, targetPort: http }
+---
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: cm2-rec-tls
+  namespace: revisions-cm2-rec
+spec:
+  dnsNames: [cm2-rec.mous.ovh]
+  issuerRef: { kind: ClusterIssuer, name: letsencrypt-prod }
+  secretName: cm2-rec-tls
+---
+apiVersion: gateway.networking.k8s.io/v1beta1
+kind: ReferenceGrant
+metadata:
+  name: allow-gateway-tls
+  namespace: revisions-cm2-rec
+spec:
+  from:
+    - { group: gateway.networking.k8s.io, kind: Gateway, namespace: ingress }
+  to:
+    - { group: "", kind: Secret }
+---
+apiVersion: gateway.networking.k8s.io/v1
+kind: HTTPRoute
+metadata:
+  name: revisions-cm2
+  namespace: revisions-cm2-rec
+spec:
+  hostnames: [cm2-rec.mous.ovh]
+  parentRefs:
+    - { name: traefik-gateway, namespace: ingress, sectionName: websecure-cm2-rec }
+  rules:
+    - backendRefs:
+        - { name: revisions-cm2, port: 80 }
+---
+# --- Mise à jour automatique (pull) ---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: image-updater
+  namespace: revisions-cm2-rec
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: image-updater
+  namespace: revisions-cm2-rec
+rules:
+  - apiGroups: [apps]
+    resources: [deployments]
+    resourceNames: [revisions-cm2]
+    verbs: [get, patch]
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: image-updater
+  namespace: revisions-cm2-rec
+subjects:
+  - { kind: ServiceAccount, name: image-updater, namespace: revisions-cm2-rec }
+roleRef: { apiGroup: rbac.authorization.k8s.io, kind: Role, name: image-updater }
+---
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: image-updater
+  namespace: revisions-cm2-rec
+spec:
+  schedule: "*/2 * * * *"
+  concurrencyPolicy: Forbid
+  successfulJobsHistoryLimit: 1
+  failedJobsHistoryLimit: 2
+  jobTemplate:
+    spec:
+      backoffLimit: 0
+      activeDeadlineSeconds: 90
+      ttlSecondsAfterFinished: 600
+      template:
+        spec:
+          serviceAccountName: image-updater
+          restartPolicy: Never
+          securityContext:
+            runAsNonRoot: true
+            runAsUser: 10001
+            seccompProfile: { type: RuntimeDefault }
+          containers:
+            - name: updater
+              image: alpine/k8s:1.33.4
+              resources:
+                requests: { cpu: 10m, memory: 32Mi }
+                limits: { memory: 128Mi }
+              securityContext:
+                allowPrivilegeEscalation: false
+                capabilities: { drop: [ALL] }
+              env:
+                - { name: REPO, value: mecmus/revisions-cm2 }
+                - { name: TAG, value: develop }
+              command: [/bin/sh, -ec]
+              args:
+                - |
+                  TOKEN=$(curl -fsS "https://ghcr.io/token?scope=repository:$REPO:pull" | jq -r .token)
+                  DIGEST=$(curl -fsSI -H "Authorization: Bearer $TOKEN" \
+                    -H "Accept: application/vnd.oci.image.index.v1+json, application/vnd.docker.distribution.manifest.list.v2+json, application/vnd.oci.image.manifest.v1+json, application/vnd.docker.distribution.manifest.v2+json" \
+                    "https://ghcr.io/v2/$REPO/manifests/$TAG" | tr -d '\r' | awk -F': ' 'tolower($1)=="docker-content-digest"{print $2}')
+                  [ -n "$DIGEST" ] || { echo "digest introuvable"; exit 1; }
+                  CURRENT=$(kubectl -n revisions-cm2-rec get deploy revisions-cm2 -o jsonpath='{.spec.template.metadata.annotations.cm2/digest}')
+                  if [ "$DIGEST" = "$CURRENT" ]; then echo "à jour ($DIGEST)"; exit 0; fi
+                  echo "nouvelle image $DIGEST (avant: ${CURRENT:-aucune}) -> redéploiement"
+                  kubectl -n revisions-cm2-rec patch deploy revisions-cm2 --type=merge \
+                    -p "{\"spec\":{\"template\":{\"metadata\":{\"annotations\":{\"cm2/digest\":\"$DIGEST\"}}}}}"
