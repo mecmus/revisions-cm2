@@ -8,11 +8,13 @@
         "segments": [
           {
             "text": "M. Seguin n'avait jamais eu",
-            "audio": "/audio/daudet-chevre/00.mp3"
+            "audio": "/audio/daudet-chevre/00.mp3",
+            "spaced": "/audio/daudet-chevre/00-lent.mp3"
           },
           {
             "text": "de bonheur avec ses chèvres.",
-            "audio": "/audio/daudet-chevre/01.mp3"
+            "audio": "/audio/daudet-chevre/01.mp3",
+            "spaced": "/audio/daudet-chevre/01-lent.mp3"
           }
         ]
       },
@@ -21,27 +23,33 @@
         "segments": [
           {
             "text": "Il les perdait toutes de",
-            "audio": "/audio/daudet-chevre/02.mp3"
+            "audio": "/audio/daudet-chevre/02.mp3",
+            "spaced": "/audio/daudet-chevre/02-lent.mp3"
           },
           {
             "text": "la même façon :",
-            "audio": "/audio/daudet-chevre/03.mp3"
+            "audio": "/audio/daudet-chevre/03.mp3",
+            "spaced": "/audio/daudet-chevre/03-lent.mp3"
           },
           {
             "text": "un beau matin,",
-            "audio": "/audio/daudet-chevre/04.mp3"
+            "audio": "/audio/daudet-chevre/04.mp3",
+            "spaced": "/audio/daudet-chevre/04-lent.mp3"
           },
           {
             "text": "elles cassaient leur corde,",
-            "audio": "/audio/daudet-chevre/05.mp3"
+            "audio": "/audio/daudet-chevre/05.mp3",
+            "spaced": "/audio/daudet-chevre/05-lent.mp3"
           },
           {
             "text": "s'en allaient dans la montagne,",
-            "audio": "/audio/daudet-chevre/06.mp3"
+            "audio": "/audio/daudet-chevre/06.mp3",
+            "spaced": "/audio/daudet-chevre/06-lent.mp3"
           },
           {
             "text": "et là-haut le loup les mangeait.",
-            "audio": "/audio/daudet-chevre/07.mp3"
+            "audio": "/audio/daudet-chevre/07.mp3",
+            "spaced": "/audio/daudet-chevre/07-lent.mp3"
           }
         ]
       }
@@ -56,19 +64,23 @@
         "segments": [
           {
             "text": "Demain,",
-            "audio": "/audio/hugo-demain/00.mp3"
+            "audio": "/audio/hugo-demain/00.mp3",
+            "spaced": "/audio/hugo-demain/00-lent.mp3"
           },
           {
             "text": "dès l'aube,",
-            "audio": "/audio/hugo-demain/01.mp3"
+            "audio": "/audio/hugo-demain/01.mp3",
+            "spaced": "/audio/hugo-demain/01-lent.mp3"
           },
           {
             "text": "à l'heure où blanchit la campagne,",
-            "audio": "/audio/hugo-demain/02.mp3"
+            "audio": "/audio/hugo-demain/02.mp3",
+            "spaced": "/audio/hugo-demain/02-lent.mp3"
           },
           {
             "text": "Je partirai.",
-            "audio": "/audio/hugo-demain/03.mp3"
+            "audio": "/audio/hugo-demain/03.mp3",
+            "spaced": "/audio/hugo-demain/03-lent.mp3"
           }
         ]
       },
@@ -77,11 +89,13 @@
         "segments": [
           {
             "text": "Vois-tu,",
-            "audio": "/audio/hugo-demain/04.mp3"
+            "audio": "/audio/hugo-demain/04.mp3",
+            "spaced": "/audio/hugo-demain/04-lent.mp3"
           },
           {
             "text": "je sais que tu m'attends.",
-            "audio": "/audio/hugo-demain/05.mp3"
+            "audio": "/audio/hugo-demain/05.mp3",
+            "spaced": "/audio/hugo-demain/05-lent.mp3"
           }
         ]
       },
@@ -90,11 +104,13 @@
         "segments": [
           {
             "text": "J'irai par la forêt,",
-            "audio": "/audio/hugo-demain/06.mp3"
+            "audio": "/audio/hugo-demain/06.mp3",
+            "spaced": "/audio/hugo-demain/06-lent.mp3"
           },
           {
             "text": "j'irai par la montagne.",
-            "audio": "/audio/hugo-demain/07.mp3"
+            "audio": "/audio/hugo-demain/07.mp3",
+            "spaced": "/audio/hugo-demain/07-lent.mp3"
           }
         ]
       }
@@ -109,19 +125,23 @@
         "segments": [
           {
             "text": "Je parie,",
-            "audio": "/audio/renard-poil/00.mp3"
+            "audio": "/audio/renard-poil/00.mp3",
+            "spaced": "/audio/renard-poil/00-lent.mp3"
           },
           {
             "text": "dit madame Lepic,",
-            "audio": "/audio/renard-poil/01.mp3"
+            "audio": "/audio/renard-poil/01.mp3",
+            "spaced": "/audio/renard-poil/01-lent.mp3"
           },
           {
             "text": "qu'Honorine a encore oublié",
-            "audio": "/audio/renard-poil/02.mp3"
+            "audio": "/audio/renard-poil/02.mp3",
+            "spaced": "/audio/renard-poil/02-lent.mp3"
           },
           {
             "text": "de fermer les poules.",
-            "audio": "/audio/renard-poil/03.mp3"
+            "audio": "/audio/renard-poil/03.mp3",
+            "spaced": "/audio/renard-poil/03-lent.mp3"
           }
         ]
       },
@@ -130,7 +150,8 @@
         "segments": [
           {
             "text": "C'est vrai.",
-            "audio": "/audio/renard-poil/04.mp3"
+            "audio": "/audio/renard-poil/04.mp3",
+            "spaced": "/audio/renard-poil/04-lent.mp3"
           }
         ]
       },
@@ -139,7 +160,8 @@
         "segments": [
           {
             "text": "On peut s'en assurer par la fenêtre.",
-            "audio": "/audio/renard-poil/05.mp3"
+            "audio": "/audio/renard-poil/05.mp3",
+            "spaced": "/audio/renard-poil/05-lent.mp3"
           }
         ]
       },
@@ -148,23 +170,28 @@
         "segments": [
           {
             "text": "Là-bas,",
-            "audio": "/audio/renard-poil/06.mp3"
+            "audio": "/audio/renard-poil/06.mp3",
+            "spaced": "/audio/renard-poil/06-lent.mp3"
           },
           {
             "text": "tout au fond de la grande cour,",
-            "audio": "/audio/renard-poil/07.mp3"
+            "audio": "/audio/renard-poil/07.mp3",
+            "spaced": "/audio/renard-poil/07-lent.mp3"
           },
           {
             "text": "le petit toit aux poules découpe,",
-            "audio": "/audio/renard-poil/08.mp3"
+            "audio": "/audio/renard-poil/08.mp3",
+            "spaced": "/audio/renard-poil/08-lent.mp3"
           },
           {
             "text": "dans la nuit,",
-            "audio": "/audio/renard-poil/09.mp3"
+            "audio": "/audio/renard-poil/09.mp3",
+            "spaced": "/audio/renard-poil/09-lent.mp3"
           },
           {
             "text": "le carré noir de sa porte ouverte.",
-            "audio": "/audio/renard-poil/10.mp3"
+            "audio": "/audio/renard-poil/10.mp3",
+            "spaced": "/audio/renard-poil/10-lent.mp3"
           }
         ]
       }
