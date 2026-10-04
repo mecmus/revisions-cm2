@@ -4,20 +4,103 @@
     "title": "La chèvre de M. Seguin",
     "source": "Alphonse Daudet, Lettres de mon moulin (1869) — fr.wikisource.org/wiki/Lettres_de_mon_moulin/La_chèvre_de_monsieur_Seguin",
     "theme": "Accords dans le groupe nominal, imparfait",
-    "text": "M. Seguin n'avait jamais eu de bonheur avec ses chèvres. Il les perdait toutes de la même façon : un beau matin, elles cassaient leur corde, s'en allaient dans la montagne, et là-haut le loup les mangeait."
+    "text": "M. Seguin n'avait jamais eu de bonheur avec ses chèvres. Il les perdait toutes de la même façon : un beau matin, elles cassaient leur corde, s'en allaient dans la montagne, et là-haut le loup les mangeait.",
+    "origine": "domaine-public"
   },
   {
     "id": "hugo-demain",
     "title": "Demain, dès l'aube",
     "source": "Victor Hugo, Les Contemplations (1856), XIV — fr.wikisource.org — majuscules de début de vers adaptées pour la dictée en prose",
     "theme": "Futur simple",
-    "text": "Demain, dès l'aube, à l'heure où blanchit la campagne, je partirai. Vois-tu, je sais que tu m'attends. J'irai par la forêt, j'irai par la montagne."
+    "text": "Demain, dès l'aube, à l'heure où blanchit la campagne, je partirai. Vois-tu, je sais que tu m'attends. J'irai par la forêt, j'irai par la montagne.",
+    "origine": "domaine-public"
   },
   {
     "id": "renard-poil",
     "title": "Les poules",
     "source": "Jules Renard, Poil de Carotte (1894), « Les Poules » — fr.wikisource.org/wiki/Poil_de_Carotte/01",
     "theme": "Passé simple, dialogue",
-    "text": "Je parie, dit madame Lepic, qu'Honorine a encore oublié de fermer les poules. C'est vrai. On peut s'en assurer par la fenêtre. Là-bas, tout au fond de la grande cour, le petit toit aux poules découpe, dans la nuit, le carré noir de sa porte ouverte."
+    "text": "Je parie, dit madame Lepic, qu'Honorine a encore oublié de fermer les poules. C'est vrai. On peut s'en assurer par la fenêtre. Là-bas, tout au fond de la grande cour, le petit toit aux poules découpe, dans la nuit, le carré noir de sa porte ouverte.",
+    "origine": "domaine-public"
+  },
+  {
+    "id": "ia-rentree",
+    "title": "La rentrée des classes",
+    "source": "Texte original généré par IA (Hermes Agent), relu — niveau CM2",
+    "theme": "Accords dans le groupe nominal, présent",
+    "text": "Ce matin, les élèves de CM2 retrouvent leur école. Dans la cour, les enfants bavardent joyeusement. Ils racontent leurs vacances à leurs camarades. La cloche sonne et chacun se range devant la porte. La maîtresse sourit et accueille ses nouveaux élèves.",
+    "origine": "ia"
+  },
+  {
+    "id": "ia-foret-automne",
+    "title": "La forêt en automne",
+    "source": "Texte original généré par IA (Hermes Agent), relu — niveau CM2",
+    "theme": "Pluriel des noms et des adjectifs",
+    "text": "En automne, la forêt change de couleur. Les feuilles jaunes et rousses tombent doucement sur le sol. Les écureuils ramassent des noisettes et les cachent dans des trous. Sous les grands chênes, on trouve des champignons et des châtaignes brillantes.",
+    "origine": "ia"
+  },
+  {
+    "id": "ia-tempete",
+    "title": "La tempête",
+    "source": "Texte original généré par IA (Hermes Agent), relu — niveau CM2",
+    "theme": "Imparfait",
+    "text": "Toute la nuit, le vent soufflait très fort. Les volets claquaient et la pluie frappait les vitres. Dans sa chambre, Lucas n'arrivait pas à dormir. Il écoutait les arbres qui craquaient dans le jardin. Au matin, le ciel était enfin calme.",
+    "origine": "ia"
+  },
+  {
+    "id": "ia-chateau",
+    "title": "La visite du château",
+    "source": "Texte original généré par IA (Hermes Agent), relu — niveau CM2",
+    "theme": "Passé composé avec être et avoir",
+    "text": "Samedi, nous sommes allés visiter un vieux château. Nous avons traversé le pont-levis et nous sommes entrés dans la grande salle. Le guide nous a montré les armures des chevaliers. Ma petite sœur est montée tout en haut de la tour.",
+    "origine": "ia"
+  },
+  {
+    "id": "ia-marche",
+    "title": "Au marché",
+    "source": "Texte original généré par IA (Hermes Agent), relu — niveau CM2",
+    "theme": "Homophones a/à, et/est",
+    "text": "Le dimanche, ma grand-mère va au marché. Elle achète des pommes, des poires et des tomates. Le marchand de fromages est très gentil. Il lui donne toujours un petit morceau à goûter. Le panier est lourd, mais elle a l'habitude.",
+    "origine": "ia"
+  },
+  {
+    "id": "ia-astronaute",
+    "title": "Le rêve de Sarah",
+    "source": "Texte original généré par IA (Hermes Agent), relu — niveau CM2",
+    "theme": "Futur simple",
+    "text": "Plus tard, Sarah sera astronaute. Elle partira dans une fusée et elle verra la Terre depuis l'espace. Ses parents regarderont le décollage à la télévision. Pendant son voyage, elle fera des expériences et elle enverra des photos à ses amis.",
+    "origine": "ia"
+  },
+  {
+    "id": "ia-ocean",
+    "title": "Les animaux de l'océan",
+    "source": "Texte original généré par IA (Hermes Agent), relu — niveau CM2",
+    "theme": "Accord sujet-verbe, sujet éloigné ou inversé",
+    "text": "Dans les profondeurs de l'océan vivent des animaux étonnants. Les baleines, qui sont les plus grands mammifères, chantent pour communiquer. Les dauphins jouent souvent près des bateaux. Certains poissons produisent leur propre lumière pour attirer leurs proies.",
+    "origine": "ia"
+  },
+  {
+    "id": "ia-gateau",
+    "title": "Le gâteau d'anniversaire",
+    "source": "Texte original généré par IA (Hermes Agent), relu — niveau CM2",
+    "theme": "Infinitif en -er ou participe passé en -é",
+    "text": "Pour l'anniversaire de papa, nous avons décidé de préparer un gâteau. J'ai cassé les œufs et ma sœur a mélangé la farine avec le sucre. Il fallait surveiller la cuisson. Une fois le gâteau cuit, nous l'avons décoré avec des fraises.",
+    "origine": "ia"
+  },
+  {
+    "id": "ia-hiver-montagne",
+    "title": "Une journée à la montagne",
+    "source": "Texte original généré par IA (Hermes Agent), relu — niveau CM2",
+    "theme": "Homophones son/sont, on/ont, ces/ses",
+    "text": "Julien est parti à la montagne avec ses cousins. Ils ont chaussé leurs skis dès le matin. Les pistes sont couvertes de neige fraîche. On entend le bruit des remontées mécaniques. Julien n'oubliera jamais ces vacances avec ses cousins.",
+    "origine": "ia"
+  },
+  {
+    "id": "ia-bibliotheque",
+    "title": "À la bibliothèque",
+    "source": "Texte original généré par IA (Hermes Agent), relu — niveau CM2",
+    "theme": "Passé simple et imparfait",
+    "text": "Ce jour-là, Léa entra dans la bibliothèque du quartier. Les étagères étaient remplies de livres. Elle choisit un roman d'aventures et s'installa près de la fenêtre. Pendant une heure, elle oublia tout ce qui l'entourait. Quand elle leva les yeux, la nuit tombait déjà.",
+    "origine": "ia"
   }
 ]
