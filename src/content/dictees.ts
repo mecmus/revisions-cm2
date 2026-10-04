@@ -1,0 +1,32 @@
+export type Dictee = {
+  id: string;
+  title: string;
+  source: string;
+  theme: string;
+  text: string;
+};
+
+// Extraits d'œuvres du domaine public. Le texte est reproduit à l'identique de l'édition source.
+export const dictees: Dictee[] = [
+  {
+    id: "daudet-chevre",
+    title: "La chèvre de M. Seguin",
+    source: "Alphonse Daudet, Lettres de mon moulin (1869) — fr.wikisource.org/wiki/Lettres_de_mon_moulin/La_chèvre_de_monsieur_Seguin",
+    theme: "Accords dans le groupe nominal, imparfait",
+    text: "M. Seguin n'avait jamais eu de bonheur avec ses chèvres. Il les perdait toutes de la même façon : un beau matin, elles cassaient leur corde, s'en allaient dans la montagne, et là-haut le loup les mangeait.",
+  },
+  {
+    id: "hugo-demain",
+    title: "Demain, dès l'aube",
+    source: "Victor Hugo, Les Contemplations (1856), XIV — fr.wikisource.org",
+    theme: "Futur simple",
+    text: "Demain, dès l'aube, à l'heure où blanchit la campagne, Je partirai. Vois-tu, je sais que tu m'attends. J'irai par la forêt, j'irai par la montagne.",
+  },
+  {
+    id: "renard-poil",
+    title: "Les poules",
+    source: "Jules Renard, Poil de Carotte (1894), « Les Poules » — fr.wikisource.org/wiki/Poil_de_Carotte/01",
+    theme: "Passé simple, dialogue",
+    text: "Je parie, dit madame Lepic, qu'Honorine a encore oublié de fermer les poules. C'est vrai. On peut s'en assurer par la fenêtre. Là-bas, tout au fond de la grande cour, le petit toit aux poules découpe, dans la nuit, le carré noir de sa porte ouverte.",
+  },
+];
