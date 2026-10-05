@@ -9,7 +9,7 @@ type A = Record<string, { full: string; sentences: { segments: { audio: string; 
 
 /** Liste des ressources à mettre en cache par le service worker (pages + audio). */
 export function GET() {
-  const pages = ["/", "/dictees", "/conjugaison", "/grammaire", "/progression", ...dictees.map((d) => `/dictees/${d.id}`), "/cours", ...COURS.map((c) => `/cours/${c.id}`)];
+  const pages = ["/", "/dictees", "/conjugaison", "/grammaire", "/orthographe", "/progression", ...dictees.map((d) => `/dictees/${d.id}`), "/cours", ...COURS.map((c) => `/cours/${c.id}`)];
   const files = new Set<string>(["/manifest.webmanifest", "/icon.svg", "/icon-192.png", "/icon-512.png"]);
   for (const a of Object.values(audio as A)) {
     files.add(a.full);
