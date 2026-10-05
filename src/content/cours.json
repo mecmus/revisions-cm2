@@ -273,5 +273,56 @@
   "astuce": "Écris le mot plusieurs fois en l'épelant à voix haute, puis cache-le et réécris-le.",
   "source": "Programme du cycle 3 (BO n°16 du 17 avril 2025) — fiche rédigée pour l'application, à relire par le parent",
   "valide": false
+ },
+ {
+  "id": "grammaire/natures",
+  "matiere": "Grammaire",
+  "titre": "La nature des mots",
+  "regle": "La nature (ou classe) d'un mot ne change pas : c'est ce que le mot est, comme dans le dictionnaire.",
+  "points": [
+   "Nom : désigne une personne, un animal, une chose, une idée (chat, Léa, joie). Nom propre = majuscule.",
+   "Déterminant : se place devant le nom (le, une, des, mon, ce, chaque, du).",
+   "Adjectif : précise le nom et s'accorde avec lui (petit, blanche, fatigués).",
+   "Verbe : se conjugue, il change selon le temps (dort, partirons).",
+   "Pronom : remplace un nom (il, elle, nous, ils).",
+   "Adverbe : mot invariable qui précise un verbe ou un adjectif (souvent, très, lentement).",
+   "Préposition : mot invariable qui introduit un complément (à, de, dans, sur, pendant).",
+   "Conjonction de coordination : relie deux mots ou groupes (mais, ou, et, donc, or, ni, car)."
+  ],
+  "exemples": [
+   "Le (déterminant) petit (adjectif) chat (nom) dort (verbe) sur (préposition) le canapé."
+  ],
+  "pieges": [
+   "« le » devant un nom est un déterminant ; devant un verbe, c'est un pronom : je le vois.",
+   "Beaucoup d'adverbes finissent par -ment (lentement)."
+  ],
+  "astuce": "Pour trouver le verbe, change le temps de la phrase : le mot qui change est le verbe (dort → dormait).",
+  "source": "Programme du cycle 3 (BO n°16 du 17 avril 2025) — fiche rédigée pour l'application, à relire par le parent",
+  "valide": false
+ },
+ {
+  "id": "grammaire/fonctions",
+  "matiere": "Grammaire",
+  "titre": "Les fonctions dans la phrase",
+  "regle": "La fonction d'un mot ou d'un groupe, c'est son rôle dans la phrase.",
+  "points": [
+   "Sujet : fait l'action ou est ce dont on parle. Question : « Qui est-ce qui … ? » avant le verbe.",
+   "COD (complément d'objet direct) : se place après le verbe sans préposition. Question : verbe + « quoi ? » ou « qui ? ».",
+   "COI (complément d'objet indirect) : introduit par à, de… Question : verbe + « à qui ? à quoi ? de quoi ? ».",
+   "Compléments circonstanciels : où ? (lieu), quand ? (temps), comment ? (manière). On peut souvent les déplacer ou les supprimer.",
+   "Attribut du sujet : après être, sembler, devenir, paraître, rester ; il dit quelque chose du sujet."
+  ],
+  "exemples": [
+   "Le facteur (sujet) apporte (verbe) une lettre (COD) à mon voisin (COI).",
+   "Demain (CCT), nous partirons à la montagne (CCL).",
+   "Cette maison est très ancienne (attribut du sujet)."
+  ],
+  "pieges": [
+   "Le COD et le COI ne peuvent pas être déplacés ni supprimés facilement, contrairement au complément circonstanciel.",
+   "Au passé composé, le verbe est formé de deux mots : avons visité."
+  ],
+  "astuce": "Essaie de déplacer le groupe en début de phrase : si c'est possible, c'est un complément circonstanciel.",
+  "source": "Programme du cycle 3 (BO n°16 du 17 avril 2025) — fiche rédigée pour l'application, à relire par le parent",
+  "valide": false
  }
 ]
