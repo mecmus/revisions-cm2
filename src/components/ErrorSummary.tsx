@@ -1,6 +1,8 @@
 "use client";
 import { useState } from "react";
 import type { Token } from "@/lib/correction";
+import { COURS_ERREUR } from "@/lib/cours";
+import CoursLink from "./CoursLink";
 import { ERROR_LABEL, summarize, type ErrorType } from "@/lib/errorType";
 
 /** Bilan par type d'erreur + conseil, avec tolérances ponctuation / majuscules. */
@@ -17,6 +19,7 @@ export default function ErrorSummary({ tokens }: { tokens: Token[] }) {
           <li key={k} className="rounded-2xl bg-amber-50 p-3">
             <b>{ERROR_LABEL[k].label} × {n}</b>
             <p className="text-sm text-slate-600">💡 {ERROR_LABEL[k].tip}</p>
+            <div className="mt-2"><CoursLink id={COURS_ERREUR[k]} /></div>
           </li>
         ))}
       </ul>

@@ -2,6 +2,8 @@
 import { useRef, useState } from "react";
 import { check, makeQuestions, RULES, SOURCE, TENSES, type Question, type Tense } from "@/lib/conjugaison";
 import { saveAttempt } from "@/lib/progress";
+import { COURS_TEMPS } from "@/lib/cours";
+import CoursLink from "./CoursLink";
 
 const GROUPS = [{ id: 1, label: "1er groupe" }, { id: 2, label: "2e groupe" }, { id: 3, label: "3e groupe et irréguliers" }];
 type Answer = { q: Question; given: string; ok: boolean };
@@ -64,6 +66,11 @@ export default function ConjugaisonQuiz() {
               {!a.ok && <span className="text-rose-600 line-through"> {a.given || "(vide)"}</span>}</li>
           ))}
         </ul>
+        <div className="flex flex-wrap gap-2">
+          {[...new Set(answers.filter((a) => !a.ok).map((a) => a.q.tense))].map((t) => (
+            <CoursLink key={t} id={COURS_TEMPS[t]} label={`📘 Cours : ${t.toLowerCase()}`} />
+          ))}
+        </div>
       </section>
     );
   }
@@ -97,6 +104,7 @@ export default function ConjugaisonQuiz() {
         : <div className="rounded-2xl bg-amber-50 p-4">
             <p className="text-lg">La bonne réponse : <b>{q.pronoun}{q.answer}</b></p>
             <p className="mt-1 text-sm text-slate-600">💡 {RULES[q.tense]}</p>
+            <div className="mt-3"><CoursLink id={COURS_TEMPS[q.tense]} label={`📘 Revoir le cours : ${q.tense.toLowerCase()}`} /></div>
           </div>)}
     </section>
   );
