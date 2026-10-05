@@ -1,0 +1,354 @@
+{
+ "chasse": [
+  {
+   "id": "pergaud-automne",
+   "titre": "Un matin d'automne",
+   "source": "Louis Pergaud, La Guerre des boutons (1912), livre I, chapitre I — Wikisource",
+   "texte": "L'été venait de finir et l'automne naissait. Il pouvait être huit heures du matin. Le soleil rôdait triste derrière les nues, et de l'angoisse, une angoisse imprécise et vague, pesait sur le village et sur la campagne.",
+   "fautes": [
+    {
+     "index": 1,
+     "original": "venait",
+     "fautif": "venais",
+     "type": "accord",
+     "regle": "Le sujet est « l'été » (il) : 3e personne → -ait.",
+     "cours": "orthographe/accord"
+    },
+    {
+     "index": 4,
+     "original": "et",
+     "fautif": "est",
+     "type": "homophone",
+     "regle": "On ne peut pas dire « était » : c'est « et » (et puis).",
+     "cours": "orthographe/homophones"
+    },
+    {
+     "index": 11,
+     "original": "heures",
+     "fautif": "heure",
+     "type": "accord",
+     "regle": "« huit » : plusieurs heures → pluriel -s.",
+     "cours": "orthographe/accord"
+    },
+    {
+     "index": 29,
+     "original": "pesait",
+     "fautif": "pesaient",
+     "type": "accord",
+     "regle": "Le sujet est « une angoisse » (singulier) → pesait.",
+     "cours": "orthographe/accord"
+    }
+   ]
+  },
+  {
+   "id": "daudet-moulin",
+   "titre": "Mon moulin",
+   "source": "Alphonse Daudet, « Installation », Lettres de mon moulin (1869) — Wikisource",
+   "texte": "C'est de là que je vous écris, ma porte grande ouverte, au bon soleil. Un joli bois de pins tout étincelant de lumière dégringole devant moi jusqu'au bas de la côte.",
+   "fautes": [
+    {
+     "index": 2,
+     "original": "là",
+     "fautif": "la",
+     "type": "homophone",
+     "regle": "On peut dire « ici » : c'est « là » avec un accent.",
+     "cours": "orthographe/homophones"
+    },
+    {
+     "index": 6,
+     "original": "écris",
+     "fautif": "écrit",
+     "type": "accord",
+     "regle": "Avec « je », le verbe écrire prend -s : j'écris.",
+     "cours": "orthographe/accord"
+    },
+    {
+     "index": 10,
+     "original": "ouverte",
+     "fautif": "ouvert",
+     "type": "accord",
+     "regle": "« ouverte » s'accorde avec « porte » (féminin).",
+     "cours": "orthographe/accord"
+    },
+    {
+     "index": 23,
+     "original": "dégringole",
+     "fautif": "dégringolent",
+     "type": "accord",
+     "regle": "Le sujet est « un joli bois » (singulier) → dégringole.",
+     "cours": "orthographe/accord"
+    }
+   ]
+  },
+  {
+   "id": "segur-enterrement",
+   "titre": "L'enterrement de la poupée",
+   "source": "Comtesse de Ségur, Les Malheurs de Sophie (1858), chapitre II — Wikisource",
+   "texte": "On plaça la boîte sur un brancard que la maman leur avait fait faire. Elles voulaient toutes le porter ; c'était pourtant impossible, puisqu'il n'y avait place que pour deux.",
+   "fautes": [
+    {
+     "index": 2,
+     "original": "la",
+     "fautif": "là",
+     "type": "homophone",
+     "regle": "On ne peut pas dire « ici » : devant le nom « boîte », c'est le déterminant « la ».",
+     "cours": "orthographe/homophones"
+    },
+    {
+     "index": 11,
+     "original": "avait",
+     "fautif": "avais",
+     "type": "accord",
+     "regle": "Le sujet est « la maman » (elle) → avait.",
+     "cours": "orthographe/accord"
+    },
+    {
+     "index": 15,
+     "original": "voulaient",
+     "fautif": "voulait",
+     "type": "accord",
+     "regle": "Le sujet est « elles » (pluriel) → voulaient.",
+     "cours": "orthographe/accord"
+    },
+    {
+     "index": 20,
+     "original": "c'était",
+     "fautif": "s'était",
+     "type": "homophone",
+     "regle": "On peut dire « cela était » : c'est « c'était ».",
+     "cours": "orthographe/homophones"
+    }
+   ]
+  },
+  {
+   "id": "malot-sans-famille",
+   "titre": "Sans famille",
+   "source": "Hector Malot, Sans famille (1878), première partie, chapitre I — Wikisource",
+   "texte": "Quand je gardais notre vache le long des chemins herbus ou dans les brandes, et que j'étais surpris par une pluie d'orage, elle accourait au-devant de moi et me forçait à m'abriter sous son jupon de laine relevé qu'elle me ramenait sur la tête et sur les épaules.",
+   "fautes": [
+    {
+     "index": 2,
+     "original": "gardais",
+     "fautif": "gardait",
+     "type": "accord",
+     "regle": "Avec « je », l'imparfait se termine par -ais.",
+     "cours": "orthographe/accord"
+    },
+    {
+     "index": 9,
+     "original": "herbus",
+     "fautif": "herbu",
+     "type": "accord",
+     "regle": "« herbus » s'accorde avec « chemins » (pluriel).",
+     "cours": "orthographe/accord"
+    },
+    {
+     "index": 30,
+     "original": "à",
+     "fautif": "a",
+     "type": "homophone",
+     "regle": "On ne peut pas dire « avait » : c'est « à » avec accent.",
+     "cours": "orthographe/homophones"
+    },
+    {
+     "index": 33,
+     "original": "son",
+     "fautif": "sont",
+     "type": "homophone",
+     "regle": "On peut dire « mon jupon » : c'est « son ».",
+     "cours": "orthographe/homophones"
+    },
+    {
+     "index": 40,
+     "original": "ramenait",
+     "fautif": "ramenais",
+     "type": "accord",
+     "regle": "Le sujet est « elle » → ramenait.",
+     "cours": "orthographe/accord"
+    }
+   ]
+  }
+ ],
+ "homophones": [
+  {
+   "id": "h01",
+   "phrase": "Il {} faim.",
+   "bonne": "a",
+   "choix": [
+    "a",
+    "à"
+   ]
+  },
+  {
+   "id": "h02",
+   "phrase": "Je vais {} la piscine.",
+   "bonne": "à",
+   "choix": [
+    "a",
+    "à"
+   ]
+  },
+  {
+   "id": "h03",
+   "phrase": "Elle {} un vélo rouge.",
+   "bonne": "a",
+   "choix": [
+    "a",
+    "à"
+   ]
+  },
+  {
+   "id": "h04",
+   "phrase": "Le chat {} le chien jouent.",
+   "bonne": "et",
+   "choix": [
+    "est",
+    "et"
+   ]
+  },
+  {
+   "id": "h05",
+   "phrase": "La soupe {} chaude.",
+   "bonne": "est",
+   "choix": [
+    "est",
+    "et"
+   ]
+  },
+  {
+   "id": "h06",
+   "phrase": "Les élèves {} contents.",
+   "bonne": "sont",
+   "choix": [
+    "son",
+    "sont"
+   ]
+  },
+  {
+   "id": "h07",
+   "phrase": "Il range {} cartable.",
+   "bonne": "son",
+   "choix": [
+    "son",
+    "sont"
+   ]
+  },
+  {
+   "id": "h08",
+   "phrase": "{} a gagné le match !",
+   "bonne": "On",
+   "choix": [
+    "On",
+    "Ont"
+   ]
+  },
+  {
+   "id": "h09",
+   "phrase": "Mes amis {} faim.",
+   "bonne": "ont",
+   "choix": [
+    "on",
+    "ont"
+   ]
+  },
+  {
+   "id": "h10",
+   "phrase": "Julien a perdu {} lunettes.",
+   "bonne": "ses",
+   "choix": [
+    "ces",
+    "ses"
+   ]
+  },
+  {
+   "id": "h11",
+   "phrase": "Regarde {} nuages gris !",
+   "bonne": "ces",
+   "choix": [
+    "ces",
+    "ses"
+   ]
+  },
+  {
+   "id": "h12",
+   "phrase": "Tu veux du jus {} de l'eau ?",
+   "bonne": "ou",
+   "choix": [
+    "ou",
+    "où"
+   ]
+  },
+  {
+   "id": "h13",
+   "phrase": "{} habites-tu ?",
+   "bonne": "Où",
+   "choix": [
+    "Ou",
+    "Où"
+   ]
+  },
+  {
+   "id": "h14",
+   "phrase": "Il {} lave les mains.",
+   "bonne": "se",
+   "choix": [
+    "ce",
+    "se"
+   ]
+  },
+  {
+   "id": "h15",
+   "phrase": "{} livre est passionnant.",
+   "bonne": "Ce",
+   "choix": [
+    "Ce",
+    "Se"
+   ]
+  },
+  {
+   "id": "h16",
+   "phrase": "Je {} parle souvent.",
+   "bonne": "leur",
+   "choix": [
+    "leur",
+    "leurs"
+   ]
+  },
+  {
+   "id": "h17",
+   "phrase": "Ils prennent {} vélos.",
+   "bonne": "leurs",
+   "choix": [
+    "leur",
+    "leurs"
+   ]
+  },
+  {
+   "id": "h18",
+   "phrase": "Pose ton sac {}.",
+   "bonne": "là",
+   "choix": [
+    "la",
+    "là"
+   ]
+  },
+  {
+   "id": "h19",
+   "phrase": "Elle {} vu hier.",
+   "bonne": "l'a",
+   "choix": [
+    "l'a",
+    "la"
+   ]
+  },
+  {
+   "id": "h20",
+   "phrase": "Il faut {} terre pour planter.",
+   "bonne": "la",
+   "choix": [
+    "la",
+    "là"
+   ]
+  }
+ ]
+}

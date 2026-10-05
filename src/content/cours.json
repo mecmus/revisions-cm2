@@ -273,5 +273,339 @@
   "astuce": "Écris le mot plusieurs fois en l'épelant à voix haute, puis cache-le et réécris-le.",
   "source": "Programme du cycle 3 (BO n°16 du 17 avril 2025) — fiche rédigée pour l'application, à relire par le parent",
   "valide": false
+ },
+ {
+  "id": "grammaire/natures",
+  "matiere": "Grammaire",
+  "titre": "La nature des mots",
+  "regle": "La nature (ou classe) d'un mot ne change pas : c'est ce que le mot est, comme dans le dictionnaire.",
+  "points": [
+   "Nom : désigne une personne, un animal, une chose, une idée (chat, Léa, joie). Nom propre = majuscule.",
+   "Déterminant : se place devant le nom (le, une, des, mon, ce, chaque, du).",
+   "Adjectif : précise le nom et s'accorde avec lui (petit, blanche, fatigués).",
+   "Verbe : se conjugue, il change selon le temps (dort, partirons).",
+   "Pronom : remplace un nom (il, elle, nous, ils).",
+   "Adverbe : mot invariable qui précise un verbe ou un adjectif (souvent, très, lentement).",
+   "Préposition : mot invariable qui introduit un complément (à, de, dans, sur, pendant).",
+   "Conjonction de coordination : relie deux mots ou groupes (mais, ou, et, donc, or, ni, car)."
+  ],
+  "exemples": [
+   "Le (déterminant) petit (adjectif) chat (nom) dort (verbe) sur (préposition) le canapé."
+  ],
+  "pieges": [
+   "« le » devant un nom est un déterminant ; devant un verbe, c'est un pronom : je le vois.",
+   "Beaucoup d'adverbes finissent par -ment (lentement)."
+  ],
+  "astuce": "Pour trouver le verbe, change le temps de la phrase : le mot qui change est le verbe (dort → dormait).",
+  "source": "Programme du cycle 3 (BO n°16 du 17 avril 2025) — fiche rédigée pour l'application, à relire par le parent",
+  "valide": false
+ },
+ {
+  "id": "grammaire/fonctions",
+  "matiere": "Grammaire",
+  "titre": "Les fonctions dans la phrase",
+  "regle": "La fonction d'un mot ou d'un groupe, c'est son rôle dans la phrase.",
+  "points": [
+   "Sujet : fait l'action ou est ce dont on parle. Question : « Qui est-ce qui … ? » avant le verbe.",
+   "COD (complément d'objet direct) : se place après le verbe sans préposition. Question : verbe + « quoi ? » ou « qui ? ».",
+   "COI (complément d'objet indirect) : introduit par à, de… Question : verbe + « à qui ? à quoi ? de quoi ? ».",
+   "Compléments circonstanciels : où ? (lieu), quand ? (temps), comment ? (manière). On peut souvent les déplacer ou les supprimer.",
+   "Attribut du sujet : après être, sembler, devenir, paraître, rester ; il dit quelque chose du sujet."
+  ],
+  "exemples": [
+   "Le facteur (sujet) apporte (verbe) une lettre (COD) à mon voisin (COI).",
+   "Demain (CCT), nous partirons à la montagne (CCL).",
+   "Cette maison est très ancienne (attribut du sujet)."
+  ],
+  "pieges": [
+   "Le COD et le COI ne peuvent pas être déplacés ni supprimés facilement, contrairement au complément circonstanciel.",
+   "Au passé composé, le verbe est formé de deux mots : avons visité."
+  ],
+  "astuce": "Essaie de déplacer le groupe en début de phrase : si c'est possible, c'est un complément circonstanciel.",
+  "source": "Programme du cycle 3 (BO n°16 du 17 avril 2025) — fiche rédigée pour l'application, à relire par le parent",
+  "valide": false
+ },
+ {
+  "id": "calcul/mental",
+  "matiere": "Mathématiques",
+  "titre": "Le calcul mental",
+  "regle": "Calculer de tête vite et juste, grâce aux tables et à quelques techniques.",
+  "points": [
+   "Tables de multiplication de 2 à 9 : à savoir par cœur.",
+   "× 10, × 100, × 1 000 d'un nombre entier : on ajoute 1, 2 ou 3 zéros.",
+   "Compléments à 100 : 37 + 63 = 100 (37 → 40 → 100).",
+   "Diviser, c'est chercher dans la table : 56 : 7 = 8 car 7 × 8 = 56."
+  ],
+  "exemples": [
+   "25 × 4 = 100",
+   "48 × 10 = 480"
+  ],
+  "pieges": [
+   "× 10 sur un nombre décimal : on n'ajoute pas un zéro, la virgule se déplace (2,5 × 10 = 25)."
+  ],
+  "astuce": "Décompose : 9 × 12 = 9 × 10 + 9 × 2 = 108.",
+  "source": "Programme du cycle 3 (BO n°16 du 17 avril 2025) — fiche rédigée pour l'application, à relire par le parent",
+  "valide": false
+ },
+ {
+  "id": "calcul/operations",
+  "matiere": "Mathématiques",
+  "titre": "Les opérations posées",
+  "regle": "Pour les grands nombres, on pose l'opération en colonnes.",
+  "points": [
+   "Addition et soustraction : unités sous les unités, dizaines sous les dizaines… et on gère les retenues.",
+   "Multiplication : on multiplie par les unités, puis par les dizaines en décalant d'un rang (on écrit un 0), puis on additionne.",
+   "Division : on cherche combien de fois le diviseur va dans les premiers chiffres du dividende, on soustrait, on abaisse le chiffre suivant."
+  ],
+  "exemples": [
+   "1 245 × 23 = 1 245 × 3 + 1 245 × 20 = 3 735 + 24 900 = 28 635"
+  ],
+  "pieges": [
+   "Oublier une retenue.",
+   "Dans la soustraction, mettre le plus petit nombre en haut."
+  ],
+  "astuce": "Vérifie avec un ordre de grandeur : 1 245 × 23 ≈ 1 000 × 20 = 20 000 (le résultat doit être proche).",
+  "source": "Programme du cycle 3 (BO n°16 du 17 avril 2025) — fiche rédigée pour l'application, à relire par le parent",
+  "valide": false
+ },
+ {
+  "id": "calcul/decimaux",
+  "matiere": "Mathématiques",
+  "titre": "Les nombres décimaux",
+  "regle": "Un nombre décimal a une partie entière et une partie décimale, séparées par la virgule.",
+  "points": [
+   "12,35 : 12 unités, 3 dixièmes, 5 centièmes.",
+   "Pour additionner ou soustraire, on aligne les virgules.",
+   "× 10 : chaque chiffre prend une valeur 10 fois plus grande (3,25 × 10 = 32,5).",
+   "Comparer : d'abord la partie entière, puis les dixièmes, puis les centièmes."
+  ],
+  "exemples": [
+   "4,7 > 4,65 car 7 dixièmes > 6 dixièmes."
+  ],
+  "pieges": [
+   "4,65 n'est pas plus grand que 4,7 même s'il a plus de chiffres.",
+   "On peut ajouter des zéros à la fin : 4,7 = 4,70."
+  ],
+  "astuce": "Écris les deux nombres avec autant de chiffres après la virgule avant de comparer.",
+  "source": "Programme du cycle 3 (BO n°16 du 17 avril 2025) — fiche rédigée pour l'application, à relire par le parent",
+  "valide": false
+ },
+ {
+  "id": "calcul/fractions",
+  "matiere": "Mathématiques",
+  "titre": "Les fractions",
+  "regle": "Une fraction représente un partage : le dénominateur dit en combien de parts on coupe, le numérateur combien on en prend.",
+  "points": [
+   "3/4 : on coupe en 4 parts égales et on en prend 3.",
+   "Prendre 3/4 de 20 : 20 : 4 = 5, puis 5 × 3 = 15.",
+   "Additionner deux fractions de même dénominateur : on additionne les numérateurs (2/5 + 1/5 = 3/5).",
+   "Fractions décimales : 1/10 = 0,1 ; 1/100 = 0,01 ; 1/2 = 0,5 ; 1/4 = 0,25."
+  ],
+  "exemples": [
+   "2/3 de 12 = 8"
+  ],
+  "pieges": [
+   "On n'additionne pas les dénominateurs : 2/5 + 1/5 ≠ 3/10."
+  ],
+  "astuce": "Dessine une barre et partage-la : la fraction devient visible.",
+  "source": "Programme du cycle 3 (BO n°16 du 17 avril 2025) — fiche rédigée pour l'application, à relire par le parent",
+  "valide": false
+ },
+ {
+  "id": "calcul/grands-nombres",
+  "matiere": "Mathématiques",
+  "titre": "Les grands nombres",
+  "regle": "On lit et écrit les grands nombres par classes de trois chiffres : millions, milliers, unités.",
+  "points": [
+   "752 304 180 : 752 millions 304 mille 180.",
+   "Chaque classe a des centaines, des dizaines et des unités.",
+   "Arrondir au million : on regarde le chiffre des centaines de mille (5 ou plus → au-dessus)."
+  ],
+  "exemples": [
+   "Le chiffre des centaines de mille de 7 452 000 est 4."
+  ],
+  "pieges": [
+   "« mille » est invariable : trois mille.",
+   "« million » prend un s : deux millions."
+  ],
+  "astuce": "Sépare toujours les classes par un espace en écrivant le nombre.",
+  "source": "Programme du cycle 3 (BO n°16 du 17 avril 2025) — fiche rédigée pour l'application, à relire par le parent",
+  "valide": false
+ },
+ {
+  "id": "calcul/problemes",
+  "matiere": "Mathématiques",
+  "titre": "Résoudre un problème",
+  "regle": "Un problème se résout en plusieurs étapes : comprendre, chercher, calculer, vérifier.",
+  "points": [
+   "1. Lis l'énoncé deux fois et souligne la question.",
+   "2. Repère les données utiles (et celles qui ne servent à rien).",
+   "3. Cherche les étapes : « Que dois-je calculer d'abord ? »",
+   "4. Écris chaque calcul avec une phrase-réponse.",
+   "5. Vérifie que le résultat est vraisemblable."
+  ],
+  "exemples": [
+   "3 boîtes de 12 biscuits, on en mange 10 : 3 × 12 = 36, puis 36 − 10 = 26 biscuits."
+  ],
+  "pieges": [
+   "Dans une division, le reste peut obliger à prendre un de plus (cars, boîtes…).",
+   "Ne pas oublier l'unité dans la réponse."
+  ],
+  "astuce": "Fais un petit schéma ou un dessin de la situation.",
+  "source": "Programme du cycle 3 (BO n°16 du 17 avril 2025) — fiche rédigée pour l'application, à relire par le parent",
+  "valide": false
+ },
+ {
+  "id": "calcul/proportionnalite",
+  "matiere": "Mathématiques",
+  "titre": "La proportionnalité",
+  "regle": "Deux grandeurs sont proportionnelles quand on passe de l'une à l'autre en multipliant toujours par le même nombre.",
+  "points": [
+   "Si 2 cahiers coûtent 3 €, 6 cahiers (3 fois plus) coûtent 3 fois plus : 9 €.",
+   "Passage par l'unité : prix d'un cahier = 3 : 2 = 1,50 €, puis × la quantité.",
+   "On peut additionner : prix de 5 = prix de 2 + prix de 3."
+  ],
+  "exemples": [
+   "4 kg coûtent 6 € → 12 kg coûtent 18 €."
+  ],
+  "pieges": [
+   "Tout n'est pas proportionnel : l'âge et la taille d'un enfant ne le sont pas."
+  ],
+  "astuce": "Range les données dans un tableau à deux lignes.",
+  "source": "Programme du cycle 3 (BO n°16 du 17 avril 2025) — fiche rédigée pour l'application, à relire par le parent",
+  "valide": false
+ },
+ {
+  "id": "calcul/durees",
+  "matiere": "Mathématiques",
+  "titre": "Les durées et les horaires",
+  "regle": "Un horaire indique un moment ; une durée indique combien de temps passe.",
+  "points": [
+   "1 h = 60 min ; 1 min = 60 s ; 1 jour = 24 h.",
+   "Horaire d'arrivée = horaire de départ + durée.",
+   "Durée = horaire de fin − horaire de début.",
+   "Ajoute d'abord les heures, puis les minutes ; si on dépasse 60 min, on ajoute 1 h."
+  ],
+  "exemples": [
+   "14 h 45 + 30 min = 15 h 15",
+   "De 9 h 40 à 11 h 10 : 1 h 30 min = 90 min"
+  ],
+  "pieges": [
+   "Ne pas calculer comme avec des nombres décimaux : 1 h 30 ≠ 1,30 h.",
+   "45 min + 30 min = 75 min = 1 h 15 min."
+  ],
+  "astuce": "Utilise une frise : avance jusqu'à l'heure pile, puis compte le reste.",
+  "source": "Programme du cycle 3 (BO n°16 du 17 avril 2025) — fiche rédigée pour l'application, à relire par le parent",
+  "valide": false
+ },
+ {
+  "id": "geometrie/figures",
+  "matiere": "Mathématiques",
+  "titre": "Les figures planes",
+  "regle": "On reconnaît une figure à ses côtés (nombre, longueurs, parallèles) et à ses angles.",
+  "points": [
+   "Carré : 4 côtés égaux, 4 angles droits.",
+   "Rectangle : 4 angles droits, côtés opposés égaux.",
+   "Losange : 4 côtés égaux.",
+   "Parallélogramme : côtés opposés parallèles et égaux.",
+   "Trapèze : 2 côtés parallèles.",
+   "Triangle rectangle (1 angle droit), isocèle (2 côtés égaux), équilatéral (3 côtés égaux).",
+   "Cercle : tous les points sont à la même distance du centre (le rayon) ; diamètre = 2 × rayon."
+  ],
+  "exemples": [
+   "Un carré est aussi un rectangle et un losange."
+  ],
+  "pieges": [
+   "Un losange « posé sur la pointe » n'est pas un carré s'il n'a pas d'angle droit."
+  ],
+  "astuce": "Vérifie les angles droits avec l'équerre et les longueurs avec la règle ou le compas.",
+  "source": "Programme du cycle 3 (BO n°16 du 17 avril 2025) — fiche rédigée pour l'application, à relire par le parent",
+  "valide": false
+ },
+ {
+  "id": "geometrie/angles",
+  "matiere": "Mathématiques",
+  "titre": "Les angles",
+  "regle": "Un angle est formé par deux demi-droites de même origine (le sommet).",
+  "points": [
+   "Angle droit : comme le coin d'une équerre (90°).",
+   "Angle aigu : plus petit qu'un angle droit.",
+   "Angle obtus : plus grand qu'un angle droit (mais moins qu'un demi-tour)."
+  ],
+  "exemples": [
+   "Le coin d'une feuille est un angle droit."
+  ],
+  "pieges": [
+   "La longueur des traits ne change pas la taille de l'angle."
+  ],
+  "astuce": "Place l'équerre sur le sommet, un côté sur un trait : regarde où tombe l'autre trait.",
+  "source": "Programme du cycle 3 (BO n°16 du 17 avril 2025) — fiche rédigée pour l'application, à relire par le parent",
+  "valide": false
+ },
+ {
+  "id": "geometrie/symetrie",
+  "matiere": "Mathématiques",
+  "titre": "La symétrie axiale",
+  "regle": "Deux figures sont symétriques par rapport à un axe si elles se superposent quand on plie le long de cet axe.",
+  "points": [
+   "Chaque point et son symétrique sont à la même distance de l'axe, de part et d'autre.",
+   "Le segment qui les relie est perpendiculaire à l'axe.",
+   "Sur quadrillage, on compte les carreaux jusqu'à l'axe et on reporte de l'autre côté."
+  ],
+  "exemples": [
+   "Un papillon, la lettre A ont un axe de symétrie vertical."
+  ],
+  "pieges": [
+   "Une figure peut avoir plusieurs axes (le carré en a 4) ou aucun."
+  ],
+  "astuce": "Imagine que tu plies la feuille sur l'axe.",
+  "source": "Programme du cycle 3 (BO n°16 du 17 avril 2025) — fiche rédigée pour l'application, à relire par le parent",
+  "valide": false
+ },
+ {
+  "id": "mesures/conversions",
+  "matiere": "Mathématiques",
+  "titre": "Les conversions d'unités",
+  "regle": "Pour changer d'unité, on utilise le tableau de conversion : chaque unité vaut 10 fois l'unité à sa droite.",
+  "points": [
+   "Longueurs : km | hm | dam | m | dm | cm | mm.",
+   "Masses : kg | hg | dag | g (et 1 t = 1 000 kg).",
+   "Contenances : hL | daL | L | dL | cL | mL.",
+   "Vers une unité plus petite : on multiplie (1 m = 100 cm). Vers une plus grande : on divise (250 cm = 2,5 m)."
+  ],
+  "exemples": [
+   "3 km = 3 000 m",
+   "450 g = 0,45 kg",
+   "2 L = 200 cL"
+  ],
+  "pieges": [
+   "Bien placer le chiffre des unités dans la colonne de l'unité de départ."
+  ],
+  "astuce": "Écris le nombre dans le tableau, puis lis-le dans la nouvelle unité (la virgule se place après la colonne de l'unité voulue).",
+  "source": "Programme du cycle 3 (BO n°16 du 17 avril 2025) — fiche rédigée pour l'application, à relire par le parent",
+  "valide": false
+ },
+ {
+  "id": "mesures/perimetre-aire",
+  "matiere": "Mathématiques",
+  "titre": "Périmètre et aire",
+  "regle": "Le périmètre est la longueur du tour d'une figure ; l'aire est la surface qu'elle recouvre.",
+  "points": [
+   "Périmètre du rectangle = 2 × (longueur + largeur).",
+   "Périmètre du carré = 4 × côté.",
+   "Aire du rectangle = longueur × largeur.",
+   "Aire du carré = côté × côté.",
+   "Le périmètre s'exprime en cm, m… ; l'aire en cm², m²…"
+  ],
+  "exemples": [
+   "Rectangle 5 cm × 3 cm : périmètre 16 cm, aire 15 cm²."
+  ],
+  "pieges": [
+   "Ne pas confondre : deux figures peuvent avoir le même périmètre et des aires différentes.",
+   "Les deux côtés doivent être dans la même unité."
+  ],
+  "astuce": "Périmètre = je fais le tour avec mon doigt ; aire = je colorie l'intérieur.",
+  "source": "Programme du cycle 3 (BO n°16 du 17 avril 2025) — fiche rédigée pour l'application, à relire par le parent",
+  "valide": false
  }
 ]

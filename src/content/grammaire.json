@@ -1,0 +1,1028 @@
+[
+ {
+  "id": "g01",
+  "mots": [
+   [
+    "Le",
+    "D"
+   ],
+   [
+    "petit",
+    "A"
+   ],
+   [
+    "chat",
+    "N"
+   ],
+   [
+    "dort",
+    "V"
+   ],
+   [
+    "sur",
+    "PREP"
+   ],
+   [
+    "le",
+    "D"
+   ],
+   [
+    "canapé",
+    "N"
+   ],
+   [
+    ".",
+    null
+   ]
+  ],
+  "fonctions": [
+   {
+    "role": "S",
+    "debut": 0,
+    "fin": 2
+   },
+   {
+    "role": "V",
+    "debut": 3,
+    "fin": 3
+   },
+   {
+    "role": "CCL",
+    "debut": 4,
+    "fin": 6
+   }
+  ]
+ },
+ {
+  "id": "g02",
+  "mots": [
+   [
+    "Ma",
+    "D"
+   ],
+   [
+    "sœur",
+    "N"
+   ],
+   [
+    "lit",
+    "V"
+   ],
+   [
+    "un",
+    "D"
+   ],
+   [
+    "roman",
+    "N"
+   ],
+   [
+    "passionnant",
+    "A"
+   ],
+   [
+    ".",
+    null
+   ]
+  ],
+  "fonctions": [
+   {
+    "role": "S",
+    "debut": 0,
+    "fin": 1
+   },
+   {
+    "role": "V",
+    "debut": 2,
+    "fin": 2
+   },
+   {
+    "role": "COD",
+    "debut": 3,
+    "fin": 5
+   }
+  ]
+ },
+ {
+  "id": "g03",
+  "mots": [
+   [
+    "Demain",
+    "ADV"
+   ],
+   [
+    ",",
+    null
+   ],
+   [
+    "nous",
+    "P"
+   ],
+   [
+    "partirons",
+    "V"
+   ],
+   [
+    "à",
+    "PREP"
+   ],
+   [
+    "la",
+    "D"
+   ],
+   [
+    "montagne",
+    "N"
+   ],
+   [
+    ".",
+    null
+   ]
+  ],
+  "fonctions": [
+   {
+    "role": "CCT",
+    "debut": 0,
+    "fin": 0
+   },
+   {
+    "role": "S",
+    "debut": 2,
+    "fin": 2
+   },
+   {
+    "role": "V",
+    "debut": 3,
+    "fin": 3
+   },
+   {
+    "role": "CCL",
+    "debut": 4,
+    "fin": 6
+   }
+  ]
+ },
+ {
+  "id": "g04",
+  "mots": [
+   [
+    "Les",
+    "D"
+   ],
+   [
+    "enfants",
+    "N"
+   ],
+   [
+    "jouent",
+    "V"
+   ],
+   [
+    "joyeusement",
+    "ADV"
+   ],
+   [
+    "dans",
+    "PREP"
+   ],
+   [
+    "la",
+    "D"
+   ],
+   [
+    "cour",
+    "N"
+   ],
+   [
+    ".",
+    null
+   ]
+  ],
+  "fonctions": [
+   {
+    "role": "S",
+    "debut": 0,
+    "fin": 1
+   },
+   {
+    "role": "V",
+    "debut": 2,
+    "fin": 2
+   },
+   {
+    "role": "CCM",
+    "debut": 3,
+    "fin": 3
+   },
+   {
+    "role": "CCL",
+    "debut": 4,
+    "fin": 6
+   }
+  ]
+ },
+ {
+  "id": "g05",
+  "mots": [
+   [
+    "Le",
+    "D"
+   ],
+   [
+    "facteur",
+    "N"
+   ],
+   [
+    "apporte",
+    "V"
+   ],
+   [
+    "une",
+    "D"
+   ],
+   [
+    "lettre",
+    "N"
+   ],
+   [
+    "à",
+    "PREP"
+   ],
+   [
+    "mon",
+    "D"
+   ],
+   [
+    "voisin",
+    "N"
+   ],
+   [
+    ".",
+    null
+   ]
+  ],
+  "fonctions": [
+   {
+    "role": "S",
+    "debut": 0,
+    "fin": 1
+   },
+   {
+    "role": "V",
+    "debut": 2,
+    "fin": 2
+   },
+   {
+    "role": "COD",
+    "debut": 3,
+    "fin": 4
+   },
+   {
+    "role": "COI",
+    "debut": 5,
+    "fin": 7
+   }
+  ]
+ },
+ {
+  "id": "g06",
+  "mots": [
+   [
+    "Cette",
+    "D"
+   ],
+   [
+    "maison",
+    "N"
+   ],
+   [
+    "est",
+    "V"
+   ],
+   [
+    "très",
+    "ADV"
+   ],
+   [
+    "ancienne",
+    "A"
+   ],
+   [
+    ".",
+    null
+   ]
+  ],
+  "fonctions": [
+   {
+    "role": "S",
+    "debut": 0,
+    "fin": 1
+   },
+   {
+    "role": "V",
+    "debut": 2,
+    "fin": 2
+   },
+   {
+    "role": "ATT",
+    "debut": 3,
+    "fin": 4
+   }
+  ]
+ },
+ {
+  "id": "g07",
+  "mots": [
+   [
+    "Julien",
+    "N"
+   ],
+   [
+    "et",
+    "C"
+   ],
+   [
+    "Léa",
+    "N"
+   ],
+   [
+    "regardent",
+    "V"
+   ],
+   [
+    "les",
+    "D"
+   ],
+   [
+    "étoiles",
+    "N"
+   ],
+   [
+    ".",
+    null
+   ]
+  ],
+  "fonctions": [
+   {
+    "role": "S",
+    "debut": 0,
+    "fin": 2
+   },
+   {
+    "role": "V",
+    "debut": 3,
+    "fin": 3
+   },
+   {
+    "role": "COD",
+    "debut": 4,
+    "fin": 5
+   }
+  ]
+ },
+ {
+  "id": "g08",
+  "mots": [
+   [
+    "Il",
+    "P"
+   ],
+   [
+    "parle",
+    "V"
+   ],
+   [
+    "souvent",
+    "ADV"
+   ],
+   [
+    "de",
+    "PREP"
+   ],
+   [
+    "ses",
+    "D"
+   ],
+   [
+    "vacances",
+    "N"
+   ],
+   [
+    ".",
+    null
+   ]
+  ],
+  "fonctions": [
+   {
+    "role": "S",
+    "debut": 0,
+    "fin": 0
+   },
+   {
+    "role": "V",
+    "debut": 1,
+    "fin": 1
+   },
+   {
+    "role": "COI",
+    "debut": 3,
+    "fin": 5
+   }
+  ]
+ },
+ {
+  "id": "g09",
+  "mots": [
+   [
+    "Chaque",
+    "D"
+   ],
+   [
+    "matin",
+    "N"
+   ],
+   [
+    ",",
+    null
+   ],
+   [
+    "le",
+    "D"
+   ],
+   [
+    "boulanger",
+    "N"
+   ],
+   [
+    "prépare",
+    "V"
+   ],
+   [
+    "du",
+    "D"
+   ],
+   [
+    "pain",
+    "N"
+   ],
+   [
+    "frais",
+    "A"
+   ],
+   [
+    ".",
+    null
+   ]
+  ],
+  "fonctions": [
+   {
+    "role": "CCT",
+    "debut": 0,
+    "fin": 1
+   },
+   {
+    "role": "S",
+    "debut": 3,
+    "fin": 4
+   },
+   {
+    "role": "V",
+    "debut": 5,
+    "fin": 5
+   },
+   {
+    "role": "COD",
+    "debut": 6,
+    "fin": 8
+   }
+  ]
+ },
+ {
+  "id": "g10",
+  "mots": [
+   [
+    "La",
+    "D"
+   ],
+   [
+    "chèvre",
+    "N"
+   ],
+   [
+    "blanche",
+    "A"
+   ],
+   [
+    "mange",
+    "V"
+   ],
+   [
+    "l'",
+    "D"
+   ],
+   [
+    "herbe",
+    "N"
+   ],
+   [
+    "du",
+    "PREP"
+   ],
+   [
+    "pré",
+    "N"
+   ],
+   [
+    ".",
+    null
+   ]
+  ],
+  "fonctions": [
+   {
+    "role": "S",
+    "debut": 0,
+    "fin": 2
+   },
+   {
+    "role": "V",
+    "debut": 3,
+    "fin": 3
+   },
+   {
+    "role": "COD",
+    "debut": 4,
+    "fin": 7
+   }
+  ]
+ },
+ {
+  "id": "g11",
+  "mots": [
+   [
+    "Mon",
+    "D"
+   ],
+   [
+    "frère",
+    "N"
+   ],
+   [
+    "deviendra",
+    "V"
+   ],
+   [
+    "pilote",
+    "N"
+   ],
+   [
+    ".",
+    null
+   ]
+  ],
+  "fonctions": [
+   {
+    "role": "S",
+    "debut": 0,
+    "fin": 1
+   },
+   {
+    "role": "V",
+    "debut": 2,
+    "fin": 2
+   },
+   {
+    "role": "ATT",
+    "debut": 3,
+    "fin": 3
+   }
+  ]
+ },
+ {
+  "id": "g12",
+  "mots": [
+   [
+    "Nous",
+    "P"
+   ],
+   [
+    "avons",
+    "V"
+   ],
+   [
+    "visité",
+    "V"
+   ],
+   [
+    "un",
+    "D"
+   ],
+   [
+    "grand",
+    "A"
+   ],
+   [
+    "château",
+    "N"
+   ],
+   [
+    ".",
+    null
+   ]
+  ],
+  "fonctions": [
+   {
+    "role": "S",
+    "debut": 0,
+    "fin": 0
+   },
+   {
+    "role": "V",
+    "debut": 1,
+    "fin": 2
+   },
+   {
+    "role": "COD",
+    "debut": 3,
+    "fin": 5
+   }
+  ]
+ },
+ {
+  "id": "g14",
+  "mots": [
+   [
+    "Pendant",
+    "PREP"
+   ],
+   [
+    "l'",
+    "D"
+   ],
+   [
+    "hiver",
+    "N"
+   ],
+   [
+    ",",
+    null
+   ],
+   [
+    "les",
+    "D"
+   ],
+   [
+    "ours",
+    "N"
+   ],
+   [
+    "dorment",
+    "V"
+   ],
+   [
+    "dans",
+    "PREP"
+   ],
+   [
+    "leur",
+    "D"
+   ],
+   [
+    "grotte",
+    "N"
+   ],
+   [
+    ".",
+    null
+   ]
+  ],
+  "fonctions": [
+   {
+    "role": "CCT",
+    "debut": 0,
+    "fin": 2
+   },
+   {
+    "role": "S",
+    "debut": 4,
+    "fin": 5
+   },
+   {
+    "role": "V",
+    "debut": 6,
+    "fin": 6
+   },
+   {
+    "role": "CCL",
+    "debut": 7,
+    "fin": 9
+   }
+  ]
+ },
+ {
+  "id": "g15",
+  "mots": [
+   [
+    "Elle",
+    "P"
+   ],
+   [
+    "range",
+    "V"
+   ],
+   [
+    "soigneusement",
+    "ADV"
+   ],
+   [
+    "ses",
+    "D"
+   ],
+   [
+    "cahiers",
+    "N"
+   ],
+   [
+    ".",
+    null
+   ]
+  ],
+  "fonctions": [
+   {
+    "role": "S",
+    "debut": 0,
+    "fin": 0
+   },
+   {
+    "role": "V",
+    "debut": 1,
+    "fin": 1
+   },
+   {
+    "role": "CCM",
+    "debut": 2,
+    "fin": 2
+   },
+   {
+    "role": "COD",
+    "debut": 3,
+    "fin": 4
+   }
+  ]
+ },
+ {
+  "id": "g16",
+  "mots": [
+   [
+    "Les",
+    "D"
+   ],
+   [
+    "oiseaux",
+    "N"
+   ],
+   [
+    "semblent",
+    "V"
+   ],
+   [
+    "fatigués",
+    "A"
+   ],
+   [
+    ".",
+    null
+   ]
+  ],
+  "fonctions": [
+   {
+    "role": "S",
+    "debut": 0,
+    "fin": 1
+   },
+   {
+    "role": "V",
+    "debut": 2,
+    "fin": 2
+   },
+   {
+    "role": "ATT",
+    "debut": 3,
+    "fin": 3
+   }
+  ]
+ },
+ {
+  "id": "g17",
+  "mots": [
+   [
+    "Sarah",
+    "N"
+   ],
+   [
+    "écrit",
+    "V"
+   ],
+   [
+    "une",
+    "D"
+   ],
+   [
+    "carte",
+    "N"
+   ],
+   [
+    "à",
+    "PREP"
+   ],
+   [
+    "sa",
+    "D"
+   ],
+   [
+    "grand-mère",
+    "N"
+   ],
+   [
+    ".",
+    null
+   ]
+  ],
+  "fonctions": [
+   {
+    "role": "S",
+    "debut": 0,
+    "fin": 0
+   },
+   {
+    "role": "V",
+    "debut": 1,
+    "fin": 1
+   },
+   {
+    "role": "COD",
+    "debut": 2,
+    "fin": 3
+   },
+   {
+    "role": "COI",
+    "debut": 4,
+    "fin": 6
+   }
+  ]
+ },
+ {
+  "id": "g18",
+  "mots": [
+   [
+    "Le",
+    "D"
+   ],
+   [
+    "chien",
+    "N"
+   ],
+   [
+    "obéit",
+    "V"
+   ],
+   [
+    "à",
+    "PREP"
+   ],
+   [
+    "son",
+    "D"
+   ],
+   [
+    "maître",
+    "N"
+   ],
+   [
+    ".",
+    null
+   ]
+  ],
+  "fonctions": [
+   {
+    "role": "S",
+    "debut": 0,
+    "fin": 1
+   },
+   {
+    "role": "V",
+    "debut": 2,
+    "fin": 2
+   },
+   {
+    "role": "COI",
+    "debut": 3,
+    "fin": 5
+   }
+  ]
+ },
+ {
+  "id": "g19",
+  "mots": [
+   [
+    "Lentement",
+    "ADV"
+   ],
+   [
+    ",",
+    null
+   ],
+   [
+    "la",
+    "D"
+   ],
+   [
+    "neige",
+    "N"
+   ],
+   [
+    "recouvre",
+    "V"
+   ],
+   [
+    "les",
+    "D"
+   ],
+   [
+    "toits",
+    "N"
+   ],
+   [
+    ".",
+    null
+   ]
+  ],
+  "fonctions": [
+   {
+    "role": "CCM",
+    "debut": 0,
+    "fin": 0
+   },
+   {
+    "role": "S",
+    "debut": 2,
+    "fin": 3
+   },
+   {
+    "role": "V",
+    "debut": 4,
+    "fin": 4
+   },
+   {
+    "role": "COD",
+    "debut": 5,
+    "fin": 6
+   }
+  ]
+ },
+ {
+  "id": "g20",
+  "mots": [
+   [
+    "Ils",
+    "P"
+   ],
+   [
+    "sont",
+    "V"
+   ],
+   [
+    "arrivés",
+    "V"
+   ],
+   [
+    "hier",
+    "ADV"
+   ],
+   [
+    "soir",
+    "N"
+   ],
+   [
+    ".",
+    null
+   ]
+  ],
+  "fonctions": [
+   {
+    "role": "S",
+    "debut": 0,
+    "fin": 0
+   },
+   {
+    "role": "V",
+    "debut": 1,
+    "fin": 2
+   },
+   {
+    "role": "CCT",
+    "debut": 3,
+    "fin": 4
+   }
+  ]
+ }
+]
