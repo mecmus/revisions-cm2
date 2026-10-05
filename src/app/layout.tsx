@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Nunito } from "next/font/google";
 import Link from "next/link";
+import OfflineStatus from "@/components/OfflineStatus";
 import "./globals.css";
 
 const nunito = Nunito({ variable: "--font-nunito", subsets: ["latin"] });
@@ -8,7 +9,8 @@ const nunito = Nunito({ variable: "--font-nunito", subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Révisions CM2",
   description: "Réviser le CM2 : dictées, conjugaison, grammaire, maths, géométrie.",
-  icons: { icon: "/icon.svg", apple: "/icon.svg" },
+  icons: { icon: "/icon.svg", apple: "/icon-180.png" },
+  appleWebApp: { capable: true, title: "Révisions CM2", statusBarStyle: "default" },
 };
 
 export const viewport: Viewport = { themeColor: "#6366f1", width: "device-width", initialScale: 1 };
@@ -24,6 +26,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           </nav>
         </header>
         <main className="mx-auto w-full max-w-5xl flex-1 px-4 py-6 sm:py-10">{children}</main>
+        <OfflineStatus />
         <footer className="py-4 text-center text-xs text-slate-400">Contenus alignés sur le programme du cycle 3 (BO n°16 du 17 avril 2025)</footer>
       </body>
     </html>

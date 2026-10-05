@@ -186,5 +186,1057 @@
         ]
       }
     ]
+  },
+  "daudet-derniere-classe": {
+    "voice": "fr_FR-siwis-medium",
+    "full": "/audio/daudet-derniere-classe/full.mp3",
+    "sentences": [
+      {
+        "text": "Ce matin-là, j'étais très en retard pour aller à l'école, et j'avais grand-peur d'être grondé, d'autant que M. Hamel nous avait dit qu'il nous interrogerait sur les participes, et je n'en savais pas le premier mot.",
+        "segments": [
+          {
+            "text": "Ce matin-là,",
+            "audio": "/audio/daudet-derniere-classe/00.mp3",
+            "spaced": "/audio/daudet-derniere-classe/00-lent.mp3"
+          },
+          {
+            "text": "j'étais très en retard pour aller à l'école,",
+            "audio": "/audio/daudet-derniere-classe/01.mp3",
+            "spaced": "/audio/daudet-derniere-classe/01-lent.mp3"
+          },
+          {
+            "text": "et j'avais grand-peur d'être grondé,",
+            "audio": "/audio/daudet-derniere-classe/02.mp3",
+            "spaced": "/audio/daudet-derniere-classe/02-lent.mp3"
+          },
+          {
+            "text": "d'autant que M. Hamel nous avait dit",
+            "audio": "/audio/daudet-derniere-classe/03.mp3",
+            "spaced": "/audio/daudet-derniere-classe/03-lent.mp3"
+          },
+          {
+            "text": "qu'il nous interrogerait sur les participes,",
+            "audio": "/audio/daudet-derniere-classe/04.mp3",
+            "spaced": "/audio/daudet-derniere-classe/04-lent.mp3"
+          },
+          {
+            "text": "et je n'en savais pas le premier mot.",
+            "audio": "/audio/daudet-derniere-classe/05.mp3",
+            "spaced": "/audio/daudet-derniere-classe/05-lent.mp3"
+          }
+        ]
+      },
+      {
+        "text": "Un moment l'idée me vint de manquer la classe et de prendre ma course à travers champs.",
+        "segments": [
+          {
+            "text": "Un moment l'idée me vint",
+            "audio": "/audio/daudet-derniere-classe/06.mp3",
+            "spaced": "/audio/daudet-derniere-classe/06-lent.mp3"
+          },
+          {
+            "text": "de manquer la classe",
+            "audio": "/audio/daudet-derniere-classe/07.mp3",
+            "spaced": "/audio/daudet-derniere-classe/07-lent.mp3"
+          },
+          {
+            "text": "et de prendre ma course à travers champs.",
+            "audio": "/audio/daudet-derniere-classe/08.mp3",
+            "spaced": "/audio/daudet-derniere-classe/08-lent.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  "malot-sans-famille": {
+    "voice": "fr_FR-siwis-medium",
+    "full": "/audio/malot-sans-famille/full.mp3",
+    "sentences": [
+      {
+        "text": "Quand je gardais notre vache le long des chemins herbus ou dans les brandes, et que j'étais surpris par une pluie d'orage, elle accourait au-devant de moi et me forçait à m'abriter sous son jupon de laine relevé qu'elle me ramenait sur la tête et sur les épaules.",
+        "segments": [
+          {
+            "text": "Quand je gardais notre vache le long",
+            "audio": "/audio/malot-sans-famille/00.mp3",
+            "spaced": "/audio/malot-sans-famille/00-lent.mp3"
+          },
+          {
+            "text": "des chemins herbus ou dans les brandes,",
+            "audio": "/audio/malot-sans-famille/01.mp3",
+            "spaced": "/audio/malot-sans-famille/01-lent.mp3"
+          },
+          {
+            "text": "et que j'étais surpris par une pluie d'orage,",
+            "audio": "/audio/malot-sans-famille/02.mp3",
+            "spaced": "/audio/malot-sans-famille/02-lent.mp3"
+          },
+          {
+            "text": "elle accourait au-devant de moi",
+            "audio": "/audio/malot-sans-famille/03.mp3",
+            "spaced": "/audio/malot-sans-famille/03-lent.mp3"
+          },
+          {
+            "text": "et me forçait à m'abriter sous son jupon",
+            "audio": "/audio/malot-sans-famille/04.mp3",
+            "spaced": "/audio/malot-sans-famille/04-lent.mp3"
+          },
+          {
+            "text": "de laine relevé qu'elle me ramenait",
+            "audio": "/audio/malot-sans-famille/05.mp3",
+            "spaced": "/audio/malot-sans-famille/05-lent.mp3"
+          },
+          {
+            "text": "sur la tête et sur les épaules.",
+            "audio": "/audio/malot-sans-famille/06.mp3",
+            "spaced": "/audio/malot-sans-famille/06-lent.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  "daudet-moulin": {
+    "voice": "fr_FR-siwis-medium",
+    "full": "/audio/daudet-moulin/full.mp3",
+    "sentences": [
+      {
+        "text": "C'est de là que je vous écris, ma porte grande ouverte, au bon soleil.",
+        "segments": [
+          {
+            "text": "C'est de là que je vous écris,",
+            "audio": "/audio/daudet-moulin/00.mp3",
+            "spaced": "/audio/daudet-moulin/00-lent.mp3"
+          },
+          {
+            "text": "ma porte grande ouverte,",
+            "audio": "/audio/daudet-moulin/01.mp3",
+            "spaced": "/audio/daudet-moulin/01-lent.mp3"
+          },
+          {
+            "text": "au bon soleil.",
+            "audio": "/audio/daudet-moulin/02.mp3",
+            "spaced": "/audio/daudet-moulin/02-lent.mp3"
+          }
+        ]
+      },
+      {
+        "text": "Un joli bois de pins tout étincelant de lumière dégringole devant moi jusqu'au bas de la côte.",
+        "segments": [
+          {
+            "text": "Un joli bois de pins tout étincelant",
+            "audio": "/audio/daudet-moulin/03.mp3",
+            "spaced": "/audio/daudet-moulin/03-lent.mp3"
+          },
+          {
+            "text": "de lumière dégringole devant moi jusqu'au bas",
+            "audio": "/audio/daudet-moulin/04.mp3",
+            "spaced": "/audio/daudet-moulin/04-lent.mp3"
+          },
+          {
+            "text": "de la côte.",
+            "audio": "/audio/daudet-moulin/05.mp3",
+            "spaced": "/audio/daudet-moulin/05-lent.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  "pergaud-automne": {
+    "voice": "fr_FR-siwis-medium",
+    "full": "/audio/pergaud-automne/full.mp3",
+    "sentences": [
+      {
+        "text": "L'été venait de finir et l'automne naissait.",
+        "segments": [
+          {
+            "text": "L'été venait de finir et l'automne naissait.",
+            "audio": "/audio/pergaud-automne/00.mp3",
+            "spaced": "/audio/pergaud-automne/00-lent.mp3"
+          }
+        ]
+      },
+      {
+        "text": "Il pouvait être huit heures du matin.",
+        "segments": [
+          {
+            "text": "Il pouvait être huit heures du matin.",
+            "audio": "/audio/pergaud-automne/01.mp3",
+            "spaced": "/audio/pergaud-automne/01-lent.mp3"
+          }
+        ]
+      },
+      {
+        "text": "Le soleil rôdait triste derrière les nues, et de l'angoisse, une angoisse imprécise et vague, pesait sur le village et sur la campagne.",
+        "segments": [
+          {
+            "text": "Le soleil rôdait triste derrière les nues,",
+            "audio": "/audio/pergaud-automne/02.mp3",
+            "spaced": "/audio/pergaud-automne/02-lent.mp3"
+          },
+          {
+            "text": "et de l'angoisse,",
+            "audio": "/audio/pergaud-automne/03.mp3",
+            "spaced": "/audio/pergaud-automne/03-lent.mp3"
+          },
+          {
+            "text": "une angoisse imprécise et vague,",
+            "audio": "/audio/pergaud-automne/04.mp3",
+            "spaced": "/audio/pergaud-automne/04-lent.mp3"
+          },
+          {
+            "text": "pesait sur le village et sur la campagne.",
+            "audio": "/audio/pergaud-automne/05.mp3",
+            "spaced": "/audio/pergaud-automne/05-lent.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  "verne-nautilus": {
+    "voice": "fr_FR-siwis-medium",
+    "full": "/audio/verne-nautilus/full.mp3",
+    "sentences": [
+      {
+        "text": "À l'époque où ces événements se produisirent, je revenais d'une exploration scientifique entreprise dans les mauvaises terres du Nébraska, aux États-Unis.",
+        "segments": [
+          {
+            "text": "À l'époque où ces événements se produisirent,",
+            "audio": "/audio/verne-nautilus/00.mp3",
+            "spaced": "/audio/verne-nautilus/00-lent.mp3"
+          },
+          {
+            "text": "je revenais d'une exploration scientifique entreprise",
+            "audio": "/audio/verne-nautilus/01.mp3",
+            "spaced": "/audio/verne-nautilus/01-lent.mp3"
+          },
+          {
+            "text": "dans les mauvaises terres du Nébraska,",
+            "audio": "/audio/verne-nautilus/02.mp3",
+            "spaced": "/audio/verne-nautilus/02-lent.mp3"
+          },
+          {
+            "text": "aux États-Unis.",
+            "audio": "/audio/verne-nautilus/03.mp3",
+            "spaced": "/audio/verne-nautilus/03-lent.mp3"
+          }
+        ]
+      },
+      {
+        "text": "En ma qualité de professeur-suppléant au Muséum d'histoire naturelle de Paris, le gouvernement français m'avait joint à cette expédition.",
+        "segments": [
+          {
+            "text": "En ma qualité de professeur-suppléant",
+            "audio": "/audio/verne-nautilus/04.mp3",
+            "spaced": "/audio/verne-nautilus/04-lent.mp3"
+          },
+          {
+            "text": "au Muséum d'histoire naturelle de Paris,",
+            "audio": "/audio/verne-nautilus/05.mp3",
+            "spaced": "/audio/verne-nautilus/05-lent.mp3"
+          },
+          {
+            "text": "le gouvernement français m'avait joint à cette expédition.",
+            "audio": "/audio/verne-nautilus/06.mp3",
+            "spaced": "/audio/verne-nautilus/06-lent.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  "segur-enterrement": {
+    "voice": "fr_FR-siwis-medium",
+    "full": "/audio/segur-enterrement/full.mp3",
+    "sentences": [
+      {
+        "text": "On plaça la boîte sur un brancard que la maman leur avait fait faire.",
+        "segments": [
+          {
+            "text": "On plaça la boîte sur un brancard",
+            "audio": "/audio/segur-enterrement/00.mp3",
+            "spaced": "/audio/segur-enterrement/00-lent.mp3"
+          },
+          {
+            "text": "que la maman leur avait fait faire.",
+            "audio": "/audio/segur-enterrement/01.mp3",
+            "spaced": "/audio/segur-enterrement/01-lent.mp3"
+          }
+        ]
+      },
+      {
+        "text": "Elles voulaient toutes le porter ; c'était pourtant impossible, puisqu'il n'y avait place que pour deux.",
+        "segments": [
+          {
+            "text": "Elles voulaient toutes le porter ;",
+            "audio": "/audio/segur-enterrement/02.mp3",
+            "spaced": "/audio/segur-enterrement/02-lent.mp3"
+          },
+          {
+            "text": "c'était pourtant impossible,",
+            "audio": "/audio/segur-enterrement/03.mp3",
+            "spaced": "/audio/segur-enterrement/03-lent.mp3"
+          },
+          {
+            "text": "puisqu'il n'y avait place que pour deux.",
+            "audio": "/audio/segur-enterrement/04.mp3",
+            "spaced": "/audio/segur-enterrement/04-lent.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  "hugo-cosette": {
+    "voice": "fr_FR-siwis-medium",
+    "full": "/audio/hugo-cosette/full.mp3",
+    "sentences": [
+      {
+        "text": "Elle ne regarda plus un seul étalage de marchand.",
+        "segments": [
+          {
+            "text": "Elle ne regarda plus un seul étalage",
+            "audio": "/audio/hugo-cosette/00.mp3",
+            "spaced": "/audio/hugo-cosette/00-lent.mp3"
+          },
+          {
+            "text": "de marchand.",
+            "audio": "/audio/hugo-cosette/01.mp3",
+            "spaced": "/audio/hugo-cosette/01-lent.mp3"
+          }
+        ]
+      },
+      {
+        "text": "Tant qu'elle fut dans la ruelle du Boulanger et dans les environs de l'église, les boutiques illuminées éclairaient le chemin, mais bientôt la dernière lueur de la dernière baraque disparut.",
+        "segments": [
+          {
+            "text": "Tant qu'elle fut dans la ruelle",
+            "audio": "/audio/hugo-cosette/02.mp3",
+            "spaced": "/audio/hugo-cosette/02-lent.mp3"
+          },
+          {
+            "text": "du Boulanger et dans les environs de l'église,",
+            "audio": "/audio/hugo-cosette/03.mp3",
+            "spaced": "/audio/hugo-cosette/03-lent.mp3"
+          },
+          {
+            "text": "les boutiques illuminées éclairaient le chemin,",
+            "audio": "/audio/hugo-cosette/04.mp3",
+            "spaced": "/audio/hugo-cosette/04-lent.mp3"
+          },
+          {
+            "text": "mais bientôt la dernière lueur",
+            "audio": "/audio/hugo-cosette/05.mp3",
+            "spaced": "/audio/hugo-cosette/05-lent.mp3"
+          },
+          {
+            "text": "de la dernière baraque disparut.",
+            "audio": "/audio/hugo-cosette/06.mp3",
+            "spaced": "/audio/hugo-cosette/06-lent.mp3"
+          }
+        ]
+      },
+      {
+        "text": "La pauvre enfant se trouva dans l'obscurité.",
+        "segments": [
+          {
+            "text": "La pauvre enfant se trouva dans l'obscurité.",
+            "audio": "/audio/hugo-cosette/07.mp3",
+            "spaced": "/audio/hugo-cosette/07-lent.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  "ia-rentree": {
+    "voice": "fr_FR-siwis-medium",
+    "full": "/audio/ia-rentree/full.mp3",
+    "sentences": [
+      {
+        "text": "Ce matin, les élèves de CM2 retrouvent leur école.",
+        "segments": [
+          {
+            "text": "Ce matin,",
+            "audio": "/audio/ia-rentree/00.mp3",
+            "spaced": "/audio/ia-rentree/00-lent.mp3"
+          },
+          {
+            "text": "les élèves de CM2 retrouvent leur école.",
+            "audio": "/audio/ia-rentree/01.mp3",
+            "spaced": "/audio/ia-rentree/01-lent.mp3"
+          }
+        ]
+      },
+      {
+        "text": "Dans la cour, les enfants bavardent joyeusement.",
+        "segments": [
+          {
+            "text": "Dans la cour,",
+            "audio": "/audio/ia-rentree/02.mp3",
+            "spaced": "/audio/ia-rentree/02-lent.mp3"
+          },
+          {
+            "text": "les enfants bavardent joyeusement.",
+            "audio": "/audio/ia-rentree/03.mp3",
+            "spaced": "/audio/ia-rentree/03-lent.mp3"
+          }
+        ]
+      },
+      {
+        "text": "Ils racontent leurs vacances à leurs camarades.",
+        "segments": [
+          {
+            "text": "Ils racontent leurs vacances à leurs camarades.",
+            "audio": "/audio/ia-rentree/04.mp3",
+            "spaced": "/audio/ia-rentree/04-lent.mp3"
+          }
+        ]
+      },
+      {
+        "text": "La cloche sonne et chacun se range devant la porte.",
+        "segments": [
+          {
+            "text": "La cloche sonne",
+            "audio": "/audio/ia-rentree/05.mp3",
+            "spaced": "/audio/ia-rentree/05-lent.mp3"
+          },
+          {
+            "text": "et chacun se range devant la porte.",
+            "audio": "/audio/ia-rentree/06.mp3",
+            "spaced": "/audio/ia-rentree/06-lent.mp3"
+          }
+        ]
+      },
+      {
+        "text": "La maîtresse sourit et accueille ses nouveaux élèves.",
+        "segments": [
+          {
+            "text": "La maîtresse sourit et accueille ses nouveaux élèves.",
+            "audio": "/audio/ia-rentree/07.mp3",
+            "spaced": "/audio/ia-rentree/07-lent.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  "ia-foret-automne": {
+    "voice": "fr_FR-siwis-medium",
+    "full": "/audio/ia-foret-automne/full.mp3",
+    "sentences": [
+      {
+        "text": "En automne, la forêt change de couleur.",
+        "segments": [
+          {
+            "text": "En automne,",
+            "audio": "/audio/ia-foret-automne/00.mp3",
+            "spaced": "/audio/ia-foret-automne/00-lent.mp3"
+          },
+          {
+            "text": "la forêt change de couleur.",
+            "audio": "/audio/ia-foret-automne/01.mp3",
+            "spaced": "/audio/ia-foret-automne/01-lent.mp3"
+          }
+        ]
+      },
+      {
+        "text": "Les feuilles jaunes et rousses tombent doucement sur le sol.",
+        "segments": [
+          {
+            "text": "Les feuilles jaunes",
+            "audio": "/audio/ia-foret-automne/02.mp3",
+            "spaced": "/audio/ia-foret-automne/02-lent.mp3"
+          },
+          {
+            "text": "et rousses tombent doucement sur le sol.",
+            "audio": "/audio/ia-foret-automne/03.mp3",
+            "spaced": "/audio/ia-foret-automne/03-lent.mp3"
+          }
+        ]
+      },
+      {
+        "text": "Les écureuils ramassent des noisettes et les cachent dans des trous.",
+        "segments": [
+          {
+            "text": "Les écureuils ramassent des noisettes",
+            "audio": "/audio/ia-foret-automne/04.mp3",
+            "spaced": "/audio/ia-foret-automne/04-lent.mp3"
+          },
+          {
+            "text": "et les cachent dans des trous.",
+            "audio": "/audio/ia-foret-automne/05.mp3",
+            "spaced": "/audio/ia-foret-automne/05-lent.mp3"
+          }
+        ]
+      },
+      {
+        "text": "Sous les grands chênes, on trouve des champignons et des châtaignes brillantes.",
+        "segments": [
+          {
+            "text": "Sous les grands chênes,",
+            "audio": "/audio/ia-foret-automne/06.mp3",
+            "spaced": "/audio/ia-foret-automne/06-lent.mp3"
+          },
+          {
+            "text": "on trouve des champignons et des châtaignes brillantes.",
+            "audio": "/audio/ia-foret-automne/07.mp3",
+            "spaced": "/audio/ia-foret-automne/07-lent.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  "ia-tempete": {
+    "voice": "fr_FR-siwis-medium",
+    "full": "/audio/ia-tempete/full.mp3",
+    "sentences": [
+      {
+        "text": "Toute la nuit, le vent soufflait très fort.",
+        "segments": [
+          {
+            "text": "Toute la nuit,",
+            "audio": "/audio/ia-tempete/00.mp3",
+            "spaced": "/audio/ia-tempete/00-lent.mp3"
+          },
+          {
+            "text": "le vent soufflait très fort.",
+            "audio": "/audio/ia-tempete/01.mp3",
+            "spaced": "/audio/ia-tempete/01-lent.mp3"
+          }
+        ]
+      },
+      {
+        "text": "Les volets claquaient et la pluie frappait les vitres.",
+        "segments": [
+          {
+            "text": "Les volets claquaient",
+            "audio": "/audio/ia-tempete/02.mp3",
+            "spaced": "/audio/ia-tempete/02-lent.mp3"
+          },
+          {
+            "text": "et la pluie frappait les vitres.",
+            "audio": "/audio/ia-tempete/03.mp3",
+            "spaced": "/audio/ia-tempete/03-lent.mp3"
+          }
+        ]
+      },
+      {
+        "text": "Dans sa chambre, Lucas n'arrivait pas à dormir.",
+        "segments": [
+          {
+            "text": "Dans sa chambre,",
+            "audio": "/audio/ia-tempete/04.mp3",
+            "spaced": "/audio/ia-tempete/04-lent.mp3"
+          },
+          {
+            "text": "Lucas n'arrivait pas à dormir.",
+            "audio": "/audio/ia-tempete/05.mp3",
+            "spaced": "/audio/ia-tempete/05-lent.mp3"
+          }
+        ]
+      },
+      {
+        "text": "Il écoutait les arbres qui craquaient dans le jardin.",
+        "segments": [
+          {
+            "text": "Il écoutait les arbres",
+            "audio": "/audio/ia-tempete/06.mp3",
+            "spaced": "/audio/ia-tempete/06-lent.mp3"
+          },
+          {
+            "text": "qui craquaient dans le jardin.",
+            "audio": "/audio/ia-tempete/07.mp3",
+            "spaced": "/audio/ia-tempete/07-lent.mp3"
+          }
+        ]
+      },
+      {
+        "text": "Au matin, le ciel était enfin calme.",
+        "segments": [
+          {
+            "text": "Au matin,",
+            "audio": "/audio/ia-tempete/08.mp3",
+            "spaced": "/audio/ia-tempete/08-lent.mp3"
+          },
+          {
+            "text": "le ciel était enfin calme.",
+            "audio": "/audio/ia-tempete/09.mp3",
+            "spaced": "/audio/ia-tempete/09-lent.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  "ia-chateau": {
+    "voice": "fr_FR-siwis-medium",
+    "full": "/audio/ia-chateau/full.mp3",
+    "sentences": [
+      {
+        "text": "Samedi, nous sommes allés visiter un vieux château.",
+        "segments": [
+          {
+            "text": "Samedi,",
+            "audio": "/audio/ia-chateau/00.mp3",
+            "spaced": "/audio/ia-chateau/00-lent.mp3"
+          },
+          {
+            "text": "nous sommes allés visiter un vieux château.",
+            "audio": "/audio/ia-chateau/01.mp3",
+            "spaced": "/audio/ia-chateau/01-lent.mp3"
+          }
+        ]
+      },
+      {
+        "text": "Nous avons traversé le pont-levis et nous sommes entrés dans la grande salle.",
+        "segments": [
+          {
+            "text": "Nous avons traversé le pont-levis",
+            "audio": "/audio/ia-chateau/02.mp3",
+            "spaced": "/audio/ia-chateau/02-lent.mp3"
+          },
+          {
+            "text": "et nous sommes entrés dans la grande salle.",
+            "audio": "/audio/ia-chateau/03.mp3",
+            "spaced": "/audio/ia-chateau/03-lent.mp3"
+          }
+        ]
+      },
+      {
+        "text": "Le guide nous a montré les armures des chevaliers.",
+        "segments": [
+          {
+            "text": "Le guide",
+            "audio": "/audio/ia-chateau/04.mp3",
+            "spaced": "/audio/ia-chateau/04-lent.mp3"
+          },
+          {
+            "text": "nous a montré les armures des chevaliers.",
+            "audio": "/audio/ia-chateau/05.mp3",
+            "spaced": "/audio/ia-chateau/05-lent.mp3"
+          }
+        ]
+      },
+      {
+        "text": "Ma petite sœur est montée tout en haut de la tour.",
+        "segments": [
+          {
+            "text": "Ma petite sœur est montée tout en haut",
+            "audio": "/audio/ia-chateau/06.mp3",
+            "spaced": "/audio/ia-chateau/06-lent.mp3"
+          },
+          {
+            "text": "de la tour.",
+            "audio": "/audio/ia-chateau/07.mp3",
+            "spaced": "/audio/ia-chateau/07-lent.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  "ia-marche": {
+    "voice": "fr_FR-siwis-medium",
+    "full": "/audio/ia-marche/full.mp3",
+    "sentences": [
+      {
+        "text": "Le dimanche, ma grand-mère va au marché.",
+        "segments": [
+          {
+            "text": "Le dimanche,",
+            "audio": "/audio/ia-marche/00.mp3",
+            "spaced": "/audio/ia-marche/00-lent.mp3"
+          },
+          {
+            "text": "ma grand-mère va au marché.",
+            "audio": "/audio/ia-marche/01.mp3",
+            "spaced": "/audio/ia-marche/01-lent.mp3"
+          }
+        ]
+      },
+      {
+        "text": "Elle achète des pommes, des poires et des tomates.",
+        "segments": [
+          {
+            "text": "Elle achète des pommes,",
+            "audio": "/audio/ia-marche/02.mp3",
+            "spaced": "/audio/ia-marche/02-lent.mp3"
+          },
+          {
+            "text": "des poires et des tomates.",
+            "audio": "/audio/ia-marche/03.mp3",
+            "spaced": "/audio/ia-marche/03-lent.mp3"
+          }
+        ]
+      },
+      {
+        "text": "Le marchand de fromages est très gentil.",
+        "segments": [
+          {
+            "text": "Le marchand de fromages est très gentil.",
+            "audio": "/audio/ia-marche/04.mp3",
+            "spaced": "/audio/ia-marche/04-lent.mp3"
+          }
+        ]
+      },
+      {
+        "text": "Il lui donne toujours un petit morceau à goûter.",
+        "segments": [
+          {
+            "text": "Il lui donne toujours un petit morceau",
+            "audio": "/audio/ia-marche/05.mp3",
+            "spaced": "/audio/ia-marche/05-lent.mp3"
+          },
+          {
+            "text": "à goûter.",
+            "audio": "/audio/ia-marche/06.mp3",
+            "spaced": "/audio/ia-marche/06-lent.mp3"
+          }
+        ]
+      },
+      {
+        "text": "Le panier est lourd, mais elle a l'habitude.",
+        "segments": [
+          {
+            "text": "Le panier est lourd,",
+            "audio": "/audio/ia-marche/07.mp3",
+            "spaced": "/audio/ia-marche/07-lent.mp3"
+          },
+          {
+            "text": "mais elle a l'habitude.",
+            "audio": "/audio/ia-marche/08.mp3",
+            "spaced": "/audio/ia-marche/08-lent.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  "ia-astronaute": {
+    "voice": "fr_FR-siwis-medium",
+    "full": "/audio/ia-astronaute/full.mp3",
+    "sentences": [
+      {
+        "text": "Plus tard, Sarah sera astronaute.",
+        "segments": [
+          {
+            "text": "Plus tard,",
+            "audio": "/audio/ia-astronaute/00.mp3",
+            "spaced": "/audio/ia-astronaute/00-lent.mp3"
+          },
+          {
+            "text": "Sarah sera astronaute.",
+            "audio": "/audio/ia-astronaute/01.mp3",
+            "spaced": "/audio/ia-astronaute/01-lent.mp3"
+          }
+        ]
+      },
+      {
+        "text": "Elle partira dans une fusée et elle verra la Terre depuis l'espace.",
+        "segments": [
+          {
+            "text": "Elle partira dans une fusée",
+            "audio": "/audio/ia-astronaute/02.mp3",
+            "spaced": "/audio/ia-astronaute/02-lent.mp3"
+          },
+          {
+            "text": "et elle verra la Terre depuis l'espace.",
+            "audio": "/audio/ia-astronaute/03.mp3",
+            "spaced": "/audio/ia-astronaute/03-lent.mp3"
+          }
+        ]
+      },
+      {
+        "text": "Ses parents regarderont le décollage à la télévision.",
+        "segments": [
+          {
+            "text": "Ses parents regarderont le décollage à la télévision.",
+            "audio": "/audio/ia-astronaute/04.mp3",
+            "spaced": "/audio/ia-astronaute/04-lent.mp3"
+          }
+        ]
+      },
+      {
+        "text": "Pendant son voyage, elle fera des expériences et elle enverra des photos à ses amis.",
+        "segments": [
+          {
+            "text": "Pendant son voyage,",
+            "audio": "/audio/ia-astronaute/05.mp3",
+            "spaced": "/audio/ia-astronaute/05-lent.mp3"
+          },
+          {
+            "text": "elle fera des expériences et elle enverra",
+            "audio": "/audio/ia-astronaute/06.mp3",
+            "spaced": "/audio/ia-astronaute/06-lent.mp3"
+          },
+          {
+            "text": "des photos à ses amis.",
+            "audio": "/audio/ia-astronaute/07.mp3",
+            "spaced": "/audio/ia-astronaute/07-lent.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  "ia-ocean": {
+    "voice": "fr_FR-siwis-medium",
+    "full": "/audio/ia-ocean/full.mp3",
+    "sentences": [
+      {
+        "text": "Dans les profondeurs de l'océan vivent des animaux étonnants.",
+        "segments": [
+          {
+            "text": "Dans les profondeurs",
+            "audio": "/audio/ia-ocean/00.mp3",
+            "spaced": "/audio/ia-ocean/00-lent.mp3"
+          },
+          {
+            "text": "de l'océan vivent des animaux étonnants.",
+            "audio": "/audio/ia-ocean/01.mp3",
+            "spaced": "/audio/ia-ocean/01-lent.mp3"
+          }
+        ]
+      },
+      {
+        "text": "Les baleines, qui sont les plus grands mammifères, chantent pour communiquer.",
+        "segments": [
+          {
+            "text": "Les baleines,",
+            "audio": "/audio/ia-ocean/02.mp3",
+            "spaced": "/audio/ia-ocean/02-lent.mp3"
+          },
+          {
+            "text": "qui sont les plus grands mammifères,",
+            "audio": "/audio/ia-ocean/03.mp3",
+            "spaced": "/audio/ia-ocean/03-lent.mp3"
+          },
+          {
+            "text": "chantent pour communiquer.",
+            "audio": "/audio/ia-ocean/04.mp3",
+            "spaced": "/audio/ia-ocean/04-lent.mp3"
+          }
+        ]
+      },
+      {
+        "text": "Les dauphins jouent souvent près des bateaux.",
+        "segments": [
+          {
+            "text": "Les dauphins jouent souvent près des bateaux.",
+            "audio": "/audio/ia-ocean/05.mp3",
+            "spaced": "/audio/ia-ocean/05-lent.mp3"
+          }
+        ]
+      },
+      {
+        "text": "Certains poissons produisent leur propre lumière pour attirer leurs proies.",
+        "segments": [
+          {
+            "text": "Certains poissons produisent leur propre lumière",
+            "audio": "/audio/ia-ocean/06.mp3",
+            "spaced": "/audio/ia-ocean/06-lent.mp3"
+          },
+          {
+            "text": "pour attirer leurs proies.",
+            "audio": "/audio/ia-ocean/07.mp3",
+            "spaced": "/audio/ia-ocean/07-lent.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  "ia-gateau": {
+    "voice": "fr_FR-siwis-medium",
+    "full": "/audio/ia-gateau/full.mp3",
+    "sentences": [
+      {
+        "text": "Pour l'anniversaire de papa, nous avons décidé de préparer un gâteau.",
+        "segments": [
+          {
+            "text": "Pour l'anniversaire de papa,",
+            "audio": "/audio/ia-gateau/00.mp3",
+            "spaced": "/audio/ia-gateau/00-lent.mp3"
+          },
+          {
+            "text": "nous avons décidé de préparer un gâteau.",
+            "audio": "/audio/ia-gateau/01.mp3",
+            "spaced": "/audio/ia-gateau/01-lent.mp3"
+          }
+        ]
+      },
+      {
+        "text": "J'ai cassé les œufs et ma sœur a mélangé la farine avec le sucre.",
+        "segments": [
+          {
+            "text": "J'ai cassé les œufs",
+            "audio": "/audio/ia-gateau/02.mp3",
+            "spaced": "/audio/ia-gateau/02-lent.mp3"
+          },
+          {
+            "text": "et ma sœur a mélangé la farine",
+            "audio": "/audio/ia-gateau/03.mp3",
+            "spaced": "/audio/ia-gateau/03-lent.mp3"
+          },
+          {
+            "text": "avec le sucre.",
+            "audio": "/audio/ia-gateau/04.mp3",
+            "spaced": "/audio/ia-gateau/04-lent.mp3"
+          }
+        ]
+      },
+      {
+        "text": "Il fallait surveiller la cuisson.",
+        "segments": [
+          {
+            "text": "Il fallait surveiller la cuisson.",
+            "audio": "/audio/ia-gateau/05.mp3",
+            "spaced": "/audio/ia-gateau/05-lent.mp3"
+          }
+        ]
+      },
+      {
+        "text": "Une fois le gâteau cuit, nous l'avons décoré avec des fraises.",
+        "segments": [
+          {
+            "text": "Une fois le gâteau cuit,",
+            "audio": "/audio/ia-gateau/06.mp3",
+            "spaced": "/audio/ia-gateau/06-lent.mp3"
+          },
+          {
+            "text": "nous l'avons décoré avec des fraises.",
+            "audio": "/audio/ia-gateau/07.mp3",
+            "spaced": "/audio/ia-gateau/07-lent.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  "ia-hiver-montagne": {
+    "voice": "fr_FR-siwis-medium",
+    "full": "/audio/ia-hiver-montagne/full.mp3",
+    "sentences": [
+      {
+        "text": "Julien est parti à la montagne avec ses cousins.",
+        "segments": [
+          {
+            "text": "Julien est parti",
+            "audio": "/audio/ia-hiver-montagne/00.mp3",
+            "spaced": "/audio/ia-hiver-montagne/00-lent.mp3"
+          },
+          {
+            "text": "à la montagne avec ses cousins.",
+            "audio": "/audio/ia-hiver-montagne/01.mp3",
+            "spaced": "/audio/ia-hiver-montagne/01-lent.mp3"
+          }
+        ]
+      },
+      {
+        "text": "Ils ont chaussé leurs skis dès le matin.",
+        "segments": [
+          {
+            "text": "Ils ont chaussé leurs skis dès le matin.",
+            "audio": "/audio/ia-hiver-montagne/02.mp3",
+            "spaced": "/audio/ia-hiver-montagne/02-lent.mp3"
+          }
+        ]
+      },
+      {
+        "text": "Les pistes sont couvertes de neige fraîche.",
+        "segments": [
+          {
+            "text": "Les pistes sont couvertes de neige fraîche.",
+            "audio": "/audio/ia-hiver-montagne/03.mp3",
+            "spaced": "/audio/ia-hiver-montagne/03-lent.mp3"
+          }
+        ]
+      },
+      {
+        "text": "On entend le bruit des remontées mécaniques.",
+        "segments": [
+          {
+            "text": "On entend le bruit des remontées mécaniques.",
+            "audio": "/audio/ia-hiver-montagne/04.mp3",
+            "spaced": "/audio/ia-hiver-montagne/04-lent.mp3"
+          }
+        ]
+      },
+      {
+        "text": "Julien n'oubliera jamais ces vacances avec ses cousins.",
+        "segments": [
+          {
+            "text": "Julien n'oubliera jamais ces vacances avec ses cousins.",
+            "audio": "/audio/ia-hiver-montagne/05.mp3",
+            "spaced": "/audio/ia-hiver-montagne/05-lent.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  "ia-bibliotheque": {
+    "voice": "fr_FR-siwis-medium",
+    "full": "/audio/ia-bibliotheque/full.mp3",
+    "sentences": [
+      {
+        "text": "Ce jour-là, Léa entra dans la bibliothèque du quartier.",
+        "segments": [
+          {
+            "text": "Ce jour-là,",
+            "audio": "/audio/ia-bibliotheque/00.mp3",
+            "spaced": "/audio/ia-bibliotheque/00-lent.mp3"
+          },
+          {
+            "text": "Léa entra dans la bibliothèque du quartier.",
+            "audio": "/audio/ia-bibliotheque/01.mp3",
+            "spaced": "/audio/ia-bibliotheque/01-lent.mp3"
+          }
+        ]
+      },
+      {
+        "text": "Les étagères étaient remplies de livres.",
+        "segments": [
+          {
+            "text": "Les étagères étaient remplies de livres.",
+            "audio": "/audio/ia-bibliotheque/02.mp3",
+            "spaced": "/audio/ia-bibliotheque/02-lent.mp3"
+          }
+        ]
+      },
+      {
+        "text": "Elle choisit un roman d'aventures et s'installa près de la fenêtre.",
+        "segments": [
+          {
+            "text": "Elle choisit un roman d'aventures et s'installa près",
+            "audio": "/audio/ia-bibliotheque/03.mp3",
+            "spaced": "/audio/ia-bibliotheque/03-lent.mp3"
+          },
+          {
+            "text": "de la fenêtre.",
+            "audio": "/audio/ia-bibliotheque/04.mp3",
+            "spaced": "/audio/ia-bibliotheque/04-lent.mp3"
+          }
+        ]
+      },
+      {
+        "text": "Pendant une heure, elle oublia tout ce qui l'entourait.",
+        "segments": [
+          {
+            "text": "Pendant une heure,",
+            "audio": "/audio/ia-bibliotheque/05.mp3",
+            "spaced": "/audio/ia-bibliotheque/05-lent.mp3"
+          },
+          {
+            "text": "elle oublia tout ce qui l'entourait.",
+            "audio": "/audio/ia-bibliotheque/06.mp3",
+            "spaced": "/audio/ia-bibliotheque/06-lent.mp3"
+          }
+        ]
+      },
+      {
+        "text": "Quand elle leva les yeux, la nuit tombait déjà.",
+        "segments": [
+          {
+            "text": "Quand elle leva les yeux,",
+            "audio": "/audio/ia-bibliotheque/07.mp3",
+            "spaced": "/audio/ia-bibliotheque/07-lent.mp3"
+          },
+          {
+            "text": "la nuit tombait déjà.",
+            "audio": "/audio/ia-bibliotheque/08.mp3",
+            "spaced": "/audio/ia-bibliotheque/08-lent.mp3"
+          }
+        ]
+      }
+    ]
   }
 }

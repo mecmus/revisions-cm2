@@ -19,7 +19,8 @@ ROOT = Path(__file__).resolve().parent.parent
 VOICE = "fr_FR-siwis-medium"
 VOICE_URL = "https://huggingface.co/rhasspy/piper-voices/resolve/main/fr/fr_FR/siwis/medium/" + VOICE
 CACHE = ROOT / ".cache" / "piper"
-ABBR = {"M.": "Monsieur", "Mme": "Madame", "MM.": "Messieurs"}
+ABBR = {"M.": "Monsieur", "Mme": "Madame", "MM.": "Messieurs",
+        "CM2": "C\u00a0M\u00a02", "CM1": "C\u00a0M\u00a01", "CE2": "C\u00a0E\u00a02", "CP": "C\u00a0P"}
 PUNCT = {",": "virgule", ";": "point-virgule", ":": "deux-points", ".": "point",
          "!": "point d'exclamation", "?": "point d'interrogation"}
 MAX_WORDS = 8
@@ -103,7 +104,7 @@ def segments(sentence: str) -> list[str]:
 
 def spoken(seg: str, punct: bool = True) -> str:
     for k, v in ABBR.items():
-        seg = seg.replace(k + " ", v + " ")
+        seg = re.sub(r"(?<!\w)" + re.escape(k) + r"(?!\w)", v, seg)
     if punct:
         seg = re.sub(r"\s*([,;:.!?])", lambda m: f", {PUNCT[m.group(1)]},", seg).rstrip(",") + "."
     return seg
@@ -127,7 +128,7 @@ def main() -> None:
     def synth_spaced(seg: str, dest: Path, cfg: SynthesisConfig) -> None:
         """Lit le segment mot par mot, séparé par des silences (liaisons conservées)."""
         rate = voice.config.sample_rate
-        words = [ABBR.get(w, w) for w in re.sub(r"\s*([,;:.!?])", r" \1", seg).split()]
+        words = re.sub(r"\s*([,;:.!?])", r" \1", spoken(seg, punct=False)).split(" ")
         units, i = [], 0
         while i < len(words):
             w = words[i]
