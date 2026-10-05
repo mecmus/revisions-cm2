@@ -12,7 +12,8 @@ export function useDicteeAudio(rate: number) {
   const fallback = useCallback((text: string, punct: boolean) => {
     if (!("speechSynthesis" in window)) return;
     speechSynthesis.cancel();
-    const u = new SpeechSynthesisUtterance(punct ? text.replace(/[,.;:!?]/g, (p) => PONCT[p] + " ") : text);
+    const said = text.replace(/\bCM2\b/g, "C M 2").replace(/\bM\. /g, "Monsieur ");
+    const u = new SpeechSynthesisUtterance(punct ? said.replace(/[,.;:!?]/g, (p) => PONCT[p] + " ") : said);
     u.lang = "fr-FR"; u.rate = rate * 0.8;
     speechSynthesis.speak(u);
   }, [rate]);
