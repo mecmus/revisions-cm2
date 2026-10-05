@@ -6,6 +6,7 @@ import { correct, countWords } from "@/lib/correction";
 import { saveAttempt } from "@/lib/progress";
 import { useDicteeAudio } from "@/lib/useDicteeAudio";
 import WordDiff from "./WordDiff";
+import ErrorSummary from "./ErrorSummary";
 
 type Mode = "etapes" | "complete";
 type Done = { first: ReturnType<typeof correct>; last: ReturnType<typeof correct> };
@@ -116,6 +117,9 @@ function StepMode({ dictee, audio, play, smart, idleSec }: { dictee: Dictee; aud
           <h2 className="text-2xl font-extrabold">{errors === 0 ? "🎉 Aucune faute !" : `Bravo, c'est fini ! ${errors} erreur(s) au premier essai.`}</h2>
           <button onClick={() => { setIdx(0); setDone([]); }} className="btn mt-4 bg-white text-indigo-700">🔁 Recommencer</button>
         </section>
+      ) : null}
+      {finished ? (
+        <ErrorSummary tokens={done.flatMap((d) => d.first.tokens)} />
       ) : (
         <Sentence key={idx} n={idx} total={audio.sentences.length} sentence={audio.sentences[idx]} play={play} smart={smart} idleSec={idleSec}
           onDone={(d) => { setDone([...done, d]); setIdx(idx + 1); }} />
@@ -161,7 +165,7 @@ function Sentence({ n, total, sentence, play, smart, idleSec, onDone }: {
       {first && (
         <div className="mt-2 rounded-2xl bg-amber-50 p-3">
           <p className="text-sm font-semibold text-amber-800">{first.errors} erreur(s) : corrige ta phrase puis vérifie à nouveau.</p>
-          <WordDiff tokens={first.tokens.map((t) => t.ok ? t : { ...t, expected: "?" })} />
+          <WordDiff hideTypes tokens={first.tokens.map((t) => t.ok ? t : { ...t, expected: "?" })} />
         </div>
       )}
       <button onClick={check} disabled={!typed.trim()} className="btn mt-3 bg-emerald-600 text-white disabled:opacity-40">
@@ -201,6 +205,7 @@ function FullMode({ dictee, audio, play }: { dictee: Dictee; audio: DicteeAudio;
           <WordDiff tokens={result.tokens} />
         </section>
       )}
+      {result && <ErrorSummary tokens={result.tokens} />}
     </>
   );
 }
