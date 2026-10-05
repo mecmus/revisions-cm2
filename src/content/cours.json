@@ -324,5 +324,112 @@
   "astuce": "Essaie de déplacer le groupe en début de phrase : si c'est possible, c'est un complément circonstanciel.",
   "source": "Programme du cycle 3 (BO n°16 du 17 avril 2025) — fiche rédigée pour l'application, à relire par le parent",
   "valide": false
+ },
+ {
+  "id": "calcul/mental",
+  "matiere": "Mathématiques",
+  "titre": "Le calcul mental",
+  "regle": "Calculer de tête vite et juste, grâce aux tables et à quelques techniques.",
+  "points": [
+   "Tables de multiplication de 2 à 9 : à savoir par cœur.",
+   "× 10, × 100, × 1 000 d'un nombre entier : on ajoute 1, 2 ou 3 zéros.",
+   "Compléments à 100 : 37 + 63 = 100 (37 → 40 → 100).",
+   "Diviser, c'est chercher dans la table : 56 : 7 = 8 car 7 × 8 = 56."
+  ],
+  "exemples": [
+   "25 × 4 = 100",
+   "48 × 10 = 480"
+  ],
+  "pieges": [
+   "× 10 sur un nombre décimal : on n'ajoute pas un zéro, la virgule se déplace (2,5 × 10 = 25)."
+  ],
+  "astuce": "Décompose : 9 × 12 = 9 × 10 + 9 × 2 = 108.",
+  "source": "Programme du cycle 3 (BO n°16 du 17 avril 2025) — fiche rédigée pour l'application, à relire par le parent",
+  "valide": false
+ },
+ {
+  "id": "calcul/operations",
+  "matiere": "Mathématiques",
+  "titre": "Les opérations posées",
+  "regle": "Pour les grands nombres, on pose l'opération en colonnes.",
+  "points": [
+   "Addition et soustraction : unités sous les unités, dizaines sous les dizaines… et on gère les retenues.",
+   "Multiplication : on multiplie par les unités, puis par les dizaines en décalant d'un rang (on écrit un 0), puis on additionne.",
+   "Division : on cherche combien de fois le diviseur va dans les premiers chiffres du dividende, on soustrait, on abaisse le chiffre suivant."
+  ],
+  "exemples": [
+   "1 245 × 23 = 1 245 × 3 + 1 245 × 20 = 3 735 + 24 900 = 28 635"
+  ],
+  "pieges": [
+   "Oublier une retenue.",
+   "Dans la soustraction, mettre le plus petit nombre en haut."
+  ],
+  "astuce": "Vérifie avec un ordre de grandeur : 1 245 × 23 ≈ 1 000 × 20 = 20 000 (le résultat doit être proche).",
+  "source": "Programme du cycle 3 (BO n°16 du 17 avril 2025) — fiche rédigée pour l'application, à relire par le parent",
+  "valide": false
+ },
+ {
+  "id": "calcul/decimaux",
+  "matiere": "Mathématiques",
+  "titre": "Les nombres décimaux",
+  "regle": "Un nombre décimal a une partie entière et une partie décimale, séparées par la virgule.",
+  "points": [
+   "12,35 : 12 unités, 3 dixièmes, 5 centièmes.",
+   "Pour additionner ou soustraire, on aligne les virgules.",
+   "× 10 : chaque chiffre prend une valeur 10 fois plus grande (3,25 × 10 = 32,5).",
+   "Comparer : d'abord la partie entière, puis les dixièmes, puis les centièmes."
+  ],
+  "exemples": [
+   "4,7 > 4,65 car 7 dixièmes > 6 dixièmes."
+  ],
+  "pieges": [
+   "4,65 n'est pas plus grand que 4,7 même s'il a plus de chiffres.",
+   "On peut ajouter des zéros à la fin : 4,7 = 4,70."
+  ],
+  "astuce": "Écris les deux nombres avec autant de chiffres après la virgule avant de comparer.",
+  "source": "Programme du cycle 3 (BO n°16 du 17 avril 2025) — fiche rédigée pour l'application, à relire par le parent",
+  "valide": false
+ },
+ {
+  "id": "calcul/fractions",
+  "matiere": "Mathématiques",
+  "titre": "Les fractions",
+  "regle": "Une fraction représente un partage : le dénominateur dit en combien de parts on coupe, le numérateur combien on en prend.",
+  "points": [
+   "3/4 : on coupe en 4 parts égales et on en prend 3.",
+   "Prendre 3/4 de 20 : 20 : 4 = 5, puis 5 × 3 = 15.",
+   "Additionner deux fractions de même dénominateur : on additionne les numérateurs (2/5 + 1/5 = 3/5).",
+   "Fractions décimales : 1/10 = 0,1 ; 1/100 = 0,01 ; 1/2 = 0,5 ; 1/4 = 0,25."
+  ],
+  "exemples": [
+   "2/3 de 12 = 8"
+  ],
+  "pieges": [
+   "On n'additionne pas les dénominateurs : 2/5 + 1/5 ≠ 3/10."
+  ],
+  "astuce": "Dessine une barre et partage-la : la fraction devient visible.",
+  "source": "Programme du cycle 3 (BO n°16 du 17 avril 2025) — fiche rédigée pour l'application, à relire par le parent",
+  "valide": false
+ },
+ {
+  "id": "calcul/grands-nombres",
+  "matiere": "Mathématiques",
+  "titre": "Les grands nombres",
+  "regle": "On lit et écrit les grands nombres par classes de trois chiffres : millions, milliers, unités.",
+  "points": [
+   "752 304 180 : 752 millions 304 mille 180.",
+   "Chaque classe a des centaines, des dizaines et des unités.",
+   "Arrondir au million : on regarde le chiffre des centaines de mille (5 ou plus → au-dessus)."
+  ],
+  "exemples": [
+   "Le chiffre des centaines de mille de 7 452 000 est 4."
+  ],
+  "pieges": [
+   "« mille » est invariable : trois mille.",
+   "« million » prend un s : deux millions."
+  ],
+  "astuce": "Sépare toujours les classes par un espace en écrivant le nombre.",
+  "source": "Programme du cycle 3 (BO n°16 du 17 avril 2025) — fiche rédigée pour l'application, à relire par le parent",
+  "valide": false
  }
 ]
