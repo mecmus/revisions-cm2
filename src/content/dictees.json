@@ -5,7 +5,8 @@
     "source": "Alphonse Daudet, Lettres de mon moulin (1869) — fr.wikisource.org/wiki/Lettres_de_mon_moulin/La_chèvre_de_monsieur_Seguin",
     "theme": "Accords dans le groupe nominal, imparfait",
     "text": "M. Seguin n'avait jamais eu de bonheur avec ses chèvres. Il les perdait toutes de la même façon : un beau matin, elles cassaient leur corde, s'en allaient dans la montagne, et là-haut le loup les mangeait.",
-    "origine": "domaine-public"
+    "origine": "domaine-public",
+    "niveau": 2
   },
   {
     "id": "hugo-demain",
@@ -13,7 +14,8 @@
     "source": "Victor Hugo, Les Contemplations (1856), XIV — fr.wikisource.org — majuscules de début de vers adaptées pour la dictée en prose",
     "theme": "Futur simple",
     "text": "Demain, dès l'aube, à l'heure où blanchit la campagne, je partirai. Vois-tu, je sais que tu m'attends. J'irai par la forêt, j'irai par la montagne.",
-    "origine": "domaine-public"
+    "origine": "domaine-public",
+    "niveau": 1
   },
   {
     "id": "renard-poil",
@@ -21,7 +23,71 @@
     "source": "Jules Renard, Poil de Carotte (1894), « Les Poules » — fr.wikisource.org/wiki/Poil_de_Carotte/01",
     "theme": "Passé simple, dialogue",
     "text": "Je parie, dit madame Lepic, qu'Honorine a encore oublié de fermer les poules. C'est vrai. On peut s'en assurer par la fenêtre. Là-bas, tout au fond de la grande cour, le petit toit aux poules découpe, dans la nuit, le carré noir de sa porte ouverte.",
-    "origine": "domaine-public"
+    "origine": "domaine-public",
+    "niveau": 3
+  },
+  {
+    "id": "daudet-derniere-classe",
+    "title": "La Dernière Classe",
+    "source": "Alphonse Daudet, « La Dernière Classe », Contes du lundi (1873) — Wikisource",
+    "theme": "Imparfait, plus-que-parfait, conditionnel présent",
+    "text": "Ce matin-là, j'étais très en retard pour aller à l'école, et j'avais grand-peur d'être grondé, d'autant que M. Hamel nous avait dit qu'il nous interrogerait sur les participes, et je n'en savais pas le premier mot. Un moment l'idée me vint de manquer la classe et de prendre ma course à travers champs.",
+    "origine": "domaine-public",
+    "niveau": 3
+  },
+  {
+    "id": "malot-sans-famille",
+    "title": "Sans famille",
+    "source": "Hector Malot, Sans famille (1878), première partie, chapitre I — Wikisource",
+    "theme": "Imparfait, pronoms compléments",
+    "text": "Quand je gardais notre vache le long des chemins herbus ou dans les brandes, et que j'étais surpris par une pluie d'orage, elle accourait au-devant de moi et me forçait à m'abriter sous son jupon de laine relevé qu'elle me ramenait sur la tête et sur les épaules.",
+    "origine": "domaine-public",
+    "niveau": 3
+  },
+  {
+    "id": "daudet-moulin",
+    "title": "Mon moulin",
+    "source": "Alphonse Daudet, « Installation », Lettres de mon moulin (1869) — Wikisource",
+    "theme": "Accords dans le groupe nominal",
+    "text": "C'est de là que je vous écris, ma porte grande ouverte, au bon soleil. Un joli bois de pins tout étincelant de lumière dégringole devant moi jusqu'au bas de la côte.",
+    "origine": "domaine-public",
+    "niveau": 1
+  },
+  {
+    "id": "pergaud-automne",
+    "title": "Un matin d'automne",
+    "source": "Louis Pergaud, La Guerre des boutons (1912), livre I, chapitre I — Wikisource",
+    "theme": "Imparfait, accord de l'adjectif",
+    "text": "L'été venait de finir et l'automne naissait. Il pouvait être huit heures du matin. Le soleil rôdait triste derrière les nues, et de l'angoisse, une angoisse imprécise et vague, pesait sur le village et sur la campagne.",
+    "origine": "domaine-public",
+    "niveau": 2
+  },
+  {
+    "id": "verne-nautilus",
+    "title": "Le retour du Nébraska",
+    "source": "Jules Verne, Vingt mille lieues sous les mers (1870), partie 1, chapitre II — Wikisource",
+    "theme": "Passé simple et imparfait, noms propres",
+    "text": "À l'époque où ces événements se produisirent, je revenais d'une exploration scientifique entreprise dans les mauvaises terres du Nébraska, aux États-Unis. En ma qualité de professeur-suppléant au Muséum d'histoire naturelle de Paris, le gouvernement français m'avait joint à cette expédition.",
+    "origine": "domaine-public",
+    "niveau": 2
+  },
+  {
+    "id": "segur-enterrement",
+    "title": "L'enterrement de la poupée",
+    "source": "Comtesse de Ségur, Les Malheurs de Sophie (1858), chapitre II — Wikisource",
+    "theme": "Passé simple, homophones c'était / s'était",
+    "text": "On plaça la boîte sur un brancard que la maman leur avait fait faire. Elles voulaient toutes le porter ; c'était pourtant impossible, puisqu'il n'y avait place que pour deux.",
+    "origine": "domaine-public",
+    "niveau": 1
+  },
+  {
+    "id": "hugo-cosette",
+    "title": "Cosette dans la nuit",
+    "source": "Victor Hugo, Les Misérables (1862), tome II, livre 3, chapitre V — Wikisource",
+    "theme": "Passé simple, accord du participe passé",
+    "text": "Elle ne regarda plus un seul étalage de marchand. Tant qu'elle fut dans la ruelle du Boulanger et dans les environs de l'église, les boutiques illuminées éclairaient le chemin, mais bientôt la dernière lueur de la dernière baraque disparut. La pauvre enfant se trouva dans l'obscurité.",
+    "origine": "domaine-public",
+    "niveau": 3
   },
   {
     "id": "ia-rentree",
@@ -29,7 +95,8 @@
     "source": "Texte original généré par IA (Hermes Agent), relu — niveau CM2",
     "theme": "Accords dans le groupe nominal, présent",
     "text": "Ce matin, les élèves de CM2 retrouvent leur école. Dans la cour, les enfants bavardent joyeusement. Ils racontent leurs vacances à leurs camarades. La cloche sonne et chacun se range devant la porte. La maîtresse sourit et accueille ses nouveaux élèves.",
-    "origine": "ia"
+    "origine": "ia",
+    "niveau": 2
   },
   {
     "id": "ia-foret-automne",
@@ -37,7 +104,8 @@
     "source": "Texte original généré par IA (Hermes Agent), relu — niveau CM2",
     "theme": "Pluriel des noms et des adjectifs",
     "text": "En automne, la forêt change de couleur. Les feuilles jaunes et rousses tombent doucement sur le sol. Les écureuils ramassent des noisettes et les cachent dans des trous. Sous les grands chênes, on trouve des champignons et des châtaignes brillantes.",
-    "origine": "ia"
+    "origine": "ia",
+    "niveau": 2
   },
   {
     "id": "ia-tempete",
@@ -45,7 +113,8 @@
     "source": "Texte original généré par IA (Hermes Agent), relu — niveau CM2",
     "theme": "Imparfait",
     "text": "Toute la nuit, le vent soufflait très fort. Les volets claquaient et la pluie frappait les vitres. Dans sa chambre, Lucas n'arrivait pas à dormir. Il écoutait les arbres qui craquaient dans le jardin. Au matin, le ciel était enfin calme.",
-    "origine": "ia"
+    "origine": "ia",
+    "niveau": 2
   },
   {
     "id": "ia-chateau",
@@ -53,7 +122,8 @@
     "source": "Texte original généré par IA (Hermes Agent), relu — niveau CM2",
     "theme": "Passé composé avec être et avoir",
     "text": "Samedi, nous sommes allés visiter un vieux château. Nous avons traversé le pont-levis et nous sommes entrés dans la grande salle. Le guide nous a montré les armures des chevaliers. Ma petite sœur est montée tout en haut de la tour.",
-    "origine": "ia"
+    "origine": "ia",
+    "niveau": 2
   },
   {
     "id": "ia-marche",
@@ -61,7 +131,8 @@
     "source": "Texte original généré par IA (Hermes Agent), relu — niveau CM2",
     "theme": "Homophones a/à, et/est",
     "text": "Le dimanche, ma grand-mère va au marché. Elle achète des pommes, des poires et des tomates. Le marchand de fromages est très gentil. Il lui donne toujours un petit morceau à goûter. Le panier est lourd, mais elle a l'habitude.",
-    "origine": "ia"
+    "origine": "ia",
+    "niveau": 2
   },
   {
     "id": "ia-astronaute",
@@ -69,7 +140,8 @@
     "source": "Texte original généré par IA (Hermes Agent), relu — niveau CM2",
     "theme": "Futur simple",
     "text": "Plus tard, Sarah sera astronaute. Elle partira dans une fusée et elle verra la Terre depuis l'espace. Ses parents regarderont le décollage à la télévision. Pendant son voyage, elle fera des expériences et elle enverra des photos à ses amis.",
-    "origine": "ia"
+    "origine": "ia",
+    "niveau": 2
   },
   {
     "id": "ia-ocean",
@@ -77,7 +149,8 @@
     "source": "Texte original généré par IA (Hermes Agent), relu — niveau CM2",
     "theme": "Accord sujet-verbe, sujet éloigné ou inversé",
     "text": "Dans les profondeurs de l'océan vivent des animaux étonnants. Les baleines, qui sont les plus grands mammifères, chantent pour communiquer. Les dauphins jouent souvent près des bateaux. Certains poissons produisent leur propre lumière pour attirer leurs proies.",
-    "origine": "ia"
+    "origine": "ia",
+    "niveau": 2
   },
   {
     "id": "ia-gateau",
@@ -85,7 +158,8 @@
     "source": "Texte original généré par IA (Hermes Agent), relu — niveau CM2",
     "theme": "Infinitif en -er ou participe passé en -é",
     "text": "Pour l'anniversaire de papa, nous avons décidé de préparer un gâteau. J'ai cassé les œufs et ma sœur a mélangé la farine avec le sucre. Il fallait surveiller la cuisson. Une fois le gâteau cuit, nous l'avons décoré avec des fraises.",
-    "origine": "ia"
+    "origine": "ia",
+    "niveau": 2
   },
   {
     "id": "ia-hiver-montagne",
@@ -93,7 +167,8 @@
     "source": "Texte original généré par IA (Hermes Agent), relu — niveau CM2",
     "theme": "Homophones son/sont, on/ont, ces/ses",
     "text": "Julien est parti à la montagne avec ses cousins. Ils ont chaussé leurs skis dès le matin. Les pistes sont couvertes de neige fraîche. On entend le bruit des remontées mécaniques. Julien n'oubliera jamais ces vacances avec ses cousins.",
-    "origine": "ia"
+    "origine": "ia",
+    "niveau": 2
   },
   {
     "id": "ia-bibliotheque",
@@ -101,6 +176,7 @@
     "source": "Texte original généré par IA (Hermes Agent), relu — niveau CM2",
     "theme": "Passé simple et imparfait",
     "text": "Ce jour-là, Léa entra dans la bibliothèque du quartier. Les étagères étaient remplies de livres. Elle choisit un roman d'aventures et s'installa près de la fenêtre. Pendant une heure, elle oublia tout ce qui l'entourait. Quand elle leva les yeux, la nuit tombait déjà.",
-    "origine": "ia"
+    "origine": "ia",
+    "niveau": 2
   }
 ]
