@@ -1,0 +1,277 @@
+[
+ {
+  "id": "conjugaison/present",
+  "matiere": "Conjugaison",
+  "titre": "Le présent de l'indicatif",
+  "regle": "Le présent exprime ce qui se passe au moment où l'on parle, une habitude ou une vérité générale.",
+  "points": [
+   "1er groupe (verbes en -er) : -e, -es, -e, -ons, -ez, -ent → je chante, nous chantons.",
+   "2e groupe (verbes en -ir, nous -issons) : -is, -is, -it, -issons, -issez, -issent → je finis, nous finissons.",
+   "3e groupe : souvent -s, -s, -t (ou -d), -ons, -ez, -ent → je prends, il prend.",
+   "À connaître par cœur : être (suis, es, est, sommes, êtes, sont), avoir (ai, as, a, avons, avez, ont), aller (vais, vas, va, allons, allez, vont), faire (vous faites, ils font), dire (vous dites)."
+  ],
+  "exemples": [
+   "Tous les matins, je prends le bus.",
+   "La Terre tourne autour du Soleil.",
+   "Nous mangeons à la cantine."
+  ],
+  "pieges": [
+   "-cer et -ger : on garde le son devant -ons : nous commençons, nous mangeons.",
+   "appeler, jeter doublent la consonne : j'appelle, il jette ; acheter prend un accent : j'achète.",
+   "Pas de -s à « il » : il chante, il finit."
+  ],
+  "astuce": "Pour trouver la terminaison, cherche d'abord le sujet, puis remplace-le par un pronom (je, tu, il…).",
+  "source": "Programme du cycle 3 (BO n°16 du 17 avril 2025) — fiche rédigée pour l'application, à relire par le parent",
+  "valide": false
+ },
+ {
+  "id": "conjugaison/imparfait",
+  "matiere": "Conjugaison",
+  "titre": "L'imparfait de l'indicatif",
+  "regle": "L'imparfait sert à décrire dans le passé (le décor, les personnages) ou à parler d'une action qui dure ou se répète.",
+  "points": [
+   "Les terminaisons sont les mêmes pour TOUS les verbes : -ais, -ais, -ait, -ions, -iez, -aient.",
+   "On prend le radical du verbe à « nous » au présent : nous finiss-ons → je finissais ; nous pren-ons → je prenais.",
+   "Seule exception : être → j'étais, nous étions."
+  ],
+  "exemples": [
+   "Quand j'étais petit, je jouais dans le jardin.",
+   "Le vent soufflait très fort."
+  ],
+  "pieges": [
+   "manger, commencer : je mangeais, il commençait, mais nous mangions, nous commencions.",
+   "Ne pas oublier le i à « nous » et « vous » : nous étudiions, vous criiez."
+  ],
+  "astuce": "Dis la phrase avec « autrefois… » : si ça sonne juste, c'est souvent l'imparfait.",
+  "source": "Programme du cycle 3 (BO n°16 du 17 avril 2025) — fiche rédigée pour l'application, à relire par le parent",
+  "valide": false
+ },
+ {
+  "id": "conjugaison/passe-simple",
+  "matiere": "Conjugaison",
+  "titre": "Le passé simple",
+  "regle": "Le passé simple est le temps du récit écrit : il raconte des actions courtes et terminées dans le passé, souvent l'une après l'autre.",
+  "points": [
+   "1er groupe : -ai, -as, -a, -âmes, -âtes, -èrent → il chanta, ils chantèrent.",
+   "2e groupe et beaucoup de verbes du 3e : -is, -is, -it, -îmes, -îtes, -irent → il finit, ils prirent, il fit, il dit.",
+   "Autres verbes : -us, -us, -ut, -ûmes, -ûtes, -urent → il fut, il eut, il put, il voulut.",
+   "venir : il vint, ils vinrent.",
+   "Au CM2, on l'emploie surtout à la 3e personne (il, elle, ils, elles)."
+  ],
+  "exemples": [
+   "Le loup sortit du bois et courut vers la chèvre.",
+   "Elle ne regarda plus un seul étalage de marchand. (Hugo)"
+  ],
+  "pieges": [
+   "Ne pas confondre il chanta (passé simple) et il chantait (imparfait).",
+   "Accent circonflexe à nous et vous : nous chantâmes, vous finîtes."
+  ],
+  "astuce": "Imparfait = le décor (ce qui dure) ; passé simple = les actions de l'histoire (ce qui arrive d'un coup).",
+  "source": "Programme du cycle 3 (BO n°16 du 17 avril 2025) — fiche rédigée pour l'application, à relire par le parent",
+  "valide": false
+ },
+ {
+  "id": "conjugaison/futur",
+  "matiere": "Conjugaison",
+  "titre": "Le futur simple",
+  "regle": "Le futur simple exprime une action qui se passera plus tard.",
+  "points": [
+   "Terminaisons pour tous les verbes : -ai, -as, -a, -ons, -ez, -ont.",
+   "1er et 2e groupes : infinitif + terminaison → je chanterai, je finirai.",
+   "Verbes en -re : on enlève le e → je prendrai, je dirai, je mettrai.",
+   "Radicaux irréguliers : être → je serai, avoir → j'aurai, aller → j'irai, faire → je ferai, venir → je viendrai, pouvoir → je pourrai, voir → je verrai, vouloir → je voudrai."
+  ],
+  "exemples": [
+   "Demain, nous irons à la piscine.",
+   "Plus tard, Sarah sera astronaute."
+  ],
+  "pieges": [
+   "On entend toujours un r avant la terminaison : je chanterai (pas « je chantrai »).",
+   "appeler, jeter : j'appellerai, je jetterai ; acheter : j'achèterai."
+  ],
+  "astuce": "Ajoute « demain » au début de la phrase pour vérifier.",
+  "source": "Programme du cycle 3 (BO n°16 du 17 avril 2025) — fiche rédigée pour l'application, à relire par le parent",
+  "valide": false
+ },
+ {
+  "id": "conjugaison/passe-compose",
+  "matiere": "Conjugaison",
+  "titre": "Le passé composé",
+  "regle": "Le passé composé exprime une action terminée dans le passé. C'est un temps composé de deux mots : l'auxiliaire (être ou avoir) au présent + le participe passé du verbe.",
+  "points": [
+   "Avec avoir (la plupart des verbes) : j'ai chanté, nous avons fini, ils ont pris.",
+   "Avec être (aller, venir, partir, arriver, entrer, sortir, naître, mourir, rester, tomber, monter, descendre…) : je suis allé, elle est partie.",
+   "Participes passés : 1er groupe → -é (chanté) ; 2e groupe → -i (fini) ; 3e groupe : à apprendre (pris, fait, dit, mis, vu, pu, voulu, venu, eu, été)."
+  ],
+  "exemples": [
+   "Hier, nous avons visité un château.",
+   "Ma sœur est montée tout en haut de la tour."
+  ],
+  "pieges": [
+   "Avec être, le participe s'accorde avec le sujet : elle est partie, ils sont venus, elles sont allées.",
+   "Avec avoir, pas d'accord avec le sujet : elles ont chanté."
+  ],
+  "astuce": "Pour savoir si c'est -é ou -er, remplace par « vendu » : j'ai vendu → j'ai chanté (é).",
+  "source": "Programme du cycle 3 (BO n°16 du 17 avril 2025) — fiche rédigée pour l'application, à relire par le parent",
+  "valide": false
+ },
+ {
+  "id": "orthographe/accord",
+  "matiere": "Orthographe",
+  "titre": "Les accords",
+  "regle": "Certains mots changent de forme selon le mot qui les commande : on dit qu'ils s'accordent.",
+  "points": [
+   "Dans le groupe nominal, le déterminant et l'adjectif s'accordent avec le nom, en genre et en nombre : les feuilles jaunes, une petite maison.",
+   "Le verbe s'accorde avec son sujet : les enfants bavardent (-nt) ; tu chantes (-s).",
+   "Le participe passé avec être s'accorde avec le sujet : elles sont parties."
+  ],
+  "exemples": [
+   "Les feuilles jaunes et rousses tombent.",
+   "Les dauphins jouent près des bateaux."
+  ],
+  "pieges": [
+   "Le sujet peut être loin du verbe : « Les baleines, qui sont de grands mammifères, chantent. »",
+   "Le sujet peut être après le verbe : « Dans l'océan vivent des animaux étonnants. »",
+   "Au pluriel, certains noms prennent -x : des châteaux, des jeux."
+  ],
+  "astuce": "Pose la question « Qui est-ce qui… ? » devant le verbe pour trouver le sujet, puis fais une flèche du sujet vers le verbe.",
+  "source": "Programme du cycle 3 (BO n°16 du 17 avril 2025) — fiche rédigée pour l'application, à relire par le parent",
+  "valide": false
+ },
+ {
+  "id": "orthographe/homophones",
+  "matiere": "Orthographe",
+  "titre": "Les homophones grammaticaux",
+  "regle": "Les homophones se prononcent pareil mais s'écrivent différemment. Pour choisir, on les remplace par un autre mot.",
+  "points": [
+   "a / à : a = verbe avoir → on peut dire « avait ». Il a faim → il avait faim. Sinon : à.",
+   "et / est : est = verbe être → on peut dire « était ». Et = « et puis ».",
+   "son / sont : sont → « étaient » ; son → « mon ».",
+   "on / ont : ont → « avaient » ; on → « il ».",
+   "ces / ses : ses → « mes » (à lui, à elle) ; ces → « ceux-là ».",
+   "ou / où : ou → « ou bien » ; où indique le lieu ou le moment.",
+   "la / là / l'a : là → « ici » ; l'a → « l'avait »."
+  ],
+  "exemples": [
+   "Il a mal à la tête.",
+   "Le marchand est très gentil et il sourit.",
+   "Ils sont partis avec son frère."
+  ],
+  "pieges": [
+   "« Ils ont » (avoir) mais « on a » (pronom + avoir).",
+   "« À l'heure où » : où indique le moment."
+  ],
+  "astuce": "Remplace le mot par un mot test (avait, était, étaient, mon…). Si la phrase reste juste, tu as trouvé le bon.",
+  "source": "Programme du cycle 3 (BO n°16 du 17 avril 2025) — fiche rédigée pour l'application, à relire par le parent",
+  "valide": false
+ },
+ {
+  "id": "orthographe/accents",
+  "matiere": "Orthographe",
+  "titre": "Les accents",
+  "regle": "L'accent change le son de la voyelle ou permet de distinguer deux mots.",
+  "points": [
+   "é (accent aigu) se prononce [e] : été, école.",
+   "è (accent grave) se prononce [ɛ] : mère, il achète ; à, là, où distinguent des mots.",
+   "ê (accent circonflexe) : forêt, fête, château — souvent un s ancien (forest → forêt).",
+   "ç (cédille) devant a, o, u pour faire [s] : leçon, nous commençons."
+  ],
+  "exemples": [
+   "La forêt est très étendue.",
+   "Il achète des pommes."
+  ],
+  "pieges": [
+   "Pas d'accent sur le e devant deux consonnes : belle, terre, mettre.",
+   "« ou » et « où », « a » et « à » ne se distinguent que par l'accent."
+  ],
+  "astuce": "Lis le mot à voix haute : le son t'aide à choisir l'accent ; pour ê, cherche un mot de la même famille avec s (forêt → forestier).",
+  "source": "Programme du cycle 3 (BO n°16 du 17 avril 2025) — fiche rédigée pour l'application, à relire par le parent",
+  "valide": false
+ },
+ {
+  "id": "orthographe/majuscules",
+  "matiere": "Orthographe",
+  "titre": "Les majuscules",
+  "regle": "On met une majuscule au début d'une phrase et aux noms propres.",
+  "points": [
+   "Début de phrase : après un point, un point d'interrogation ou d'exclamation.",
+   "Noms propres : prénoms (Léa), noms de famille (M. Seguin), villes et pays (Paris, la France), fleuves, montagnes.",
+   "Pas de majuscule après une virgule, un point-virgule ou deux-points (sauf nom propre)."
+  ],
+  "exemples": [
+   "Ce matin, les élèves de CM2 retrouvent leur école.",
+   "M. Hamel nous interrogera sur les participes."
+  ],
+  "pieges": [
+   "Les jours et les mois s'écrivent sans majuscule : lundi, octobre.",
+   "Les habitants prennent une majuscule (les Français), pas l'adjectif (un livre français)."
+  ],
+  "astuce": "Cherche les points dans ta dictée : chaque mot qui suit un point commence par une majuscule.",
+  "source": "Programme du cycle 3 (BO n°16 du 17 avril 2025) — fiche rédigée pour l'application, à relire par le parent",
+  "valide": false
+ },
+ {
+  "id": "orthographe/ponctuation",
+  "matiere": "Orthographe",
+  "titre": "La ponctuation",
+  "regle": "La ponctuation découpe le texte et aide à le lire. Dans une dictée, elle est dictée : « virgule », « point »…",
+  "points": [
+   "Le point (.) termine une phrase.",
+   "La virgule (,) sépare des mots ou des groupes de mots.",
+   "Le point-virgule (;) et les deux-points (:) relient deux parties d'une phrase ; les deux-points annoncent une explication ou une énumération.",
+   "Le point d'interrogation (?) et le point d'exclamation (!) terminent une question ou une exclamation."
+  ],
+  "exemples": [
+   "Il les perdait toutes de la même façon : un beau matin, elles cassaient leur corde."
+  ],
+  "pieges": [
+   "Ne pas oublier le point final.",
+   "Après une virgule, pas de majuscule."
+  ],
+  "astuce": "Quand tu entends un signe de ponctuation dicté, écris-le tout de suite avant le mot suivant.",
+  "source": "Programme du cycle 3 (BO n°16 du 17 avril 2025) — fiche rédigée pour l'application, à relire par le parent",
+  "valide": false
+ },
+ {
+  "id": "orthographe/mots-oublies",
+  "matiere": "Orthographe",
+  "titre": "Les mots oubliés ou en trop",
+  "regle": "Un mot oublié ou écrit en trop change le sens de la phrase. Il faut se relire.",
+  "points": [
+   "Relis ta dictée phrase par phrase, en suivant avec le doigt.",
+   "Vérifie les petits mots : le, la, de, ne… pas, et.",
+   "Écoute de nouveau le morceau si tu as un doute (bouton ▶️)."
+  ],
+  "exemples": [
+   "« Il ne regarda plus » : le « ne » est souvent oublié."
+  ],
+  "pieges": [
+   "Dans une négation, il faut deux mots : ne … pas, ne … plus, n' … jamais.",
+   "Ne pas écrire deux fois un mot en passant à la ligne."
+  ],
+  "astuce": "Compte les mots de chaque phrase à la relecture, en te la redisant dans ta tête.",
+  "source": "Programme du cycle 3 (BO n°16 du 17 avril 2025) — fiche rédigée pour l'application, à relire par le parent",
+  "valide": false
+ },
+ {
+  "id": "orthographe/mots",
+  "matiere": "Orthographe",
+  "titre": "L'orthographe des mots",
+  "regle": "Beaucoup de mots ont une orthographe à apprendre : on les mémorise et on s'aide des mots de la même famille.",
+  "points": [
+   "Les mots de la même famille s'écrivent souvent pareil : terre → terrain, enterrer.",
+   "Une lettre muette à la fin se retrouve dans un mot de la famille : chant → chanter, lent → lente.",
+   "m devant m, b, p : champignon, tomber, emmener."
+  ],
+  "exemples": [
+   "des champignons, une châtaigne"
+  ],
+  "pieges": [
+   "gn, ill, ph, qu : montagne, feuille, photo, quand.",
+   "Les doubles consonnes : pomme, terre, belle."
+  ],
+  "astuce": "Écris le mot plusieurs fois en l'épelant à voix haute, puis cache-le et réécris-le.",
+  "source": "Programme du cycle 3 (BO n°16 du 17 avril 2025) — fiche rédigée pour l'application, à relire par le parent",
+  "valide": false
+ }
+]
