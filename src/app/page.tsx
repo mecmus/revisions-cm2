@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { categories, cours, type Subject } from "@/lib/subjects";
+import { bilan, categories, cours, type Subject } from "@/lib/subjects";
 
 function Card({ s, big = false }: { s: Subject; big?: boolean }) {
   const card = (
@@ -20,7 +20,7 @@ export default function Home() {
         <h1 className="text-3xl font-extrabold sm:text-4xl">Bonjour ! 👋</h1>
         <p className="mt-2 text-lg text-slate-600">Que veux-tu réviser aujourd&apos;hui ?</p>
       </div>
-      <Card s={cours} big />
+      <div className="grid gap-4 sm:grid-cols-2"><Card s={cours} big /><Card s={bilan} big /></div>
       {categories.map((c) => (
         <section key={c.id} aria-labelledby={`cat-${c.id}`}>
           <h2 id={`cat-${c.id}`} className="text-2xl font-extrabold">{c.emoji} {c.title}</h2>

@@ -11,6 +11,9 @@ export type Category = { id: string; title: string; emoji: string; subjects: Sub
 /** Les cours sont mis en avant, avant les catégories d'exercices. */
 export const cours: Subject = { slug: "cours", title: "Cours", emoji: "📘", description: "Les leçons : règles, exemples, pièges et astuces.", color: "from-sky-500 to-cyan-500", available: true };
 
+/** Le bilan de niveau, mis en avant avec les cours. */
+export const bilan: Subject = { slug: "bilan", title: "Mon bilan", emoji: "🎯", description: "Un test pour trouver ce qu'il faut travailler en priorité.", color: "from-rose-500 to-orange-500", available: true };
+
 export const categories: Category[] = [
   { id: "francais", title: "Français", emoji: "🇫🇷", subjects: [
     { slug: "dictees", title: "Dictées", emoji: "✍️", description: "Écoute, écris, puis corrige tes erreurs.", color: "from-indigo-500 to-violet-500", available: true },
@@ -26,4 +29,4 @@ export const categories: Category[] = [
   ] },
 ];
 
-export const subjects: Subject[] = [cours, ...categories.flatMap((c) => c.subjects)];
+export const subjects: Subject[] = [cours, bilan, ...categories.flatMap((c) => c.subjects)];
