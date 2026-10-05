@@ -431,5 +431,71 @@
   "astuce": "Sépare toujours les classes par un espace en écrivant le nombre.",
   "source": "Programme du cycle 3 (BO n°16 du 17 avril 2025) — fiche rédigée pour l'application, à relire par le parent",
   "valide": false
+ },
+ {
+  "id": "calcul/problemes",
+  "matiere": "Mathématiques",
+  "titre": "Résoudre un problème",
+  "regle": "Un problème se résout en plusieurs étapes : comprendre, chercher, calculer, vérifier.",
+  "points": [
+   "1. Lis l'énoncé deux fois et souligne la question.",
+   "2. Repère les données utiles (et celles qui ne servent à rien).",
+   "3. Cherche les étapes : « Que dois-je calculer d'abord ? »",
+   "4. Écris chaque calcul avec une phrase-réponse.",
+   "5. Vérifie que le résultat est vraisemblable."
+  ],
+  "exemples": [
+   "3 boîtes de 12 biscuits, on en mange 10 : 3 × 12 = 36, puis 36 − 10 = 26 biscuits."
+  ],
+  "pieges": [
+   "Dans une division, le reste peut obliger à prendre un de plus (cars, boîtes…).",
+   "Ne pas oublier l'unité dans la réponse."
+  ],
+  "astuce": "Fais un petit schéma ou un dessin de la situation.",
+  "source": "Programme du cycle 3 (BO n°16 du 17 avril 2025) — fiche rédigée pour l'application, à relire par le parent",
+  "valide": false
+ },
+ {
+  "id": "calcul/proportionnalite",
+  "matiere": "Mathématiques",
+  "titre": "La proportionnalité",
+  "regle": "Deux grandeurs sont proportionnelles quand on passe de l'une à l'autre en multipliant toujours par le même nombre.",
+  "points": [
+   "Si 2 cahiers coûtent 3 €, 6 cahiers (3 fois plus) coûtent 3 fois plus : 9 €.",
+   "Passage par l'unité : prix d'un cahier = 3 : 2 = 1,50 €, puis × la quantité.",
+   "On peut additionner : prix de 5 = prix de 2 + prix de 3."
+  ],
+  "exemples": [
+   "4 kg coûtent 6 € → 12 kg coûtent 18 €."
+  ],
+  "pieges": [
+   "Tout n'est pas proportionnel : l'âge et la taille d'un enfant ne le sont pas."
+  ],
+  "astuce": "Range les données dans un tableau à deux lignes.",
+  "source": "Programme du cycle 3 (BO n°16 du 17 avril 2025) — fiche rédigée pour l'application, à relire par le parent",
+  "valide": false
+ },
+ {
+  "id": "calcul/durees",
+  "matiere": "Mathématiques",
+  "titre": "Les durées et les horaires",
+  "regle": "Un horaire indique un moment ; une durée indique combien de temps passe.",
+  "points": [
+   "1 h = 60 min ; 1 min = 60 s ; 1 jour = 24 h.",
+   "Horaire d'arrivée = horaire de départ + durée.",
+   "Durée = horaire de fin − horaire de début.",
+   "Ajoute d'abord les heures, puis les minutes ; si on dépasse 60 min, on ajoute 1 h."
+  ],
+  "exemples": [
+   "14 h 45 + 30 min = 15 h 15",
+   "De 9 h 40 à 11 h 10 : 1 h 30 min = 90 min"
+  ],
+  "pieges": [
+   "Ne pas calculer comme avec des nombres décimaux : 1 h 30 ≠ 1,30 h.",
+   "45 min + 30 min = 75 min = 1 h 15 min."
+  ],
+  "astuce": "Utilise une frise : avance jusqu'à l'heure pile, puis compte le reste.",
+  "source": "Programme du cycle 3 (BO n°16 du 17 avril 2025) — fiche rédigée pour l'application, à relire par le parent",
+  "valide": false
  }
 ]
