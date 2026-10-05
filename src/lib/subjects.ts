@@ -22,7 +22,7 @@ export const categories: Category[] = [
   { id: "maths", title: "Mathématiques", emoji: "🔢", subjects: [
     { slug: "maths", title: "Calcul & nombres", emoji: "➗", description: "Calcul mental, opérations, décimaux, fractions, grands nombres.", color: "from-sky-500 to-blue-500", available: true },
     { slug: "problemes", title: "Problèmes", emoji: "🧮", description: "Problèmes à étapes, proportionnalité, durées, monnaie.", color: "from-violet-500 to-purple-600", available: true },
-    { slug: "geometrie", title: "Géométrie & mesures", emoji: "📐", description: "Figures, périmètres, aires, angles.", color: "from-lime-500 to-green-600", available: false },
+    { slug: "geometrie", title: "Géométrie & mesures", emoji: "📐", description: "Figures, angles, symétrie, conversions, périmètres et aires.", color: "from-lime-500 to-green-600", available: true },
   ] },
 ];
 

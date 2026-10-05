@@ -497,5 +497,115 @@
   "astuce": "Utilise une frise : avance jusqu'à l'heure pile, puis compte le reste.",
   "source": "Programme du cycle 3 (BO n°16 du 17 avril 2025) — fiche rédigée pour l'application, à relire par le parent",
   "valide": false
+ },
+ {
+  "id": "geometrie/figures",
+  "matiere": "Mathématiques",
+  "titre": "Les figures planes",
+  "regle": "On reconnaît une figure à ses côtés (nombre, longueurs, parallèles) et à ses angles.",
+  "points": [
+   "Carré : 4 côtés égaux, 4 angles droits.",
+   "Rectangle : 4 angles droits, côtés opposés égaux.",
+   "Losange : 4 côtés égaux.",
+   "Parallélogramme : côtés opposés parallèles et égaux.",
+   "Trapèze : 2 côtés parallèles.",
+   "Triangle rectangle (1 angle droit), isocèle (2 côtés égaux), équilatéral (3 côtés égaux).",
+   "Cercle : tous les points sont à la même distance du centre (le rayon) ; diamètre = 2 × rayon."
+  ],
+  "exemples": [
+   "Un carré est aussi un rectangle et un losange."
+  ],
+  "pieges": [
+   "Un losange « posé sur la pointe » n'est pas un carré s'il n'a pas d'angle droit."
+  ],
+  "astuce": "Vérifie les angles droits avec l'équerre et les longueurs avec la règle ou le compas.",
+  "source": "Programme du cycle 3 (BO n°16 du 17 avril 2025) — fiche rédigée pour l'application, à relire par le parent",
+  "valide": false
+ },
+ {
+  "id": "geometrie/angles",
+  "matiere": "Mathématiques",
+  "titre": "Les angles",
+  "regle": "Un angle est formé par deux demi-droites de même origine (le sommet).",
+  "points": [
+   "Angle droit : comme le coin d'une équerre (90°).",
+   "Angle aigu : plus petit qu'un angle droit.",
+   "Angle obtus : plus grand qu'un angle droit (mais moins qu'un demi-tour)."
+  ],
+  "exemples": [
+   "Le coin d'une feuille est un angle droit."
+  ],
+  "pieges": [
+   "La longueur des traits ne change pas la taille de l'angle."
+  ],
+  "astuce": "Place l'équerre sur le sommet, un côté sur un trait : regarde où tombe l'autre trait.",
+  "source": "Programme du cycle 3 (BO n°16 du 17 avril 2025) — fiche rédigée pour l'application, à relire par le parent",
+  "valide": false
+ },
+ {
+  "id": "geometrie/symetrie",
+  "matiere": "Mathématiques",
+  "titre": "La symétrie axiale",
+  "regle": "Deux figures sont symétriques par rapport à un axe si elles se superposent quand on plie le long de cet axe.",
+  "points": [
+   "Chaque point et son symétrique sont à la même distance de l'axe, de part et d'autre.",
+   "Le segment qui les relie est perpendiculaire à l'axe.",
+   "Sur quadrillage, on compte les carreaux jusqu'à l'axe et on reporte de l'autre côté."
+  ],
+  "exemples": [
+   "Un papillon, la lettre A ont un axe de symétrie vertical."
+  ],
+  "pieges": [
+   "Une figure peut avoir plusieurs axes (le carré en a 4) ou aucun."
+  ],
+  "astuce": "Imagine que tu plies la feuille sur l'axe.",
+  "source": "Programme du cycle 3 (BO n°16 du 17 avril 2025) — fiche rédigée pour l'application, à relire par le parent",
+  "valide": false
+ },
+ {
+  "id": "mesures/conversions",
+  "matiere": "Mathématiques",
+  "titre": "Les conversions d'unités",
+  "regle": "Pour changer d'unité, on utilise le tableau de conversion : chaque unité vaut 10 fois l'unité à sa droite.",
+  "points": [
+   "Longueurs : km | hm | dam | m | dm | cm | mm.",
+   "Masses : kg | hg | dag | g (et 1 t = 1 000 kg).",
+   "Contenances : hL | daL | L | dL | cL | mL.",
+   "Vers une unité plus petite : on multiplie (1 m = 100 cm). Vers une plus grande : on divise (250 cm = 2,5 m)."
+  ],
+  "exemples": [
+   "3 km = 3 000 m",
+   "450 g = 0,45 kg",
+   "2 L = 200 cL"
+  ],
+  "pieges": [
+   "Bien placer le chiffre des unités dans la colonne de l'unité de départ."
+  ],
+  "astuce": "Écris le nombre dans le tableau, puis lis-le dans la nouvelle unité (la virgule se place après la colonne de l'unité voulue).",
+  "source": "Programme du cycle 3 (BO n°16 du 17 avril 2025) — fiche rédigée pour l'application, à relire par le parent",
+  "valide": false
+ },
+ {
+  "id": "mesures/perimetre-aire",
+  "matiere": "Mathématiques",
+  "titre": "Périmètre et aire",
+  "regle": "Le périmètre est la longueur du tour d'une figure ; l'aire est la surface qu'elle recouvre.",
+  "points": [
+   "Périmètre du rectangle = 2 × (longueur + largeur).",
+   "Périmètre du carré = 4 × côté.",
+   "Aire du rectangle = longueur × largeur.",
+   "Aire du carré = côté × côté.",
+   "Le périmètre s'exprime en cm, m… ; l'aire en cm², m²…"
+  ],
+  "exemples": [
+   "Rectangle 5 cm × 3 cm : périmètre 16 cm, aire 15 cm²."
+  ],
+  "pieges": [
+   "Ne pas confondre : deux figures peuvent avoir le même périmètre et des aires différentes.",
+   "Les deux côtés doivent être dans la même unité."
+  ],
+  "astuce": "Périmètre = je fais le tour avec mon doigt ; aire = je colorie l'intérieur.",
+  "source": "Programme du cycle 3 (BO n°16 du 17 avril 2025) — fiche rédigée pour l'application, à relire par le parent",
+  "valide": false
  }
 ]
