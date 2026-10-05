@@ -1,0 +1,1032 @@
+{
+ "source": "Wiktionnaire, pages « Conjugaison:français/… » (CC BY-SA 4.0), extraites le 2026-10-05",
+ "tenses": [
+  "Présent",
+  "Imparfait",
+  "Passé simple",
+  "Futur simple",
+  "Passé composé"
+ ],
+ "persons": [
+  "je",
+  "tu",
+  "il",
+  "nous",
+  "vous",
+  "ils"
+ ],
+ "verbs": [
+  {
+   "infinitive": "chanter",
+   "group": 1,
+   "forms": {
+    "Présent": [
+     "chante",
+     "chantes",
+     "chante",
+     "chantons",
+     "chantez",
+     "chantent"
+    ],
+    "Imparfait": [
+     "chantais",
+     "chantais",
+     "chantait",
+     "chantions",
+     "chantiez",
+     "chantaient"
+    ],
+    "Passé simple": [
+     "chantai",
+     "chantas",
+     "chanta",
+     "chantâmes",
+     "chantâtes",
+     "chantèrent"
+    ],
+    "Futur simple": [
+     "chanterai",
+     "chanteras",
+     "chantera",
+     "chanterons",
+     "chanterez",
+     "chanteront"
+    ],
+    "Passé composé": [
+     "ai chanté",
+     "as chanté",
+     "a chanté",
+     "avons chanté",
+     "avez chanté",
+     "ont chanté"
+    ]
+   }
+  },
+  {
+   "infinitive": "jouer",
+   "group": 1,
+   "forms": {
+    "Présent": [
+     "joue",
+     "joues",
+     "joue",
+     "jouons",
+     "jouez",
+     "jouent"
+    ],
+    "Imparfait": [
+     "jouais",
+     "jouais",
+     "jouait",
+     "jouions",
+     "jouiez",
+     "jouaient"
+    ],
+    "Passé simple": [
+     "jouai",
+     "jouas",
+     "joua",
+     "jouâmes",
+     "jouâtes",
+     "jouèrent"
+    ],
+    "Futur simple": [
+     "jouerai",
+     "joueras",
+     "jouera",
+     "jouerons",
+     "jouerez",
+     "joueront"
+    ],
+    "Passé composé": [
+     "ai joué",
+     "as joué",
+     "a joué",
+     "avons joué",
+     "avez joué",
+     "ont joué"
+    ]
+   }
+  },
+  {
+   "infinitive": "manger",
+   "group": 1,
+   "forms": {
+    "Présent": [
+     "mange",
+     "manges",
+     "mange",
+     "mangeons",
+     "mangez",
+     "mangent"
+    ],
+    "Imparfait": [
+     "mangeais",
+     "mangeais",
+     "mangeait",
+     "mangions",
+     "mangiez",
+     "mangeaient"
+    ],
+    "Passé simple": [
+     "mangeai",
+     "mangeas",
+     "mangea",
+     "mangeâmes",
+     "mangeâtes",
+     "mangèrent"
+    ],
+    "Futur simple": [
+     "mangerai",
+     "mangeras",
+     "mangera",
+     "mangerons",
+     "mangerez",
+     "mangeront"
+    ],
+    "Passé composé": [
+     "ai mangé",
+     "as mangé",
+     "a mangé",
+     "avons mangé",
+     "avez mangé",
+     "ont mangé"
+    ]
+   }
+  },
+  {
+   "infinitive": "commencer",
+   "group": 1,
+   "forms": {
+    "Présent": [
+     "commence",
+     "commences",
+     "commence",
+     "commençons",
+     "commencez",
+     "commencent"
+    ],
+    "Imparfait": [
+     "commençais",
+     "commençais",
+     "commençait",
+     "commencions",
+     "commenciez",
+     "commençaient"
+    ],
+    "Passé simple": [
+     "commençai",
+     "commenças",
+     "commença",
+     "commençâmes",
+     "commençâtes",
+     "commencèrent"
+    ],
+    "Futur simple": [
+     "commencerai",
+     "commenceras",
+     "commencera",
+     "commencerons",
+     "commencerez",
+     "commenceront"
+    ],
+    "Passé composé": [
+     "ai commencé",
+     "as commencé",
+     "a commencé",
+     "avons commencé",
+     "avez commencé",
+     "ont commencé"
+    ]
+   }
+  },
+  {
+   "infinitive": "appeler",
+   "group": 1,
+   "forms": {
+    "Présent": [
+     "appelle",
+     "appelles",
+     "appelle",
+     "appelons",
+     "appelez",
+     "appellent"
+    ],
+    "Imparfait": [
+     "appelais",
+     "appelais",
+     "appelait",
+     "appelions",
+     "appeliez",
+     "appelaient"
+    ],
+    "Passé simple": [
+     "appelai",
+     "appelas",
+     "appela",
+     "appelâmes",
+     "appelâtes",
+     "appelèrent"
+    ],
+    "Futur simple": [
+     "appellerai",
+     "appelleras",
+     "appellera",
+     "appellerons",
+     "appellerez",
+     "appelleront"
+    ],
+    "Passé composé": [
+     "ai appelé",
+     "as appelé",
+     "a appelé",
+     "avons appelé",
+     "avez appelé",
+     "ont appelé"
+    ]
+   }
+  },
+  {
+   "infinitive": "jeter",
+   "group": 1,
+   "forms": {
+    "Présent": [
+     "jette",
+     "jettes",
+     "jette",
+     "jetons",
+     "jetez",
+     "jettent"
+    ],
+    "Imparfait": [
+     "jetais",
+     "jetais",
+     "jetait",
+     "jetions",
+     "jetiez",
+     "jetaient"
+    ],
+    "Passé simple": [
+     "jetai",
+     "jetas",
+     "jeta",
+     "jetâmes",
+     "jetâtes",
+     "jetèrent"
+    ],
+    "Futur simple": [
+     "jetterai",
+     "jetteras",
+     "jettera",
+     "jetterons",
+     "jetterez",
+     "jetteront"
+    ],
+    "Passé composé": [
+     "ai jeté",
+     "as jeté",
+     "a jeté",
+     "avons jeté",
+     "avez jeté",
+     "ont jeté"
+    ]
+   }
+  },
+  {
+   "infinitive": "acheter",
+   "group": 1,
+   "forms": {
+    "Présent": [
+     "achète",
+     "achètes",
+     "achète",
+     "achetons",
+     "achetez",
+     "achètent"
+    ],
+    "Imparfait": [
+     "achetais",
+     "achetais",
+     "achetait",
+     "achetions",
+     "achetiez",
+     "achetaient"
+    ],
+    "Passé simple": [
+     "achetai",
+     "achetas",
+     "acheta",
+     "achetâmes",
+     "achetâtes",
+     "achetèrent"
+    ],
+    "Futur simple": [
+     "achèterai",
+     "achèteras",
+     "achètera",
+     "achèterons",
+     "achèterez",
+     "achèteront"
+    ],
+    "Passé composé": [
+     "ai acheté",
+     "as acheté",
+     "a acheté",
+     "avons acheté",
+     "avez acheté",
+     "ont acheté"
+    ]
+   }
+  },
+  {
+   "infinitive": "finir",
+   "group": 2,
+   "forms": {
+    "Présent": [
+     "finis",
+     "finis",
+     "finit",
+     "finissons",
+     "finissez",
+     "finissent"
+    ],
+    "Imparfait": [
+     "finissais",
+     "finissais",
+     "finissait",
+     "finissions",
+     "finissiez",
+     "finissaient"
+    ],
+    "Passé simple": [
+     "finis",
+     "finis",
+     "finit",
+     "finîmes",
+     "finîtes",
+     "finirent"
+    ],
+    "Futur simple": [
+     "finirai",
+     "finiras",
+     "finira",
+     "finirons",
+     "finirez",
+     "finiront"
+    ],
+    "Passé composé": [
+     "ai fini",
+     "as fini",
+     "a fini",
+     "avons fini",
+     "avez fini",
+     "ont fini"
+    ]
+   }
+  },
+  {
+   "infinitive": "grandir",
+   "group": 2,
+   "forms": {
+    "Présent": [
+     "grandis",
+     "grandis",
+     "grandit",
+     "grandissons",
+     "grandissez",
+     "grandissent"
+    ],
+    "Imparfait": [
+     "grandissais",
+     "grandissais",
+     "grandissait",
+     "grandissions",
+     "grandissiez",
+     "grandissaient"
+    ],
+    "Passé simple": [
+     "grandis",
+     "grandis",
+     "grandit",
+     "grandîmes",
+     "grandîtes",
+     "grandirent"
+    ],
+    "Futur simple": [
+     "grandirai",
+     "grandiras",
+     "grandira",
+     "grandirons",
+     "grandirez",
+     "grandiront"
+    ],
+    "Passé composé": [
+     "ai grandi",
+     "as grandi",
+     "a grandi",
+     "avons grandi",
+     "avez grandi",
+     "ont grandi"
+    ]
+   }
+  },
+  {
+   "infinitive": "choisir",
+   "group": 2,
+   "forms": {
+    "Présent": [
+     "choisis",
+     "choisis",
+     "choisit",
+     "choisissons",
+     "choisissez",
+     "choisissent"
+    ],
+    "Imparfait": [
+     "choisissais",
+     "choisissais",
+     "choisissait",
+     "choisissions",
+     "choisissiez",
+     "choisissaient"
+    ],
+    "Passé simple": [
+     "choisis",
+     "choisis",
+     "choisit",
+     "choisîmes",
+     "choisîtes",
+     "choisirent"
+    ],
+    "Futur simple": [
+     "choisirai",
+     "choisiras",
+     "choisira",
+     "choisirons",
+     "choisirez",
+     "choisiront"
+    ],
+    "Passé composé": [
+     "ai choisi",
+     "as choisi",
+     "a choisi",
+     "avons choisi",
+     "avez choisi",
+     "ont choisi"
+    ]
+   }
+  },
+  {
+   "infinitive": "être",
+   "group": 3,
+   "forms": {
+    "Présent": [
+     "suis",
+     "es",
+     "est",
+     "sommes",
+     "êtes",
+     "sont"
+    ],
+    "Imparfait": [
+     "étais",
+     "étais",
+     "était",
+     "étions",
+     "étiez",
+     "étaient"
+    ],
+    "Passé simple": [
+     "fus",
+     "fus",
+     "fut",
+     "fûmes",
+     "fûtes",
+     "furent"
+    ],
+    "Futur simple": [
+     "serai",
+     "seras",
+     "sera",
+     "serons",
+     "serez",
+     "seront"
+    ],
+    "Passé composé": [
+     "ai été",
+     "as été",
+     "a été",
+     "avons été",
+     "avez été",
+     "ont été"
+    ]
+   }
+  },
+  {
+   "infinitive": "avoir",
+   "group": 3,
+   "forms": {
+    "Présent": [
+     "ai",
+     "as",
+     "a",
+     "avons",
+     "avez",
+     "ont"
+    ],
+    "Imparfait": [
+     "avais",
+     "avais",
+     "avait",
+     "avions",
+     "aviez",
+     "avaient"
+    ],
+    "Passé simple": [
+     "eus",
+     "eus",
+     "eut",
+     "eûmes",
+     "eûtes",
+     "eurent"
+    ],
+    "Futur simple": [
+     "aurai",
+     "auras",
+     "aura",
+     "aurons",
+     "aurez",
+     "auront"
+    ],
+    "Passé composé": [
+     "ai eu",
+     "as eu",
+     "a eu",
+     "avons eu",
+     "avez eu",
+     "ont eu"
+    ]
+   }
+  },
+  {
+   "infinitive": "aller",
+   "group": 3,
+   "forms": {
+    "Présent": [
+     "vais",
+     "vas",
+     "va",
+     "allons",
+     "allez",
+     "vont"
+    ],
+    "Imparfait": [
+     "allais",
+     "allais",
+     "allait",
+     "allions",
+     "alliez",
+     "allaient"
+    ],
+    "Passé simple": [
+     "allai",
+     "allas",
+     "alla",
+     "allâmes",
+     "allâtes",
+     "allèrent"
+    ],
+    "Futur simple": [
+     "irai",
+     "iras",
+     "ira",
+     "irons",
+     "irez",
+     "iront"
+    ],
+    "Passé composé": [
+     "suis allé",
+     "es allé",
+     "est allé",
+     "sommes allés",
+     "êtes allés",
+     "sont allés"
+    ]
+   }
+  },
+  {
+   "infinitive": "faire",
+   "group": 3,
+   "forms": {
+    "Présent": [
+     "fais",
+     "fais",
+     "fait",
+     "faisons",
+     "faites",
+     "font"
+    ],
+    "Imparfait": [
+     "faisais",
+     "faisais",
+     "faisait",
+     "faisions",
+     "faisiez",
+     "faisaient"
+    ],
+    "Passé simple": [
+     "fis",
+     "fis",
+     "fit",
+     "fîmes",
+     "fîtes",
+     "firent"
+    ],
+    "Futur simple": [
+     "ferai",
+     "feras",
+     "fera",
+     "ferons",
+     "ferez",
+     "feront"
+    ],
+    "Passé composé": [
+     "ai fait",
+     "as fait",
+     "a fait",
+     "avons fait",
+     "avez fait",
+     "ont fait"
+    ]
+   }
+  },
+  {
+   "infinitive": "dire",
+   "group": 3,
+   "forms": {
+    "Présent": [
+     "dis",
+     "dis",
+     "dit",
+     "disons",
+     "dites",
+     "disent"
+    ],
+    "Imparfait": [
+     "disais",
+     "disais",
+     "disait",
+     "disions",
+     "disiez",
+     "disaient"
+    ],
+    "Passé simple": [
+     "dis",
+     "dis",
+     "dit",
+     "dîmes",
+     "dîtes",
+     "dirent"
+    ],
+    "Futur simple": [
+     "dirai",
+     "diras",
+     "dira",
+     "dirons",
+     "direz",
+     "diront"
+    ],
+    "Passé composé": [
+     "ai dit",
+     "as dit",
+     "a dit",
+     "avons dit",
+     "avez dit",
+     "ont dit"
+    ]
+   }
+  },
+  {
+   "infinitive": "venir",
+   "group": 3,
+   "forms": {
+    "Présent": [
+     "viens",
+     "viens",
+     "vient",
+     "venons",
+     "venez",
+     "viennent"
+    ],
+    "Imparfait": [
+     "venais",
+     "venais",
+     "venait",
+     "venions",
+     "veniez",
+     "venaient"
+    ],
+    "Passé simple": [
+     "vins",
+     "vins",
+     "vint",
+     "vînmes",
+     "vîntes",
+     "vinrent"
+    ],
+    "Futur simple": [
+     "viendrai",
+     "viendras",
+     "viendra",
+     "viendrons",
+     "viendrez",
+     "viendront"
+    ],
+    "Passé composé": [
+     "suis venu",
+     "es venu",
+     "est venu",
+     "sommes venus",
+     "êtes venus",
+     "sont venus"
+    ]
+   }
+  },
+  {
+   "infinitive": "pouvoir",
+   "group": 3,
+   "forms": {
+    "Présent": [
+     "peux",
+     "peux",
+     "peut",
+     "pouvons",
+     "pouvez",
+     "peuvent"
+    ],
+    "Imparfait": [
+     "pouvais",
+     "pouvais",
+     "pouvait",
+     "pouvions",
+     "pouviez",
+     "pouvaient"
+    ],
+    "Passé simple": [
+     "pus",
+     "pus",
+     "put",
+     "pûmes",
+     "pûtes",
+     "purent"
+    ],
+    "Futur simple": [
+     "pourrai",
+     "pourras",
+     "pourra",
+     "pourrons",
+     "pourrez",
+     "pourront"
+    ],
+    "Passé composé": [
+     "ai pu",
+     "as pu",
+     "a pu",
+     "avons pu",
+     "avez pu",
+     "ont pu"
+    ]
+   }
+  },
+  {
+   "infinitive": "voir",
+   "group": 3,
+   "forms": {
+    "Présent": [
+     "vois",
+     "vois",
+     "voit",
+     "voyons",
+     "voyez",
+     "voient"
+    ],
+    "Imparfait": [
+     "voyais",
+     "voyais",
+     "voyait",
+     "voyions",
+     "voyiez",
+     "voyaient"
+    ],
+    "Passé simple": [
+     "vis",
+     "vis",
+     "vit",
+     "vîmes",
+     "vîtes",
+     "virent"
+    ],
+    "Futur simple": [
+     "verrai",
+     "verras",
+     "verra",
+     "verrons",
+     "verrez",
+     "verront"
+    ],
+    "Passé composé": [
+     "ai vu",
+     "as vu",
+     "a vu",
+     "avons vu",
+     "avez vu",
+     "ont vu"
+    ]
+   }
+  },
+  {
+   "infinitive": "vouloir",
+   "group": 3,
+   "forms": {
+    "Présent": [
+     "veux",
+     "veux",
+     "veut",
+     "voulons",
+     "voulez",
+     "veulent"
+    ],
+    "Imparfait": [
+     "voulais",
+     "voulais",
+     "voulait",
+     "voulions",
+     "vouliez",
+     "voulaient"
+    ],
+    "Passé simple": [
+     "voulus",
+     "voulus",
+     "voulut",
+     "voulûmes",
+     "voulûtes",
+     "voulurent"
+    ],
+    "Futur simple": [
+     "voudrai",
+     "voudras",
+     "voudra",
+     "voudrons",
+     "voudrez",
+     "voudront"
+    ],
+    "Passé composé": [
+     "ai voulu",
+     "as voulu",
+     "a voulu",
+     "avons voulu",
+     "avez voulu",
+     "ont voulu"
+    ]
+   }
+  },
+  {
+   "infinitive": "prendre",
+   "group": 3,
+   "forms": {
+    "Présent": [
+     "prends",
+     "prends",
+     "prend",
+     "prenons",
+     "prenez",
+     "prennent"
+    ],
+    "Imparfait": [
+     "prenais",
+     "prenais",
+     "prenait",
+     "prenions",
+     "preniez",
+     "prenaient"
+    ],
+    "Passé simple": [
+     "pris",
+     "pris",
+     "prit",
+     "prîmes",
+     "prîtes",
+     "prirent"
+    ],
+    "Futur simple": [
+     "prendrai",
+     "prendras",
+     "prendra",
+     "prendrons",
+     "prendrez",
+     "prendront"
+    ],
+    "Passé composé": [
+     "ai pris",
+     "as pris",
+     "a pris",
+     "avons pris",
+     "avez pris",
+     "ont pris"
+    ]
+   }
+  },
+  {
+   "infinitive": "partir",
+   "group": 3,
+   "forms": {
+    "Présent": [
+     "pars",
+     "pars",
+     "part",
+     "partons",
+     "partez",
+     "partent"
+    ],
+    "Imparfait": [
+     "partais",
+     "partais",
+     "partait",
+     "partions",
+     "partiez",
+     "partaient"
+    ],
+    "Passé simple": [
+     "partis",
+     "partis",
+     "partit",
+     "partîmes",
+     "partîtes",
+     "partirent"
+    ],
+    "Futur simple": [
+     "partirai",
+     "partiras",
+     "partira",
+     "partirons",
+     "partirez",
+     "partiront"
+    ],
+    "Passé composé": [
+     "suis parti",
+     "es parti",
+     "est parti",
+     "sommes partis",
+     "êtes partis",
+     "sont partis"
+    ]
+   }
+  },
+  {
+   "infinitive": "mettre",
+   "group": 3,
+   "forms": {
+    "Présent": [
+     "mets",
+     "mets",
+     "met",
+     "mettons",
+     "mettez",
+     "mettent"
+    ],
+    "Imparfait": [
+     "mettais",
+     "mettais",
+     "mettait",
+     "mettions",
+     "mettiez",
+     "mettaient"
+    ],
+    "Passé simple": [
+     "mis",
+     "mis",
+     "mit",
+     "mîmes",
+     "mîtes",
+     "mirent"
+    ],
+    "Futur simple": [
+     "mettrai",
+     "mettras",
+     "mettra",
+     "mettrons",
+     "mettrez",
+     "mettront"
+    ],
+    "Passé composé": [
+     "ai mis",
+     "as mis",
+     "a mis",
+     "avons mis",
+     "avez mis",
+     "ont mis"
+    ]
+   }
+  }
+ ]
+}
