@@ -1,12 +1,18 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState, useSyncExternalStore } from "react";
 import type { Dictee, DicteeAudio } from "@/content/dictees";
 import { correct, countWords } from "@/lib/correction";
 import { saveAttempt } from "@/lib/progress";
 import { useDicteeAudio } from "@/lib/useDicteeAudio";
 import WordDiff from "./WordDiff";
 import ErrorSummary from "./ErrorSummary";
+import { liveCheck } from "@/lib/liveCheck";
+
+const LIVE_KEY = "revisions-cm2:dictee-aide-live";
+const subscribe = (cb: () => void) => { window.addEventListener("storage", cb); window.addEventListener("live-change", cb); return () => { window.removeEventListener("storage", cb); window.removeEventListener("live-change", cb); }; };
+const useLive = () => useSyncExternalStore(subscribe, () => localStorage.getItem(LIVE_KEY) === "1", () => false);
+const setLive = (v: boolean) => { localStorage.setItem(LIVE_KEY, v ? "1" : "0"); window.dispatchEvent(new Event("live-change")); };
 
 type Mode = "etapes" | "complete";
 type Done = { first: ReturnType<typeof correct>; last: ReturnType<typeof correct> };
@@ -17,6 +23,7 @@ export default function DicteePlayer({ dictee, audio }: { dictee: Dictee; audio:
   const [smart, setSmart] = useState(true);
   const [idleSec, setIdleSec] = useState(8);
   const [spaced, setSpaced] = useState(true);
+  const live = useLive();
   const rawPlay = useDicteeAudio(rate);
   // Les morceaux ont une version « mots espacés » ; le texte complet reste lu naturellement.
   const play: Play = useCallback((src, text, punct) => rawPlay(spaced ? src.replace(/(\d+)\.mp3$/, "$1-lent.mp3") : src, text, punct), [rawPlay, spaced]);
@@ -41,6 +48,8 @@ export default function DicteePlayer({ dictee, audio }: { dictee: Dictee; audio:
             Mots espacés</label>
           <label className="flex items-center gap-2"><input type="checkbox" checked={smart} onChange={(e) => setSmart(e.target.checked)} />
             Lecteur intelligent</label>
+          <label className="flex items-center gap-2" title="Réglage parent : désactivé par défaut, car il aide l'élève. Sans effet dans « Dictée complète » (mode évaluation).">
+            <input type="checkbox" checked={live} onChange={(e) => setLive(e.target.checked)} />Aide en direct (mots justes / faux)</label>
           {smart && <label className="flex items-center gap-2">Répéter après
             <select value={idleSec} onChange={(e) => setIdleSec(+e.target.value)} className="rounded border px-1">
               {[5, 8, 12, 20].map((s) => <option key={s} value={s}>{s} s</option>)}
@@ -49,7 +58,7 @@ export default function DicteePlayer({ dictee, audio }: { dictee: Dictee; audio:
         <p className="mt-2 text-xs text-slate-400">Voix : Piper « {audio.voice} » (SIWIS, CC-BY 4.0)</p>
       </section>
       {mode === "etapes"
-        ? <StepMode key="e" dictee={dictee} audio={audio} play={play} smart={smart} idleSec={idleSec} />
+        ? <StepMode key="e" dictee={dictee} audio={audio} play={play} smart={smart} idleSec={idleSec} live={live} />
         : <FullMode key="c" dictee={dictee} audio={audio} play={play} />}
     </div>
   );
@@ -93,7 +102,7 @@ function useSmartReader(segments: { text: string; audio: string }[], typed: stri
   };
 }
 
-function StepMode({ dictee, audio, play, smart, idleSec }: { dictee: Dictee; audio: DicteeAudio; play: Play; smart: boolean; idleSec: number }) {
+function StepMode({ dictee, audio, play, smart, idleSec, live }: { dictee: Dictee; audio: DicteeAudio; play: Play; smart: boolean; idleSec: number; live: boolean }) {
   const [idx, setIdx] = useState(0);
   const [done, setDone] = useState<Done[]>([]);
   const finished = idx >= audio.sentences.length;
@@ -121,15 +130,15 @@ function StepMode({ dictee, audio, play, smart, idleSec }: { dictee: Dictee; aud
       {finished ? (
         <ErrorSummary tokens={done.flatMap((d) => d.first.tokens)} />
       ) : (
-        <Sentence key={idx} n={idx} total={audio.sentences.length} sentence={audio.sentences[idx]} play={play} smart={smart} idleSec={idleSec}
+        <Sentence key={idx} n={idx} total={audio.sentences.length} sentence={audio.sentences[idx]} play={play} smart={smart} idleSec={idleSec} live={live}
           onDone={(d) => { setDone([...done, d]); setIdx(idx + 1); }} />
       )}
     </>
   );
 }
 
-function Sentence({ n, total, sentence, play, smart, idleSec, onDone }: {
-  n: number; total: number; sentence: DicteeAudio["sentences"][number]; play: Play; smart: boolean; idleSec: number; onDone: (d: Done) => void;
+function Sentence({ n, total, sentence, play, smart, idleSec, live, onDone }: {
+  n: number; total: number; sentence: DicteeAudio["sentences"][number]; play: Play; smart: boolean; idleSec: number; live: boolean; onDone: (d: Done) => void;
 }) {
   const [typed, setTyped] = useState("");
   const [started, setStarted] = useState(n > 0); // enchaînement automatique après la 1re phrase
@@ -162,6 +171,13 @@ function Sentence({ n, total, sentence, play, smart, idleSec, onDone }: {
       <textarea value={typed} onChange={(e) => { setTyped(e.target.value); reader.onType(e.target.value); }} rows={3} spellCheck={false} autoCorrect="off" autoCapitalize="off" autoComplete="off"
         onKeyDown={(e) => { if (e.key === "Enter") { e.preventDefault(); if (typed.trim()) check(); } }}
         className="mt-3 w-full rounded-2xl border-2 border-slate-200 p-4 text-lg focus:border-indigo-500 focus:outline-none" placeholder="Écris la phrase ici…" />
+      {live && !first && (
+        <p aria-live="polite" className="mt-2 flex flex-wrap gap-x-2 gap-y-1 text-lg">
+          {liveCheck(sentence.text, typed).map((w, k) => w.ok
+            ? <span key={k} className="rounded bg-emerald-100 px-1 text-emerald-800">✓ {w.text}</span>
+            : <span key={k} className="rounded bg-rose-100 px-1 text-rose-800 underline decoration-wavy">✗ {w.text}</span>)}
+        </p>
+      )}
       {first && (
         <div className="mt-2 rounded-2xl bg-amber-50 p-3">
           <p className="text-sm font-semibold text-amber-800">{first.errors} erreur(s) : corrige ta phrase puis vérifie à nouveau.</p>
