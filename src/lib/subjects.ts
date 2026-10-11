@@ -27,6 +27,9 @@ export const categories: Category[] = [
     { slug: "problemes", title: "Problèmes", emoji: "🧮", description: "Problèmes à étapes, proportionnalité, durées, monnaie.", color: "from-violet-500 to-purple-600", available: true },
     { slug: "geometrie", title: "Géométrie & mesures", emoji: "📐", description: "Figures, angles, symétrie, conversions, périmètres et aires.", color: "from-lime-500 to-green-600", available: true },
   ] },
+  { id: "anglais", title: "Anglais", emoji: "🇬🇧", subjects: [
+    { slug: "anglais", title: "Verbes to be, have, can", emoji: "💬", description: "Présent : phrases, négations, questions et réponses courtes.", color: "from-fuchsia-500 to-purple-600", available: true },
+  ] },
 ];
 
 export const subjects: Subject[] = [cours, bilan, ...categories.flatMap((c) => c.subjects)];
