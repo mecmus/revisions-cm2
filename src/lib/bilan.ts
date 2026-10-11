@@ -6,6 +6,7 @@ import { NATURE, PHRASES, ROLE, questionsFor, type Nature, type Role } from "./g
 import { HOMOPHONES } from "./orthographe";
 import { checkProbleme, makeProblemes, type Type as PType } from "./problemes";
 import { COURS_TEMPS } from "./cours";
+import { check as checkEn, makeQuestion as enQ, THEMES as EN_THEMES, type Kind as EnKind, type Theme as EnTheme } from "./anglais";
 
 export type Statut = "acquis" | "en-cours" | "a-travailler" | "inconnu";
 export const SEUIL_ACQUIS = 0.8;
@@ -34,6 +35,9 @@ export const NOTIONS: Notion[] = [
   N("geometrie/symetrie", "Symétrie", "/geometrie", "Géométrie & mesures"),
   N("mesures/conversions", "Conversions", "/geometrie", "Géométrie & mesures"),
   N("mesures/perimetre-aire", "Périmètres et aires", "/geometrie", "Géométrie & mesures"),
+  N("anglais/be", "Anglais : to be", "/anglais", "Anglais"),
+  N("anglais/have", "Anglais : have (got)", "/anglais", "Anglais"),
+  N("anglais/can", "Anglais : can", "/anglais", "Anglais"),
 ];
 export const notion = (id: string) => NOTIONS.find((n) => n.id === id);
 
@@ -45,6 +49,7 @@ const ONE: Record<string, Record<string, string>> = {
   grammaire: { nature: "grammaire/natures", fonction: "grammaire/fonctions" },
   orthographe: { homophones: "orthographe/homophones" },
   problemes: { etapes: "calcul/problemes", monnaie: "calcul/problemes", proportionnalite: "calcul/proportionnalite", durees: "calcul/durees" },
+  anglais: { be: "anglais/be", have: "anglais/have", can: "anglais/can" },
   geometrie: { figures: "geometrie/figures", angles: "geometrie/angles", symetrie: "geometrie/symetrie", conversions: "mesures/conversions", "perimetre-aire": "mesures/perimetre-aire" },
 };
 export type Point = { notion: string; ok: number; n: number; date: string; source: "test" | "exercice" };
@@ -127,6 +132,11 @@ const GT: [string, GTheme][] = [["geometrie/figures", "figures"], ["geometrie/an
 for (const [id, th] of GT) GEN[id] = (r) => {
   const q = makeGQ(1, [th], r)[0];
   return { notion: id, consigne: q.consigne, shape: q.shape, choix: q.choix, unite: q.unite, juste: (s) => checkGQ(q, s), reponse: q.reponse };
+};
+const EN_KINDS: EnKind[] = ["affirmatif", "negatif", "question", "reponse"];
+for (const t of EN_THEMES) GEN[`anglais/${t.id}`] = (r) => {
+  const q = enQ(t.id as EnTheme, pick(r, EN_KINDS), r);
+  return { notion: `anglais/${t.id}`, consigne: q.consigne, contexte: q.phrase, juste: (s) => checkEn(q, s), reponse: q.answers[0] };
 };
 GEN["orthographe/homophones"] = (r) => {
   const h = pick(r, HOMOPHONES);

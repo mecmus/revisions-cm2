@@ -6,8 +6,9 @@ export const metadata = { title: "Cours · Révisions CM2" };
 export default function Page() {
   const matieres = [...new Set(COURS.map((c) => c.matiere))];
   const groupes = [
-    { titre: "🇫🇷 Français", matieres: matieres.filter((m) => m !== "Mathématiques") },
+    { titre: "🇫🇷 Français", matieres: matieres.filter((m) => m !== "Mathématiques" && m !== "Anglais") },
     { titre: "🔢 Mathématiques", matieres: matieres.filter((m) => m === "Mathématiques") },
+    { titre: "🇬🇧 Anglais", matieres: matieres.filter((m) => m === "Anglais") },
   ];
   return (
     <div className="space-y-6">
